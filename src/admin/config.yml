@@ -35,10 +35,6 @@ collections:
     extension: "md"
     create: true
     i18n: true
-    nested:
-      depth: 4
-    meta:
-      path: { widget: string, label: 'Path', index_file: 'index' }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
@@ -50,10 +46,6 @@ collections:
     extension: "md"
     create: true
     i18n: true
-    nested:
-      depth: 4
-    meta:
-      path: { widget: string, label: 'Path', index_file: 'index' }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
@@ -65,10 +57,6 @@ collections:
     extension: "md"
     create: true
     i18n: true
-    nested:
-      depth: 4
-    meta:
-      path: { widget: string, label: 'Path', index_file: 'index' }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
