@@ -249,32 +249,33 @@
     .nav-menu {
         position: fixed;
         top: 80px;
-        left: -100%;
+        right: -100%;
         width: 100%;
         height: calc(100vh - 80px);
         background-color: var(--color-surface);
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
         padding-top: var(--spacing-lg);
         padding-left: var(--spacing-lg);
         padding-right: var(--spacing-lg);
         gap: var(--spacing-md);
-        transition: left var(--transition-normal) ease-in-out;
+        transition: right var(--transition-normal) ease-in-out;
         box-shadow: var(--shadow-md);
         border-top: 1px solid var(--color-border);
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0;
     }
 
     .nav-item {
         width: 100%;
-        text-align: left;
+        text-align: right;
     }
 
     .nav-item a {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
         font-size: var(--fs-md);
         padding: var(--spacing-sm) 0;
     }
