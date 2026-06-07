@@ -1,0 +1,43 @@
+<header class="header">
+    <div class="container navbar">
+        <a href="/" class="nav-brand">
+            <img src="/assets/images/Sibakom_Logo.png" alt="SIBAKOM Logo">
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-menu">
+            <li class="nav-item {% if page.url == '/' %}active{% endif %}"><a href="/">Home</a></li>
+            <li class="nav-item dropdown {% if '/about/' in page.url %}active{% endif %}">
+                <a href="/about/" style="display: flex; align-items: center; gap: 4px;">About Us <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="/about/specializations/">Specializations</a></li>
+                    <li class="dropdown-item"><a href="/about/strategic-partnerships/">Strategic Partnerships</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown {% if '/services/' in page.url %}active{% endif %}">
+                <a href="/services/" style="display: flex; align-items: center; gap: 4px;">Services & Products <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="/services/weather-radar/">Weather Radar</a></li>
+                    <li class="dropdown-item"><a href="/services/custom-nwp-models/">Custom NWP Models</a></li>
+                    <li class="dropdown-item"><a href="/services/maritime-meteorology/">Maritime Meteorology</a></li>
+                    <li class="dropdown-item"><a href="/services/agrometeorology/">Agrometeorology</a></li>
+                    <li class="dropdown-item"><a href="/services/lidar-monitoring/">3D LiDAR Monitoring</a></li>
+                    <li class="dropdown-item"><a href="/services/weather-broadcast-studio/">Weather Broadcast Studio</a></li>
+                    <li class="dropdown-item"><a href="/services/networks-infrastructure/">Networks & Infrastructure</a></li>
+                </ul>
+            </li>
+            <li class="nav-item {% if '/projects/' in page.url %}active{% endif %}"><a href="/projects/">Project Profile</a></li>
+            <li class="nav-item"><a href="/contact/">Contact Us</a></li>
+            <li class="nav-item" style="margin-left: var(--spacing-sm);">
+                <a href="/search/" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </a>
+            </li>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+---
+<section class="section" style="padding-top: 120px; min-height: 50vh;">
+    <div class="container">
+        {% if heroImage %}
+        <div style="margin-bottom: var(--spacing-lg);">
+            <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: var(--radius-lg);">
+        </div>
+        {% endif %}
+        <div class="section-header text-center">
+            {% if subtitle %}<span class="section-subtitle">{{ subtitle }}</span>{% endif %}
+            <h1 class="section-title" style="margin-bottom: var(--spacing-md);">{{ title }}</h1>
+        </div>
+        <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text);">
+            {{ content | safe }}
+        </div>
+    </div>
+</section>

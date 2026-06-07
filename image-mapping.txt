@@ -1,0 +1,64 @@
+========================================================
+SIBAKOM WEBSITE IMAGE MAPPING GUIDE
+========================================================
+
+To update the images on your site, you just need to replace the physical files located in the following directories with your own photos. 
+
+--------------------------------------------------------
+1. GLOBAL / REUSABLE IMAGES
+Location: src/assets/images/pages/
+--------------------------------------------------------
+These images are used on the Homepage (src/index.md), the Services Grid (src/services/index.md), the Strategic Partnerships page (src/about/strategic-partnerships/index.md), and as fallback Search headers.
+
+Files to replace/update:
+- surabaya-radar-dome.jpg
+- weather-supercomputer.jpg
+- ocean-buoy.jpg
+- precision-agriculture.jpg
+- lidar-laser-beam.jpg
+- broadcast-studio-green-screen.jpg
+- project-management.jpg
+- corporate-building.jpg
+- engineering-team.jpg
+- c-band-radar.jpg
+- x-band-radar.jpg
+- s-band-radar.jpg
+
+
+--------------------------------------------------------
+2. SPECIFIC PAGE HERO & INLINE IMAGES (Co-Located)
+--------------------------------------------------------
+Every individual page (Services, Sub-services, Projects) has its own dedicated `images/` folder right next to its `index.md` file. The `heroImage` at the top of the markdown file points directly to this folder.
+
+Locations to check and update:
+- src/about/specializations/images/
+- src/projects/data-center-infrastructure/images/
+- src/projects/drifter-deployment/images/
+- src/projects/hpc-server-mms/images/
+- src/projects/maws-installation/images/
+- src/projects/meteorology-broadcasting-studio/images/
+- src/projects/surabaya-radar-installation/images/
+- src/projects/weather-radar-baron/images/
+- src/services/agrometeorology/images/
+- src/services/custom-nwp-models/images/
+- src/services/lidar-monitoring/images/
+- src/services/maritime-meteorology/images/
+- src/services/networks-infrastructure/images/
+- src/services/weather-broadcast-studio/images/
+- src/services/weather-radar/images/
+
+(Sub-services also have their own folders, e.g. src/services/weather-radar/c-band/images/)
+
+
+--------------------------------------------------------
+HOW TO UPDATE THEM:
+--------------------------------------------------------
+Option A (Easiest): 
+1. Delete the old picture inside the folder.
+2. Put your new picture in the same folder.
+3. Name your new picture EXACTLY the same as the old one (e.g., `ocean-buoy.jpg`). 
+
+Option B:
+1. Drop your new picture into the folder with any name (e.g., `my-new-radar.jpg`).
+2. Open the corresponding `index.md` file.
+3. Update the very top line to match: `heroImage: ./images/my-new-radar.jpg`
