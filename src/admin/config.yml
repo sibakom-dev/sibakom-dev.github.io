@@ -3,6 +3,8 @@ backend:
   repo: sibakom-dev/sibakom-dev.github.io
   branch: main
 
+local_backend: true
+
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
 
