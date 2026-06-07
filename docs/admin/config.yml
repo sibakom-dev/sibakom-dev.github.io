@@ -31,7 +31,8 @@ collections:
 
   - name: "about"
     label: "About Us"
-    folder: "src/id/about"
+    folder: "src/{locale}/about"
+    path: "{{slug}}/index"
     extension: "md"
     create: true
     i18n: true
@@ -42,7 +43,8 @@ collections:
 
   - name: "services"
     label: "Services & Products"
-    folder: "src/id/services"
+    folder: "src/{locale}/services"
+    path: "{{slug}}/index"
     extension: "md"
     create: true
     i18n: true
@@ -53,7 +55,8 @@ collections:
 
   - name: "projects"
     label: "Project Profile"
-    folder: "src/id/projects"
+    folder: "src/{locale}/projects"
+    path: "{{slug}}/index"
     extension: "md"
     create: true
     i18n: true
@@ -64,7 +67,7 @@ collections:
 
   - name: "contact"
     label: "Contact Us"
-    folder: "src/id/contact"
+    folder: "src/{locale}/contact"
     extension: "md"
     create: true
     i18n: true
