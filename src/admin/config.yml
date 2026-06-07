@@ -32,10 +32,11 @@ collections:
   - name: "about"
     label: "About Us"
     folder: "src/{locale}/about"
-    path: "{{slug}}/index"
     extension: "md"
     create: true
     i18n: true
+    media_folder: "/src/assets/images/about/{{slug}}"
+    public_folder: "/assets/images/about/{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
@@ -44,10 +45,11 @@ collections:
   - name: "services"
     label: "Services & Products"
     folder: "src/{locale}/services"
-    path: "{{slug}}/index"
     extension: "md"
     create: true
     i18n: true
+    media_folder: "/src/assets/images/services/{{slug}}"
+    public_folder: "/assets/images/services/{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
@@ -56,10 +58,11 @@ collections:
   - name: "projects"
     label: "Project Profile"
     folder: "src/{locale}/projects"
-    path: "{{slug}}/index"
     extension: "md"
     create: true
     i18n: true
+    media_folder: "/src/assets/images/projects/{{slug}}"
+    public_folder: "/assets/images/projects/{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
