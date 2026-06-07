@@ -5,7 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "deploy": "eleventy && gh-pages -d _site"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/sibakom-dev/sibakom-dev.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.6",
+    "gh-pages": "^6.3.0"
   }
 }
