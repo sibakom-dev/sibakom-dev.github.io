@@ -14,6 +14,20 @@ layout: layouts/base.njk
         </div>
         <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text);">
             {{ content | safe }}
+
+            {% if sections %}
+              {% for section in sections %}
+                <div class="zigzag-section container {% if section.reverse %}reverse{% elif loop.index0 % 2 != 0 %}reverse{% endif %}" style="margin-top: var(--spacing-xl);">
+                  <div class="zigzag-text">
+                    <h3>{{ section.title }}</h3>
+                    {{ section.text | safe }}
+                  </div>
+                  <div class="zigzag-image">
+                    <img src="{{ section.image }}" alt="{{ section.title }}">
+                  </div>
+                </div>
+              {% endfor %}
+            {% endif %}
         </div>
     </div>
 </section>

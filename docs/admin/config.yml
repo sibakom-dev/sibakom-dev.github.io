@@ -25,6 +25,15 @@ collections:
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+        - label: "Zigzag Sections"
+          name: "sections"
+          widget: "list"
+          required: false
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Text Content", name: "text", widget: "markdown"}
+            - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
       - file: "src/en/index.md"
         name: "home_page_en"
         label: "Home Page (EN)"
@@ -37,6 +46,15 @@ collections:
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+        - label: "Zigzag Sections"
+          name: "sections"
+          widget: "list"
+          required: false
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Text Content", name: "text", widget: "markdown"}
+            - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
       - file: "src/fr/index.md"
         name: "home_page_fr"
         label: "Home Page (FR)"
@@ -49,6 +67,15 @@ collections:
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+        - label: "Zigzag Sections"
+          name: "sections"
+          widget: "list"
+          required: false
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Text Content", name: "text", widget: "markdown"}
+            - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "about_id"
     label: "About Us (ID)"
@@ -61,6 +88,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "about_en"
     label: "About Us (EN)"
@@ -73,6 +109,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "about_fr"
     label: "About Us (FR)"
@@ -85,6 +130,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "services_id"
     label: "Services (ID)"
@@ -97,6 +151,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "services_en"
     label: "Services (EN)"
@@ -109,6 +172,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "services_fr"
     label: "Services (FR)"
@@ -121,6 +193,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "projects_id"
     label: "Projects (ID)"
@@ -133,6 +214,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "projects_en"
     label: "Projects (EN)"
@@ -145,6 +235,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "projects_fr"
     label: "Projects (FR)"
@@ -157,6 +256,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "contact_id"
     label: "Contact Us (ID)"
@@ -167,6 +275,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
   
   - name: "contact_en"
     label: "Contact Us (EN)"
@@ -177,6 +294,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "contact_fr"
     label: "Contact Us (FR)"
@@ -187,3 +313,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
