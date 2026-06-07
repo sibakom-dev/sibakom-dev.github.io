@@ -1,32 +1,31 @@
 ---
 layout: layouts/page.njk
-title: Privacy Policy
-description: Privacy Policy details for SIBAKOM.
+title: Kebijakan Privasi
+description: Detail Kebijakan Privasi untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 subtitle: Legal & Compliance
 ---
+<div class="article-document" style="max-width: 800px; margin: 0 otomatis; padding: var(--spacing-md) 0;">
+<p class="text-lead" style="margin-bottom: var(--spacing-lg);">Di SIBAKOM, kami berkomitmen untuk melindungi privasi Anda dan menjamin keamanan data pribadi Anda. Kebijakan Privasi ini menguraikan cara kami mengumpulkan, menggunakan, dan menjaga informasi Anda saat Anda berinteraksi dengan situs web kami atau memanfaatkan layanan integrasi kami.</p>
 
-<div class="article-document" style="max-width: 800px; margin: 0 auto; padding: var(--spacing-md) 0;">
-<p class="text-lead" style="margin-bottom: var(--spacing-lg);">At SIBAKOM, we are committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy outlines how we collect, use, and safeguard your information when you interact with our website or utilize our integration services.</p>
+<h3 style="margin-top: var(--spacing-lg); margin-bawah: var(--spacing-sm); warna: var(--color-primary-dark);">1. Informasi yang Kami Kumpulkan</h3>
+<p style="line-height: 1.8; margin-bottom: var(--spacing-md);">Kami dapat mengumpulkan informasi pribadi seperti nama, alamat email, nomor telepon, dan detail perusahaan Anda saat Anda secara sukarela mengirimkan pertanyaan melalui formulir kontak kami atau terlibat dalam korespondensi bisnis dengan tim teknis kami.</p>
 
-<h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary-dark);">1. Information We Collect</h3>
-<p style="line-height: 1.8; margin-bottom: var(--spacing-md);">We may collect personal information such as your name, email address, phone number, and corporate details when you voluntarily submit inquiries through our contact forms or engage in business correspondence with our engineering teams.</p>
+<h3 style="margin-top: var(--spacing-lg); margin-bawah: var(--spacing-sm); warna: var(--color-primary-dark);">2. Penggunaan Informasi Anda</h3>
+<p style="line-height: 1.8; margin-bottom: var(--spacing-sm);">Informasi yang kami kumpulkan hanya digunakan untuk:</p>
+<ul style="tinggi garis: 1,8; margin-bawah: var(--spacing-md); padding-kiri: var(--spacing-lg);">
+- Memberikan dukungan teknis dan menanggapi pertanyaan bisnis.
 
-<h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary-dark);">2. Use of Your Information</h3>
-<p style="line-height: 1.8; margin-bottom: var(--spacing-sm);">The information we collect is strictly used to:</p>
-<ul style="line-height: 1.8; margin-bottom: var(--spacing-md); padding-left: var(--spacing-lg);">
-- Provide technical support and respond to business inquiries.
+- Memproses pesanan, mengonfigurasi persyaratan sistem, dan mengirimkan proyek.
 
-- Process orders, configure system requirements, and deliver projects.
-
-- Communicate updates regarding your deployed meteorological networks.
-
+- Komunikasikan pembaruan mengenai jaringan meteorologi yang Anda gunakan.
 
 
 
-<h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary-dark);">3. Data Security</h3>
-<p style="line-height: 1.8; margin-bottom: var(--spacing-md);">We implement robust technical and organizational measures to protect your data against unauthorized access, loss, or alteration. All telemetry data processed through our meteorological platforms is encrypted using industry-standard protocols.</p>
 
-<h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary-dark);">4. Contact Us</h3>
-<p style="line-height: 1.8; margin-bottom: 0;">If you have any questions about this Privacy Policy, please contact our compliance team at **<a href="mailto:info@sibakom.com" style="color: var(--color-primary); text-decoration: underline;">info@sibakom.com</a>**.</p>
+<h3 style="margin-top: var(--spacing-lg); margin-bawah: var(--spacing-sm); warna: var(--color-primary-dark);">3. Keamanan Data</h3>
+<p style="line-height: 1.8; margin-bottom: var(--spacing-md);">Kami menerapkan langkah teknis dan organisasi yang kuat untuk melindungi data Anda dari akses, kehilangan, atau perubahan yang tidak sah. Semua data telemetri yang diproses melalui platform meteorologi kami dienkripsi menggunakan protokol standar industri.</p>
+
+<h3 style="margin-top: var(--spacing-lg); margin-bawah: var(--spacing-sm); warna: var(--color-primary-dark);">4. Hubungi Kami</h3>
+<p style="line-height: 1.8; margin-bottom: 0;">Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi tim kepatuhan kami di **<a href="mailto:info@sibakom.com" style="color: var(--color-primary); text-decoration: underline;">info@sibakom.com</a>**.</p>
 </div>

@@ -1,7 +1,9 @@
 ---
 layout: layouts/page.njk
-title: About Us
-description: Learn more about SIBAKOM, your trusted System Integrator for environmental solutions.
+title: Tentang Kami
+description: >-
+  Pelajari lebih lanjut tentang SIBAKOM, Integrator Sistem terpercaya Anda untuk
+  solusi lingkungan.
 heroImage: /assets/images/pages/corporate-building.jpg
 subtitle: Pioneering Environmental Intelligence
 path: index

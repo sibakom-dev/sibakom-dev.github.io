@@ -1,12 +1,11 @@
 ---
 layout: layouts/project.njk
-title: MAWS Installation
-description: MAWS Installation page for SIBAKOM.
+title: Instalasi MAWS
+description: Halaman Instalasi MAWS untuk SIBAKOM.
 client: Various
 location: Multiple Sites
 technology: Automated Weather Stations
 heroImage: /assets/images/pages/corporate-building.jpg
 path: maws-installation\index
 ---
-
-Content for MAWS Installation goes here. This is a placeholder that will be updated later.
+Konten untuk Instalasi MAWS ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

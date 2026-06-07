@@ -1,12 +1,11 @@
 ---
 layout: layouts/project.njk
-title: Meteorology Broadcasting Studio
-description: Meteorology Broadcasting Studio page for SIBAKOM.
+title: Studio Penyiaran Meteorologi
+description: Halaman Studio Penyiaran Meteorologi SIBAKOM.
 client: BMKG
 location: Jakarta
-technology: Virtual Studio, Lynx
+technology: 'Virtual Studio, Lynx'
 heroImage: /assets/images/pages/corporate-building.jpg
 path: meteorology-broadcasting-studio\index
 ---
-
-Content for Meteorology Broadcasting Studio goes here. This is a placeholder that will be updated later.
+Konten untuk Meteorology Broadcasting Studio ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

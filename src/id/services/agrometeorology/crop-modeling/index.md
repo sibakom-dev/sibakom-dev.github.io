@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Crop Modeling
-description: Crop Modeling page for SIBAKOM.
+title: Pemodelan Tanaman
+description: Halaman Pemodelan Pangkas untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: agrometeorology\crop-modeling\index
 ---
-
-Content for Crop Modeling goes here. This is a placeholder that will be updated later.
+Konten untuk Pemodelan Tanaman ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

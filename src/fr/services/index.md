@@ -1,7 +1,9 @@
 ---
 layout: layouts/page.njk
-title: Services & Products
-description: Explore SIBAKOM's comprehensive suite of meteorological and environmental observation services.
+title: Layanan & Produit
+description: >-
+  Jelajahi rangkaian layanan observasi météorologi and lingkungan SIBAKOM yang
+  komprehensif.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: index
 ---

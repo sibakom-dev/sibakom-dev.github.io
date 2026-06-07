@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Aerosol Tracking
-description: Aerosol Tracking page for SIBAKOM.
+title: Pelacakan Aerosol
+description: Halaman Pelacakan Aerosol untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: lidar-monitoring\aerosol-tracking\index
 ---
-
-Content for Aerosol Tracking goes here. This is a placeholder that will be updated later.
+Konten untuk Pelacakan Aerosol ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

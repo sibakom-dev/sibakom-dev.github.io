@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Climatology Observation
-description: Climatology Observation page for SIBAKOM.
+title: Observasi Klimatologi
+description: Halaman Observasi Klimatologi SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: specializations\climatology-observation\index
 ---
-
-Content for Climatology Observation goes here. This is a placeholder that will be updated later.
+Konten untuk Pengamatan Klimatologi ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

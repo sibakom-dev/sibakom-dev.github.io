@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Remote Sensing Systems
-description: Remote Sensing Systems page for SIBAKOM.
+title: Système Penginderaan Jauh
+description: Halaman Sistem Penginderaan Jauh pour SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: maritime-meteorology\remote-sensing\index
 ---
-
-Content for Remote Sensing Systems goes here. This is a placeholder that will be updated later.
+Le contenu des systèmes de télédétection se trouve ici. Il s'agit d'un espace réservé qui sera mis à jour ultérieurement.

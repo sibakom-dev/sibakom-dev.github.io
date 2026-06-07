@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Fire Protection
-description: Fire Protection page for SIBAKOM.
+title: Proteksi Kebakaran
+description: Halaman Perlindungan Kebakaran untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: networks-infrastructure\fire-protection\index
 ---
-
-Content for Fire Protection goes here. This is a placeholder that will be updated later.
+Konten untuk Perlindungan Kebakaran ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

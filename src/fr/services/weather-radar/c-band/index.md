@@ -1,16 +1,15 @@
 ---
 layout: layouts/page.njk
-title: C-Band Radar
-description: C-Band Radar details for SIBAKOM.
+title: Radar en bande C
+description: Détail Radar C-Band pour SIBAKOM.
 heroImage: /assets/images/pages/c-band-radar.jpg
 path: weather-radar\c-band\index
 ---
-
-C-Band radars offer an optimal balance between range, resolution, and antenna size. They are perfectly suited for regional monitoring and complex topographical terrains.
-
+Les radars en bande C offrent un équilibre optimal entre portée, résolution et taille d'antenne. Ils sont parfaitement adaptés à la surveillance régionale et aux terrains topographiques complexes.
 
 
 
-- Range: Up to 250km
 
-- Best for: Regional coverage, dual-pol classification, and aviation safety.
+- Portée : Jusqu'à 250 km
+
+- Idéal pour : couverture régionale, classification bipolaire et sécurité aérienne.

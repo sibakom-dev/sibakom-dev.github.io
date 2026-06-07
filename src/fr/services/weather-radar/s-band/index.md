@@ -1,16 +1,15 @@
 ---
 layout: layouts/page.njk
-title: S-Band Radar
-description: S-Band Radar details for SIBAKOM.
+title: Radar en bande S
+description: Détail Radar S-Band pour SIBAKOM.
 heroImage: /assets/images/pages/s-band-radar.jpg
 path: weather-radar\s-band\index
 ---
-
-S-Band radars operate at 2-4 GHz and are the gold standard for long-range, heavy precipitation tracking. Unaffected by signal attenuation, they are ideal for tropical environments like Indonesia.
-
+Les radars en bande S fonctionnent entre 2 et 4 GHz et constituent la référence en matière de suivi de fortes précipitations à longue portée. Insensibles à l'atténuation du signal, ils sont idéaux pour les environnements tropicaux comme l'Indonésie.
 
 
 
-- Range: Up to 400km
 
-- Best for: Deep tropical convection, typhoons, and heavy monsoonal rain.
+- Portée : Jusqu'à 400 km
+
+- Idéal pour : convection tropicale profonde, typhons et fortes pluies de mousson.

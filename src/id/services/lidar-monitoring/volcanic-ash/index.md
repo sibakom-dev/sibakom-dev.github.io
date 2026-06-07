@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Volcanic Ash Dispersion
-description: Volcanic Ash Dispersion page for SIBAKOM.
+title: Penyebaran Abu Vulkanik
+description: Halaman Penyebaran Abu Vulkanik untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: lidar-monitoring\volcanic-ash\index
 ---
-
-Content for Volcanic Ash Dispersion goes here. This is a placeholder that will be updated later.
+Konten untuk Penyebaran Abu Vulkanik ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

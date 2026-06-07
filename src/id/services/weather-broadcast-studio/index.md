@@ -1,17 +1,16 @@
 ---
 layout: layouts/page.njk
-title: Weather Broadcast Studio
-description: Weather Broadcast Studio details for SIBAKOM.
+title: Studio Siaran Cuaca
+description: Detail Studio Siaran Cuaca untuk SIBAKOM.
 heroImage: /assets/images/pages/broadcast-studio-green-screen.jpg
 path: weather-broadcast-studio\index
 ---
-
-We empower weather broadcasters and digital media outlets with comprehensive weather dissemination systems, similar to the industry-leading Baron Lynx platform.
-
-
-<h3>Data-Driven 3D Graphics</h3>
-Transform raw meteorological data into stunning, broadcast-ready visualizations. Our systems feature high-resolution terrain mapping, dynamic storm tracks, and volumetric radar rendering that captivates audiences.
+Kami memberdayakan lembaga penyiaran cuaca dan media digital dengan sistem penyebaran cuaca yang komprehensif, mirip dengan platform Baron Lynx yang terkemuka di industri.
 
 
-<h3>Seamless Studio Integration</h3>
-Featuring robust chroma-key integration, multi-display management, and automated rundown creation, our broadcast solutions ensure presenters can deliver breaking weather stories rapidly and reliably during severe events.
+<h3>Grafik 3D Berbasis Data</h3>
+Ubah data meteorologi mentah menjadi visualisasi menakjubkan yang siap disiarkan. Sistem kami menampilkan pemetaan medan resolusi tinggi, jalur badai dinamis, dan rendering radar volumetrik yang memikat audiens.
+
+
+<h3>Integrasi Studio yang Mulus</h3>
+Dilengkapi dengan integrasi kunci kroma yang kuat, manajemen multi-tampilan, dan pembuatan jadwal otomatis, solusi siaran kami memastikan presenter dapat menyampaikan berita cuaca terkini dengan cepat dan andal selama kejadian buruk.

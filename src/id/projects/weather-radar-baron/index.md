@@ -1,12 +1,11 @@
 ---
 layout: layouts/project.njk
-title: Weather Radar Baron
-description: Weather Radar Baron page for SIBAKOM.
+title: Radar Cuaca Baron
+description: Halaman Radar Cuaca Baron untuk SIBAKOM.
 client: BMKG
 location: Indonesia
 technology: Baron Radar Systems
 heroImage: /assets/images/pages/corporate-building.jpg
 path: weather-radar-baron\index
 ---
-
-Content for Weather Radar Baron goes here. This is a placeholder that will be updated later.
+Konten untuk Weather Radar Baron ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

@@ -1,7 +1,9 @@
 ---
 layout: layouts/page.njk
-title: Strategic Partnerships
-description: Discover SIBAKOM's global network of strategic partners, including BMKG, Baron Weather, CLS, Raymetrics, and Sterela.
+title: Kemitraan Strategis
+description: >-
+  Temukan jaringan mitra strategis global SIBAKOM, termasuk BMKG, Baron Weather,
+  CLS, Raymetrics, dan Sterela.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: strategic-partnerships\index
 ---

@@ -1,12 +1,11 @@
 ---
 layout: layouts/project.njk
-title: HPC Server MMS Project
-description: HPC Server MMS Project page for SIBAKOM.
+title: Proyek MMS Serveur HPC
+description: Halaman Proyek MMS Server HPC pour SIBAKOM.
 client: BMKG
 location: Jakarta
 technology: HPC Cluster
 heroImage: /assets/images/pages/corporate-building.jpg
 path: hpc-server-mms\index
 ---
-
-Content for HPC Server MMS Project goes here. This is a placeholder that will be updated later.
+Le contenu du projet HPC Server MMS se trouve ici. Il s'agit d'un espace réservé qui sera mis à jour ultérieurement.

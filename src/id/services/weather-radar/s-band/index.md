@@ -1,16 +1,15 @@
 ---
 layout: layouts/page.njk
-title: S-Band Radar
-description: S-Band Radar details for SIBAKOM.
+title: Radar S-Band
+description: Detail Radar S-Band untuk SIBAKOM.
 heroImage: /assets/images/pages/s-band-radar.jpg
 path: weather-radar\s-band\index
 ---
-
-S-Band radars operate at 2-4 GHz and are the gold standard for long-range, heavy precipitation tracking. Unaffected by signal attenuation, they are ideal for tropical environments like Indonesia.
-
+Radar S-Band beroperasi pada 2-4 GHz dan merupakan standar terbaik untuk pelacakan curah hujan lebat jarak jauh. Tidak terpengaruh oleh redaman sinyal, mereka ideal untuk lingkungan tropis seperti Indonesia.
 
 
 
-- Range: Up to 400km
 
-- Best for: Deep tropical convection, typhoons, and heavy monsoonal rain.
+- Jangkauan: Hingga 400km
+
+- Terbaik untuk: Konveksi tropis dalam, angin topan, dan hujan monsun lebat.

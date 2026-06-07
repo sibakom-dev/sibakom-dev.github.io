@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Cooling Systems
-description: Cooling Systems page for SIBAKOM.
+title: Système en attente
+description: Halaman Sistem Pendingin pour SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: networks-infrastructure\cooling-systems\index
 ---
-
-Content for Cooling Systems goes here. This is a placeholder that will be updated later.
+Le contenu pour les systèmes de refroidissement va ici. Il s'agit d'un espace réservé qui sera mis à jour ultérieurement.

@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Marine Meteorology
-description: Marine Meteorology page for SIBAKOM.
+title: Meteorologi Kelautan
+description: Halaman Meteorologi Kelautan untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: specializations\marine-meteorology\index
 ---
-
-Content for Marine Meteorology goes here. This is a placeholder that will be updated later.
+Konten untuk Meteorologi Kelautan ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

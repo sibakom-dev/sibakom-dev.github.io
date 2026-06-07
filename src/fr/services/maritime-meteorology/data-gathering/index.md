@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Data Gathering
-description: Data Gathering page for SIBAKOM.
+title: Données de Pengumpulan
+description: Halaman Pengumpulan Données SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: maritime-meteorology\data-gathering\index
 ---
-
-Content for Data Gathering goes here. This is a placeholder that will be updated later.
+Le contenu pour la collecte de données se trouve ici. Il s'agit d'un espace réservé qui sera mis à jour ultérieurement.

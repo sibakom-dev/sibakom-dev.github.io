@@ -1,9 +1,8 @@
 ---
 layout: layouts/page.njk
-title: Precision Analytics
-description: Precision Analytics page for SIBAKOM.
+title: Analisis Presisi
+description: Halaman Analisis Presisi untuk SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: maritime-meteorology\precision-analytics\index
 ---
-
-Content for Precision Analytics goes here. This is a placeholder that will be updated later.
+Konten untuk Analisis Presisi ada di sini. Ini adalah placeholder yang akan diperbarui nanti.

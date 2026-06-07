@@ -1,12 +1,11 @@
 ---
 layout: layouts/project.njk
-title: Data Center Infrastructure
-description: Data Center Infrastructure page for SIBAKOM.
+title: Données d'infrastructure Pusat
+description: Halaman Infrastruktur Pusat Data pour SIBAKOM.
 client: BMKG
 location: Jakarta
-technology: Cooling, Fire Protection, Servers
+technology: 'Cooling, Fire Protection, Servers'
 heroImage: /assets/images/pages/corporate-building.jpg
 path: data-center-infrastructure\index
 ---
-
-Content for Data Center Infrastructure goes here. This is a placeholder that will be updated later.
+Le contenu pour l'infrastructure du centre de données se trouve ici. Il s'agit d'un espace réservé qui sera mis à jour ultérieurement.

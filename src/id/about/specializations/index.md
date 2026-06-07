@@ -1,7 +1,9 @@
 ---
 layout: layouts/page.njk
-title: Engineering Specializations
-description: SIBAKOM's core engineering specializations across meteorology, climatology, and marine observation.
+title: Spesialisasi Teknik
+description: >-
+  Spesialisasi teknik inti SIBAKOM di bidang meteorologi, klimatologi, dan
+  observasi kelautan.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
 path: specializations\index
 ---

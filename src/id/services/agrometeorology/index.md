@@ -1,40 +1,58 @@
 ---
 layout: layouts/page.njk
-title: Agrometeorology
-description: Agrometeorology details for SIBAKOM.
+title: Agrometeorologi
+description: Detail Agrometeorologi untuk SIBAKOM.
 heroImage: /assets/images/pages/precision-agriculture.jpg
 path: agrometeorology\index
 sections:
-  - title: "Crop Modeling & Soil Analytics"
-    image: "/assets/images/pages/precision-agriculture.jpg"
-    text: |
-      We provide localized automated weather stations (AWS) equipped with advanced sensors specifically designed for agricultural needs.
-      
-      
-      
-      
-      - **Soil Moisture Probes:** Multi-depth sensing to optimize irrigation.
-      
-      - **Solar Radiation Sensors:** Tracking PAR (Photosynthetically Active Radiation) for crop growth modeling.
-      
-      - **Leaf Wetness Indicators:** Crucial for predicting and preventing fungal disease outbreaks.
-      
-      
-      
-      This data feeds into advanced crop models to predict yield, optimize irrigation schedules, and maximize harvest quality.
-  - title: "Drought & Flood Early Warning"
-    image: "/assets/images/pages/weather-supercomputer.jpg"
-    text: |
-      Agriculture is highly vulnerable to extreme weather events. Our systems provide the critical lead time needed to protect crops and livelihoods.
-      
-      
-      
-      
-      - **Precipitation Metrics:** High-resolution rain gauges and radar integration.
-      
-      - **Climatological Baselines:** Comparing real-time data against historical averages.
-      
-      - **Actionable Alerts:** Automated SMS and dashboard warnings for regional governments and farming cooperatives regarding impending water stress or inundation risks.
----
+  - title: Pemodelan Tanaman & Analisis Tanah
+    image: /assets/images/pages/precision-agriculture.jpg
+    text: >-
+      Kami menyediakan stasiun cuaca otomatis (AWS) lokal yang dilengkapi dengan
+      sensor canggih yang dirancang khusus untuk kebutuhan pertanian.
 
-<section class="section" style="padding-top: 0;"><div class="container text-center" style="max-width: 800px; margin-bottom: var(--spacing-xl);"><p class="text-lead" style="font-size: 1.25rem;">Transforming agricultural productivity through precision weather data, micro-climate analytics, and automated monitoring systems tailored for the Indonesian landscape.</p></div></section>
+
+
+
+
+      - **Pemeriksa Kelembapan Tanah:** Penginderaan multi-kedalaman untuk
+      mengoptimalkan irigasi.
+
+
+      - **Sensor Radiasi Matahari:** Pelacakan PAR (Radiasi Aktif Fotosintesis)
+      untuk pemodelan pertumbuhan tanaman.
+
+
+      - **Indikator Kebasahan Daun:** Penting untuk memprediksi dan mencegah
+      wabah penyakit jamur.
+
+
+
+
+      Data ini dimasukkan ke dalam model tanaman tingkat lanjut untuk
+      memprediksi hasil, mengoptimalkan jadwal irigasi, dan memaksimalkan
+      kualitas panen.
+  - title: Peringatan Dini Kekeringan & Banjir
+    image: /assets/images/pages/weather-supercomputer.jpg
+    text: >-
+      Pertanian sangat rentan terhadap kejadian cuaca ekstrem. Sistem kami
+      memberikan waktu tunggu yang penting yang diperlukan untuk melindungi
+      tanaman dan mata pencaharian.
+
+
+
+
+
+      - **Metrik Curah Hujan:** Alat pengukur hujan resolusi tinggi dan
+      integrasi radar.
+
+
+      - **Dasar Klimatologi:** Membandingkan data real-time dengan rata-rata
+      historis.
+
+
+      - **Peringatan yang Dapat Ditindaklanjuti:** Peringatan SMS dan dasbor
+      otomatis untuk pemerintah daerah dan koperasi pertanian mengenai ancaman
+      kekurangan air atau risiko genangan.
+---
+<bagian kelas="bagian" style="padding-top: 0;"><div class="container text-center" style="max-width: 800px; margin-bottom: var(--spacing-xl);"><p class="text-lead" style="font-size: 1.25rem;">Mengubah produktivitas pertanian melalui data cuaca yang presisi, analisis iklim mikro, dan sistem pemantauan otomatis yang disesuaikan dengan lanskap Indonesia.</p></div></bagian>

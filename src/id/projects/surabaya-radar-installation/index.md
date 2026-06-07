@@ -1,34 +1,33 @@
 ---
 layout: layouts/project.njk
-title: Surabaya C-Band Radar Setup
-description: Surabaya C-Band Radar Setup details for SIBAKOM.
+title: Setting Radar C-Band Surabaya
+description: Detail Setup Radar C-Band Surabaya untuk SIBAKOM.
 heroImage: /assets/images/pages/surabaya-radar-dome.jpg
 client: BMKG
-location: Surabaya, East Java
-technology: C-Band Weather Radar, Dual-Polarization
+location: 'Surabaya, East Java'
+technology: 'C-Band Weather Radar, Dual-Polarization'
 path: surabaya-radar-installation\index
 ---
-
-<h3>Project Overview</h3>
-SIBAKOM was contracted to deploy a state-of-the-art C-Band dual-polarization weather radar in Surabaya. This critical node expands BMKG's coverage over the densely populated East Java region, significantly improving early warning capabilities for severe monsoonal flooding.
-
-
-<h3>Scope of Work</h3>
+<h3>Ikhtisar Proyek</h3>
+SIBAKOM dikontrak untuk mengerahkan radar cuaca polarisasi ganda C-Band yang canggih di Surabaya. Titik kritis ini memperluas cakupan BMKG di wilayah padat penduduk di Jawa Timur, sehingga secara signifikan meningkatkan kemampuan peringatan dini terhadap banjir musiman yang parah.
 
 
-- Site survey and structural engineering for the radar tower.
-
-- Complete physical installation of the radome, antenna, and pedestal.
-
-- Configuration of signal processors and calibration of dual-pol parameters.
-
-- Integration into the national radar composite network.
+<h3>Ruang Lingkup Pekerjaan</h3>
 
 
+- Survei lokasi dan rekayasa struktur menara radar.
 
-<h3>Gallery</h3>
+- Pemasangan fisik lengkap radome, antena, dan alas.
+
+- Konfigurasi pemroses sinyal dan kalibrasi parameter dual-pol.
+
+- Integrasi ke dalam jaringan komposit radar nasional.
+
+
+
+<h3>Galeri</h3>
 <div class="grid grid-3 gap-sm" style="margin-top: 24px;">
-<img src="https://picsum.photos/seed/radar1/400/300" style="border-radius: 8px; width: 100%;">
-<img src="https://picsum.photos/seed/radar2/400/300" style="border-radius: 8px; width: 100%;">
-<img src="https://picsum.photos/seed/radar3/400/300" style="border-radius: 8px; width: 100%;">
+<img src="https://picsum.photos/seed/radar1/400/300" style="border-radius: 8px; lebar: 100%;">
+<img src="https://picsum.photos/seed/radar2/400/300" style="border-radius: 8px; lebar: 100%;">
+<img src="https://picsum.photos/seed/radar3/400/300" style="border-radius: 8px; lebar: 100%;">
 </div>

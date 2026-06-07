@@ -1,10 +1,14 @@
 ---
 layout: layouts/home.njk
-title: SIBAKOM | Environmental Solutions & Weather Technology
-description: SIBAKOM - System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
-hero_title: Providing High Quality Services & Products, ALWAYS
-hero_subtitle: Weather Observations System
-hero_description: Integrating multisectoral meteorological systems. Delivering complete & reliable solutions for mission-critical decision-making across the Indonesian archipelago.
+title: SIBAKOM | Solusi Lingkungan & Teknologi Cuaca
+description: >-
+  SIBAKOM - Integrator Sistem untuk Solusi Lingkungan. Ahli di bidang teknologi
+  cuaca, meteorologi maritim, dan pemantauan lingkungan.
+heroImage: /assets/images/a4-logo.png
+hero_title: 'Menyediakan Layanan & Produk Berkualitas Tinggi, SELALU'
+hero_subtitle: Sistem Pengamatan Cuaca
+hero_description: >-
+  Mengintegrasikan sistem meteorologi multisektoral. Memberikan solusi lengkap
+  dan andal untuk pengambilan keputusan penting di seluruh kepulauan Indonesia.
 ---
-
 
