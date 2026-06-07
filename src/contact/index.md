@@ -27,7 +27,6 @@ heroImage: /assets/images/pages/contact-center.jpg
             +6221 58351660
         </a>
     </div>
-
     <!-- Branch Office -->
     <div style="background: var(--color-surface); padding: var(--spacing-lg); border-radius: var(--radius-lg); box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
         <div style="width: 60px; height: 60px; background: rgba(43, 95, 167, 0.1); color: var(--color-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md) auto;">
@@ -44,7 +43,6 @@ heroImage: /assets/images/pages/contact-center.jpg
             +6261 4515386
         </a>
     </div>
-
     <!-- Email Inquiries -->
     <div style="background: var(--color-surface); padding: var(--spacing-lg); border-radius: var(--radius-lg); box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
         <div style="width: 60px; height: 60px; background: rgba(43, 95, 167, 0.1); color: var(--color-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md) auto;">
