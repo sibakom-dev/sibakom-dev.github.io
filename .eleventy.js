@@ -1,7 +1,18 @@
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
+  // i18n configuration
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: "id",
+    errorMode: "allow-fallback"
+  });
+
   // Passthrough copy for static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   
+  // Passthrough copy for admin CMS
+  eleventyConfig.addPassthroughCopy("src/admin");
+
   // Passthrough copy for co-located images in markdown folders
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/**/*.jpeg");
