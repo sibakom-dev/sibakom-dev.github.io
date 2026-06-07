@@ -1,9 +1,0 @@
----
-layout: layouts/page.njk
-title: Fire Protection
-description: Fire Protection page for SIBAKOM.
-heroImage: /assets//assets/images/services/networks-infrastructure-fire-protection/pages/corporate-building.jpg
-path: networks-infrastructure\fire-protection\index
----
-
-<p>Content for Fire Protection goes here. This is a placeholder that will be updated later.</p>
