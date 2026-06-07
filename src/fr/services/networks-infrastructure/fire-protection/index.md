@@ -6,4 +6,4 @@ heroImage: /assets/images/pages/corporate-building.jpg
 path: networks-infrastructure\fire-protection\index
 ---
 
-<p>Content for Fire Protection goes here. This is a placeholder that will be updated later.</p>
+Content for Fire Protection goes here. This is a placeholder that will be updated later.

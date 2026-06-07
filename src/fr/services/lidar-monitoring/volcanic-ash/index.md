@@ -6,4 +6,4 @@ heroImage: /assets/images/pages/corporate-building.jpg
 path: lidar-monitoring\volcanic-ash\index
 ---
 
-<p>Content for Volcanic Ash Dispersion goes here. This is a placeholder that will be updated later.</p>
+Content for Volcanic Ash Dispersion goes here. This is a placeholder that will be updated later.

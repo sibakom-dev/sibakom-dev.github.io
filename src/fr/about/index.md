@@ -6,6 +6,7 @@ heroImage: /assets/images/pages/corporate-building.jpg
 subtitle: Pioneering Environmental Intelligence
 path: index
 ---
+
 <div class="rich-content">
 
 ## A Complete System Integrator

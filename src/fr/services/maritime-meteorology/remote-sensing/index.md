@@ -6,4 +6,4 @@ heroImage: /assets/images/pages/corporate-building.jpg
 path: maritime-meteorology\remote-sensing\index
 ---
 
-<p>Content for Remote Sensing Systems goes here. This is a placeholder that will be updated later.</p>
+Content for Remote Sensing Systems goes here. This is a placeholder that will be updated later.

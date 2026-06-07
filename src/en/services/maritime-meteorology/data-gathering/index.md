@@ -6,4 +6,4 @@ heroImage: /assets/images/pages/corporate-building.jpg
 path: maritime-meteorology\data-gathering\index
 ---
 
-<p>Content for Data Gathering goes here. This is a placeholder that will be updated later.</p>
+Content for Data Gathering goes here. This is a placeholder that will be updated later.

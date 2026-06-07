@@ -6,4 +6,4 @@ heroImage: /assets/images/pages/corporate-building.jpg
 path: networks-infrastructure\cooling-systems\index
 ---
 
-<p>Content for Cooling Systems goes here. This is a placeholder that will be updated later.</p>
+Content for Cooling Systems goes here. This is a placeholder that will be updated later.

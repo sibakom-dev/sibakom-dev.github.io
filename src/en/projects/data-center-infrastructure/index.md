@@ -9,4 +9,4 @@ heroImage: /assets/images/pages/corporate-building.jpg
 path: data-center-infrastructure\index
 ---
 
-<p>Content for Data Center Infrastructure goes here. This is a placeholder that will be updated later.</p>
+Content for Data Center Infrastructure goes here. This is a placeholder that will be updated later.
