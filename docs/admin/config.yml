@@ -25,15 +25,15 @@ collections:
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-        - label: "Zigzag Sections"
-          name: "sections"
-          widget: "list"
-          required: false
-          fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Text Content", name: "text", widget: "markdown"}
-            - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+          - label: "Zigzag Sections"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Text Content", name: "text", widget: "markdown"}
+              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
       - file: "src/en/index.md"
         name: "home_page_en"
         label: "Home Page (EN)"
@@ -46,15 +46,15 @@ collections:
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-        - label: "Zigzag Sections"
-          name: "sections"
-          widget: "list"
-          required: false
-          fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Text Content", name: "text", widget: "markdown"}
-            - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+          - label: "Zigzag Sections"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Text Content", name: "text", widget: "markdown"}
+              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
       - file: "src/fr/index.md"
         name: "home_page_fr"
         label: "Home Page (FR)"
@@ -67,15 +67,15 @@ collections:
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-        - label: "Zigzag Sections"
-          name: "sections"
-          widget: "list"
-          required: false
-          fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Text Content", name: "text", widget: "markdown"}
-            - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+          - label: "Zigzag Sections"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Text Content", name: "text", widget: "markdown"}
+              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
 
   - name: "about_id"
     label: "About Us (ID)"

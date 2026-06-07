@@ -23,5 +23,9 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
     "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "translate": "^3.0.1"
   }
 }
