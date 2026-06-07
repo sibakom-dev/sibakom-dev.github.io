@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: C-Band Radar
 description: C-Band Radar details for SIBAKOM.
 heroImage: /assets/images/pages/c-band-radar.jpg
+path: weather-radar\c-band\index
 ---
 
 

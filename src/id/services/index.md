@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Services & Products
 description: Explore SIBAKOM's comprehensive suite of meteorological and environmental observation services.
 heroImage: /assets/images/pages/corporate-building.jpg
+path: index
 ---
 
 <div class="rich-content">

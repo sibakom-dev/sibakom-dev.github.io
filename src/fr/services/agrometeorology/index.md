@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Agrometeorology
 description: Agrometeorology details for SIBAKOM.
 heroImage: /assets/images/pages/precision-agriculture.jpg
+path: agrometeorology\index
 ---
 
 <section class="section" style="padding-top: 0;">

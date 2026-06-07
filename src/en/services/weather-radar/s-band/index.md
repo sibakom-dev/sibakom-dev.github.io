@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: S-Band Radar
 description: S-Band Radar details for SIBAKOM.
 heroImage: /assets/images/pages/s-band-radar.jpg
+path: weather-radar\s-band\index
 ---
 
 

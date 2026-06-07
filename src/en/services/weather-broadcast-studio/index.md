@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Weather Broadcast Studio
 description: Weather Broadcast Studio details for SIBAKOM.
 heroImage: /assets/images/pages/broadcast-studio-green-screen.jpg
+path: weather-broadcast-studio\index
 ---
 
 

@@ -6,6 +6,7 @@ heroImage: /assets/images/pages/surabaya-radar-dome.jpg
 client: BMKG
 location: Surabaya, East Java
 technology: C-Band Weather Radar, Dual-Polarization
+path: surabaya-radar-installation\index
 ---
 
 

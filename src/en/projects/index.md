@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Project Profile
 description: Project Profile details for SIBAKOM.
 heroImage: /assets/images/pages/project-management.jpg
+path: index
 ---
 
 

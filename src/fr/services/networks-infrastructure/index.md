@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Networks & Infrastructure
 description: Networks & Infrastructure details for SIBAKOM.
 heroImage: /assets/images/pages/data-center-racks.jpg
+path: networks-infrastructure\index
 ---
 
 <section class="section" style="padding-top: 0;">

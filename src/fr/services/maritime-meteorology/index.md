@@ -4,6 +4,7 @@ title: Maritime Meteorology
 description: Maritime Meteorology details for SIBAKOM.
 heroImage: /assets/images/pages/ocean-buoy.jpg
 subtitle: Ocean Observing Systems
+path: maritime-meteorology\index
 ---
 
 
