@@ -41,9 +41,9 @@
             <li class="nav-item dropdown">
                 <a href="#" style="display: flex; align-items: center; gap: 4px;">🌐 {% if 'en' in page.url %}EN{% elif 'fr' in page.url %}FR{% else %}ID{% endif %} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu" style="min-width: 120px;">
-                    <li class="dropdown-item"><a href="/id{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}">🇮🇩 Indonesia</a></li>
-                    <li class="dropdown-item"><a href="/en{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}">🇬🇧 English</a></li>
-                    <li class="dropdown-item"><a href="/fr{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}">🇫🇷 Français</a></li>
+                    <li class="dropdown-item"><a href="/id{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/id.svg" width="16" alt="Indonesia"> Indonesia</a></li>
+                    <li class="dropdown-item"><a href="/en{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/gb.svg" width="16" alt="English"> English</a></li>
+                    <li class="dropdown-item"><a href="/fr{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/fr.svg" width="16" alt="Français"> Français</a></li>
                 </ul>
             </li>
         </nav>

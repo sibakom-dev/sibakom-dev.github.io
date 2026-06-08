@@ -1,11 +1,11 @@
 ---
 layout: layouts/page.njk
 title: Strategic Partnerships
-description: Discover SIBAKOM's global network of strategic partners, including BMKG, Baron Weather, CLS, Raymetrics, and Sterela.
+description: Discover SIBAKOM's global network of strategic partners, including
+  BMKG, Baron Weather, CLS, Raymetrics, and Sterela.
 heroImage: /assets/images/pages/corporate-building.jpg
 path: strategic-partnerships\index
 ---
-
 <div class="rich-content">
 <div class="section-header text-left" style="margin-left: 0;">
 <span class="section-subtitle">Global Network</span>
@@ -14,14 +14,13 @@ path: strategic-partnerships\index
 </div>
 
 <!-- BMKG -->
+
 <div class="zigzag-section" style="margin-top: var(--spacing-xl);">
 <div class="zigzag-text">
 <h3 style="color: var(--color-primary); font-size: var(--fs-2xl);">BMKG</h3>
-**The Indonesian Agency for Meteorology, Climatology, and Geophysics**
-
+\\*\\*The Indonesian Agency for Meteorology, Climatology, and Geophysics\\*\\*
 
 As the primary government authority for weather and geophysical observation in Indonesia, BMKG is SIBAKOM's most critical domestic partner. We have proudly served as the trusted system integrator for BMKG on over 100 mission-critical projects, spanning nationwide weather radar installations to localized maritime monitoring networks.
-
 
 </div>
 <div class="zigzag-image">
@@ -32,14 +31,13 @@ As the primary government authority for weather and geophysical observation in I
 </div>
 
 <!-- Baron Weather -->
+
 <div class="zigzag-section reverse" style="margin-top: var(--spacing-xl);">
 <div class="zigzag-text">
 <h3 style="color: var(--color-primary); font-size: var(--fs-2xl);">Baron Weather</h3>
 **Advanced Weather Radar & Broadcast Solutions**
 
-
 Baron Weather is a global leader in critical weather intelligence. Through our partnership, SIBAKOM deploys and integrates Baron's state-of-the-art dual-polarization Doppler Radars and high-fidelity Weather Broadcast Studio rendering systems across Indonesia. Together, we empower local meteorologists with unparalleled severe weather detection capabilities.
-
 
 </div>
 <div class="zigzag-image">
@@ -50,14 +48,13 @@ Baron Weather is a global leader in critical weather intelligence. Through our p
 </div>
 
 <!-- CLS -->
+
 <div class="zigzag-section" style="margin-top: var(--spacing-xl);">
 <div class="zigzag-text">
 <h3 style="color: var(--color-primary); font-size: var(--fs-2xl);">Collecte Localisation Satellites (CLS)</h3>
-**Satellite Telemetry & Marine Observation**
-
+\\*\\*Satellite Telemetry & Marine Observation\\*\\*
 
 A subsidiary of the French Space Agency (CNES), CLS is the pioneer of the Argos satellite system. SIBAKOM partners with CLS to deploy robust marine drifters and oceanographic buoys. By utilizing CLS telemetry and analytics, we provide continuous, real-time tracking of maritime meteorological data regardless of ocean conditions.
-
 
 </div>
 <div class="zigzag-image">
@@ -68,14 +65,13 @@ A subsidiary of the French Space Agency (CNES), CLS is the pioneer of the Argos 
 </div>
 
 <!-- Raymetrics -->
+
 <div class="zigzag-section reverse" style="margin-top: var(--spacing-xl);">
 <div class="zigzag-text">
 <h3 style="color: var(--color-primary); font-size: var(--fs-2xl);">Raymetrics</h3>
-**3D LiDAR & Atmospheric Remote Sensing**
-
+\\*\\*3D LiDAR & Atmospheric Remote Sensing\\*\\*
 
 Raymetrics specializes in cutting-edge atmospheric LiDAR technology. Our partnership allows SIBAKOM to integrate powerful 3D LiDAR systems for real-time tracking of atmospheric aerosols, air pollution dispersal, and critical volcanic ash monitoring—essential technologies for the Indonesian aviation sector.
-
 
 </div>
 <div class="zigzag-image">
@@ -86,21 +82,18 @@ Raymetrics specializes in cutting-edge atmospheric LiDAR technology. Our partner
 </div>
 
 <!-- Sterela -->
+
 <div class="zigzag-section" style="margin-top: var(--spacing-xl);">
 <div class="zigzag-text">
 <h3 style="color: var(--color-primary); font-size: var(--fs-2xl);">Sterela</h3>
-**Precision Automated Weather Stations (AWS)**
-
+\\*\\*Precision Automated Weather Stations (AWS)\\*\\*
 
 Sterela is our trusted partner for highly durable, autonomous observation systems. We exclusively integrate Sterela's flagship hardware lines:
 
-
 <ul style="margin-top: var(--spacing-sm); padding-left: 20px;">
-- **Mercury Station:** Precision Agrometeorology AWS for optimizing crop modeling and soil moisture tracking.
+- \\*\\*Mercury Station:\\*\\* Precision Agrometeorology AWS for optimizing crop modeling and soil moisture tracking.
 
-- **Neptune Station:** Ruggedized Marine AWS designed to withstand extreme coastal and offshore environments.
-
-
+* **Neptune Station:** Ruggedized Marine AWS designed to withstand extreme coastal and offshore environments.
 
 </div>
 <div class="zigzag-image">
