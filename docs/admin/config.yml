@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: sibakom-dev/sibakom-dev.github.io
-  branch: main
+  branch: cms-multilanguage
 
 local_backend:
   url: http://localhost:8082/api/v1
