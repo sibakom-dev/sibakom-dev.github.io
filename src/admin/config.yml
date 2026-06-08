@@ -34,6 +34,16 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Text Content", name: "text", widget: "markdown"}
               - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+          - label: "Solutions Cards"
+            name: "solutions_cards"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Link Text", name: "link_text", widget: "string"}
+              - {label: "Link URL", name: "link", widget: "string"}
           - label: "Grid Cards (e.g. Services/Projects)"
             name: "grid_cards"
             widget: "list"
@@ -65,6 +75,16 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Text Content", name: "text", widget: "markdown"}
               - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+          - label: "Solutions Cards"
+            name: "solutions_cards"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Link Text", name: "link_text", widget: "string"}
+              - {label: "Link URL", name: "link", widget: "string"}
           - label: "Grid Cards (e.g. Services/Projects)"
             name: "grid_cards"
             widget: "list"
@@ -96,6 +116,16 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Text Content", name: "text", widget: "markdown"}
               - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+          - label: "Solutions Cards"
+            name: "solutions_cards"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Link Text", name: "link_text", widget: "string"}
+              - {label: "Link URL", name: "link", widget: "string"}
           - label: "Grid Cards (e.g. Services/Projects)"
             name: "grid_cards"
             widget: "list"
