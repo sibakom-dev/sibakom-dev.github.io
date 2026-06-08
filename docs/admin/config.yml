@@ -703,7 +703,7 @@ collections:
         name: "theme"
         label: "Theme Settings"
         fields:
-          - {label: "Theme Preset", name: "theme_preset", widget: "select", options: ["Default", "Blue & Orange", "Custom"], default: "Default"}
+          - {label: "Theme Preset", name: "theme_preset", widget: "select", options: ["Default", "Corporate Blue", "Eco Green / Earth", "Deep Sea / Navy", "Charcoal / Neon Accent", "Custom"], default: "Default"}
           - {label: "Primary Color (Custom)", name: "primary_color", widget: "color", required: false}
           - {label: "Secondary Color (Custom)", name: "secondary_color", widget: "color", required: false}
           - {label: "Accent Color (Custom)", name: "accent_color", widget: "color", required: false}
