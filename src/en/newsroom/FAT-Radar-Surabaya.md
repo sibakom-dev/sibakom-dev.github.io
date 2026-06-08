@@ -12,11 +12,11 @@ topic: Company News
 
 In a significant milestone for Indonesia's meteorological infrastructure, a delegation from the Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) recently completed a comprehensive Factory Acceptance Test (FAT) and intensive technical training program in Huntsville, Alabama. Facilitated by PT Sibakom, this initiative marks a critical step in the deployment of the state-of-the-art Baron Gen3 Weather Radar system destined for Surabaya.
 
-**Comprehensive Operational Readiness**
+**Comprehensive Operational Readiness** 
 The program, which took place in September 2024, brought together a specialized team of experts from BMKG Juanda, BMKG Jakarta, and BBMKG Wilayah III Denpasar. The rigorous training schedule was segmented into specialized tracks-covering FAT procedures, technician-level maintenance, and forecaster-specific advanced analysis-ensuring that the incoming radar system is supported by a fully capable local team.
 The FAT serves as the definitive assurance that the hardware and software meet the stringent performance requirements for weather monitoring in the Surabaya region. By undergoing these tests in the factory environment, the team gained an intimate understanding of the radar's performance under controlled, high-precision conditions. 
 
-**Advanced Technological Capabilities**
+**Advanced Technological Capabilities** 
 The Baron Gen3 Radar represents a robust upgrade for weather monitoring, offering a suite of analytical tools designed to detect and characterize atmospheric phenomena with unprecedented detail. The training curriculum highlighted several core capabilities essential for modern meteorology:
 
 - **Precision Data Analysis:** The system provides full 3D volumetric imagery, allowing meteorologists to visualize storms and precipitation from multiple perspectives.
