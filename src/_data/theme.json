@@ -1,11 +1,11 @@
 {
   "theme_preset": "Custom",
-  "primary_color": "#0c2b4e",
+  "primary_color": "#c0cbd8",
   "secondary_color": "#1a3d64",
   "accent_color": "#1d546c",
   "bg_color": "#f4f4f4",
   "text_color": "",
-  "header_bg": "#0c2b4eff",
+  "header_bg": "#c0cbd8ff",
   "header_bg_scrolled": "#f4f4f4ff",
   "header_blur": 1,
   "font_family": "Montserrat"
