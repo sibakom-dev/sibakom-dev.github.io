@@ -63,11 +63,13 @@
         --color-border: #3f3f46;
         --color-border-hover: #52525b;
       {% endif %}
-      {% if theme.primary_color %}--color-primary: {{ theme.primary_color }};{% endif %}
-      {% if theme.secondary_color %}--color-secondary: {{ theme.secondary_color }};{% endif %}
-      {% if theme.accent_color %}--color-accent: {{ theme.accent_color }};{% endif %}
-      {% if theme.bg_color %}--color-bg: {{ theme.bg_color }};{% endif %}
-      {% if theme.text_color %}--color-text: {{ theme.text_color }};{% endif %}
+      {% if theme.theme_preset == 'Custom' %}
+        {% if theme.primary_color %}--color-primary: {{ theme.primary_color }};{% endif %}
+        {% if theme.secondary_color %}--color-secondary: {{ theme.secondary_color }};{% endif %}
+        {% if theme.accent_color %}--color-accent: {{ theme.accent_color }};{% endif %}
+        {% if theme.bg_color %}--color-bg: {{ theme.bg_color }};{% endif %}
+        {% if theme.text_color %}--color-text: {{ theme.text_color }};{% endif %}
+      {% endif %}
       {% if theme.header_bg %}--header-bg: {{ theme.header_bg }};{% endif %}
       {% if theme.header_bg_scrolled %}--header-bg-scrolled: {{ theme.header_bg_scrolled }};{% endif %}
       {% if theme.header_blur is defined and theme.header_blur !== null and theme.header_blur !== '' %}--header-blur: {{ theme.header_blur }}px;{% endif %}
