@@ -20,7 +20,7 @@ permalink: "en/newsroom/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumb
     </div>
     <div class="project-content">
       <h3 class="project-title" style="font-size: var(--fs-lg); margin-bottom: var(--spacing-xs);">{{ post.data.title }}</h3>
-      <div style="font-size: var(--fs-sm); color: var(--color-border-hover); margin-bottom: var(--spacing-sm);">
+      <div style="font-size: var(--fs-sm); color: var(--color-text-muted); margin-bottom: var(--spacing-sm);">
         {% if post.data.date %}{{ post.data.date | date_format }}{% endif %}
         {% if post.data.read_time %} &bull; {{ post.data.read_time }}{% endif %}
       </div>
