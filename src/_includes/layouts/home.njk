@@ -4,7 +4,14 @@ layout: layouts/base.njk
 
 <!-- Hero Section -->
 <section class="section radar-sweep-bg"
-    style="background: url('{{ heroImage | default('/assets/images/Sibakom_Hero_Banner.png') }}') center center/cover no-repeat; position: relative; overflow: hidden; min-height: 90vh; display: flex; align-items: center; padding-top: 80px; padding-bottom: 120px;">
+    style="position: relative; overflow: hidden; min-height: 90vh; display: flex; align-items: center; padding-top: 80px; padding-bottom: 120px; {% if not heroVideo %}background: url('{{ heroImage | default('/assets/images/Sibakom_Hero_Banner.png') }}') center center/cover no-repeat;{% endif %}">
+
+    {% if heroVideo %}
+    <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+        <source src="{{ heroVideo }}" type="video/webm">
+        <source src="{{ heroVideo }}" type="video/mp4">
+    </video>
+    {% endif %}
 
     <div
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(244, 248, 252, 0.95) 0%, rgba(244, 248, 252, 0.7) 50%, rgba(244, 248, 252, 0) 100%); z-index: 1;">
@@ -48,14 +55,14 @@ layout: layouts/base.njk
             </a>
             <a href="{{ '/about/strategic-partnerships/' | locale_url }}" style="text-decoration: none;">
                 <div class="stats-card" style="height: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
-                    <div class="stats-number" style="font-size: 2.5rem;">Top</div>
-                    <div class="stats-label">Gov & Private Partners</div>
+                    <div class="stats-number" style="font-size: 2.5rem;">World-Class</div>
+                    <div class="stats-label">Strategic Partners</div>
                 </div>
             </a>
             <a href="{{ '/about/specializations/' | locale_url }}" style="text-decoration: none;">
                 <div class="stats-card" style="height: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
-                    <div class="stats-number" data-count="34">0</div>
-                    <div class="stats-label">Provinces Covered</div>
+                    <div class="stats-number" style="font-size: 2.5rem;">Extensive</div>
+                    <div class="stats-label">Domestic & ASEAN Project Delivered</div>
                 </div>
             </a>
         </div>
@@ -288,17 +295,19 @@ document.addEventListener("DOMContentLoaded", () => {
 </section>
 
 <!-- Call To Action -->
-<section class="section" style="position: relative; background-image: url('/assets/images/pages/project-management.jpg'); background-size: cover; background-position: center; color: var(--color-text-light); padding: 120px 0;">
+{% if show_cta != false %}
+<section class="section" style="position: relative; background-image: url('{{ cta_bg | default('/assets/images/pages/project-management.jpg') }}'); background-size: cover; background-position: center; color: var(--color-text-light); padding: 120px 0;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(27, 64, 115, 0.9), rgba(43, 95, 167, 0.8));"></div>
     <div class="container text-center" style="position: relative; z-index: 1;">
         <h2 class="font-bold" style="font-size: var(--fs-3xl); margin-bottom: var(--spacing-md); color: var(--color-text-light); text-shadow: 0 2px 10px rgba(0,0,0,0.3);">
-            Ready to Upgrade Your Environmental Intelligence?
+            {{ cta_title | default('Ready to Upgrade Your Environmental Intelligence?') }}
         </h2>
         <p class="text-lead" style="color: rgba(255, 255, 255, 0.9); margin-bottom: var(--spacing-lg); max-width: 700px; margin-left: auto; margin-right: auto; text-shadow: 0 1px 5px rgba(0,0,0,0.3);">
-            Consult with our engineering team to design a robust, custom-tailored system for your observation network. We bring decades of expertise to every deployment.
+            {{ cta_description | default('Consult with our engineering team to design a robust, custom-tailored system for your observation network. We bring decades of expertise to every deployment.') }}
         </p>
         <div class="d-flex justify-center gap-sm">
-            <a href="{{ '/contact/' | locale_url }}" class="btn btn-accent" style="padding: 16px 36px; font-size: var(--fs-md);">Request Consultation</a>
+            <a href="{{ (cta_btn_link | default('/contact/')) | locale_url }}" class="btn btn-accent" style="padding: 16px 36px; font-size: var(--fs-md);">{{ cta_btn_text | default('Request Consultation') }}</a>
         </div>
     </div>
 </section>
+{% endif %}

@@ -21,9 +21,16 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, hint: "Upload WebM or MP4"}
           - {label: "Hero Title", name: "hero_title", widget: "string", required: false}
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
+          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false}
+          - {label: "CTA Title", name: "cta_title", widget: "string", required: false}
+          - {label: "CTA Description", name: "cta_description", widget: "text", required: false}
+          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
+          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
+          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Zigzag Sections"
             name: "sections"
@@ -62,9 +69,16 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, hint: "Upload WebM or MP4"}
           - {label: "Hero Title", name: "hero_title", widget: "string", required: false}
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
+          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false}
+          - {label: "CTA Title", name: "cta_title", widget: "string", required: false}
+          - {label: "CTA Description", name: "cta_description", widget: "text", required: false}
+          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
+          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
+          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Zigzag Sections"
             name: "sections"
@@ -103,9 +117,16 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, hint: "Upload WebM or MP4"}
           - {label: "Hero Title", name: "hero_title", widget: "string", required: false}
           - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
           - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
+          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false}
+          - {label: "CTA Title", name: "cta_title", widget: "string", required: false}
+          - {label: "CTA Description", name: "cta_description", widget: "text", required: false}
+          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
+          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
+          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Zigzag Sections"
             name: "sections"
@@ -503,6 +524,97 @@ collections:
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Link URL", name: "link", widget: "string"}
 
+  - name: "legal_id"
+    label: "Legal Pages (ID)"
+    folder: "src/id/legal"
+    path: "{{slug}}/index"
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "legal_en"
+    label: "Legal Pages (EN)"
+    folder: "src/en/legal"
+    path: "{{slug}}/index"
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "legal_fr"
+    label: "Legal Pages (FR)"
+    folder: "src/fr/legal"
+    path: "{{slug}}/index"
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  - name: "newsroom_id"
+    label: "Newsroom (ID)"
+    folder: "src/id/newsroom"
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Writer", name: "writer", widget: "string"}
+      - {label: "Post Time", name: "date", widget: "datetime"}
+      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
+      - {label: "Cover Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Topic", name: "topic", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "newsroom_en"
+    label: "Newsroom (EN)"
+    folder: "src/en/newsroom"
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Writer", name: "writer", widget: "string"}
+      - {label: "Post Time", name: "date", widget: "datetime"}
+      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
+      - {label: "Cover Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Topic", name: "topic", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "newsroom_fr"
+    label: "Newsroom (FR)"
+    folder: "src/fr/newsroom"
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Writer", name: "writer", widget: "string"}
+      - {label: "Post Time", name: "date", widget: "datetime"}
+      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
+      - {label: "Cover Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Topic", name: "topic", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "settings"
     label: "Settings"
     files:
@@ -587,3 +699,17 @@ collections:
           - {label: "Rights Reserved", name: "rights_reserved", widget: "string"}
           - {label: "Privacy Policy", name: "privacy_policy", widget: "string"}
           - {label: "Terms of Service", name: "terms_of_service", widget: "string"}
+      - file: "src/_data/theme.json"
+        name: "theme"
+        label: "Theme Settings"
+        fields:
+          - {label: "Theme Preset", name: "theme_preset", widget: "select", options: ["Default", "Blue & Orange", "Custom"], default: "Default"}
+          - {label: "Primary Color (Custom)", name: "primary_color", widget: "color", required: false}
+          - {label: "Secondary Color (Custom)", name: "secondary_color", widget: "color", required: false}
+          - {label: "Accent Color (Custom)", name: "accent_color", widget: "color", required: false}
+          - {label: "Background Color (Custom)", name: "bg_color", widget: "color", required: false}
+          - {label: "Text Color (Custom)", name: "text_color", widget: "color", required: false}
+          - {label: "Header Background Color", name: "header_bg", widget: "color", enableAlpha: true, required: false}
+          - {label: "Header Background Color Scrolled", name: "header_bg_scrolled", widget: "color", enableAlpha: true, required: false}
+          - {label: "Header Glass Texture Blur", name: "header_blur", widget: "number", value_type: "int", min: 0, max: 50, required: false, hint: "Value in pixels (0 to disable)."}
+          - {label: "Global Font Family", name: "font_family", widget: "select", options: ["Plus Jakarta Sans", "Inter", "Outfit", "Montserrat", "Roboto", "Open Sans", "Lora", "Merriweather"], default: "Plus Jakarta Sans", required: false}

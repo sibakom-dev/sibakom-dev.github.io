@@ -4,6 +4,7 @@ title: Privacy Policy
 description: Privacy Policy details for SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 subtitle: Legal & Compliance
+path: privacy-policy/index
 ---
 
 <div class="article-document" style="max-width: 800px; margin: 0 auto; padding: var(--spacing-md) 0;">

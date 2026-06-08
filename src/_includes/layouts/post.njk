@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+---
+<section class="section" style="padding-top: 120px; min-height: 50vh;">
+    <div class="container">
+        <div class="post-header text-center" style="margin-bottom: var(--spacing-xl); max-width: 800px; margin-inline: auto;">
+            {% if tags and tags.length > 0 %}
+            <div class="post-tags" style="margin-bottom: var(--spacing-sm);">
+                {% for tag in tags %}
+                  {% if tag != "newsroom_en" and tag != "newsroom_id" and tag != "newsroom_fr" %}
+                    <span class="project-tag">{{ tag }}</span>
+                  {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            <h1 class="section-title" style="margin-bottom: var(--spacing-sm);">{{ title }}</h1>
+            
+            <div class="post-meta" style="color: var(--color-border-hover); font-size: var(--fs-sm); display: flex; gap: var(--spacing-md); justify-content: center; align-items: center; margin-bottom: var(--spacing-lg);">
+                {% if writer %}<span>By <strong>{{ writer }}</strong></span>{% endif %}
+                {% if date %}<span>{{ date | date_format }}</span>{% endif %}
+                {% if read_time %}<span>{{ read_time }}</span>{% endif %}
+            </div>
+        </div>
+
+        {% if image %}
+        <div style="margin-bottom: var(--spacing-xl); text-align: center;">
+            <img src="{{ image }}" alt="{{ title }}" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: var(--radius-lg);">
+        </div>
+        {% endif %}
+
+        <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text); max-width: 800px; margin-inline: auto;">
+            {{ content | safe }}
+        </div>
+    </div>
+</section>

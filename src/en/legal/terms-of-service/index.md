@@ -4,6 +4,7 @@ title: Terms of Service
 description: Terms of Service details for SIBAKOM.
 heroImage: /assets/images/pages/contact-center.jpg
 subtitle: Legal & Compliance
+path: terms-of-service/index
 ---
 
 <div class="article-document" style="max-width: 800px; margin: 0 auto; padding: var(--spacing-md) 0;">

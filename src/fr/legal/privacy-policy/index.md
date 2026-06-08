@@ -4,6 +4,7 @@ title: Kebijakan Privasi
 description: Détail Kebijakan Privasi pour SIBAKOM.
 heroImage: /assets/images/pages/corporate-building.jpg
 subtitle: Legal & Compliance
+path: privacy-policy/index
 ---
 <div class="article-document" style="max-width : 800px; margin : 0 auto; padding : var(--spacing-md) 0;">
 <p class="text-lead" style="margin-bottom: var(--spacing-lg);">Chez SIBAKOM, nous nous engageons à protéger votre vie privée et à assurer la sécurité de vos données personnelles. Cette politique de confidentialité décrit la manière dont nous collectons, utilisons et protégeons vos informations lorsque vous interagissez avec notre site Web ou utilisez nos services d'intégration.</p>

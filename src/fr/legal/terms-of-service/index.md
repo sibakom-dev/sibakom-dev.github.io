@@ -4,6 +4,7 @@ title: Ketentuan Layanan
 description: Détail Ketentuan Layanan SIBAKOM.
 heroImage: /assets/images/pages/contact-center.jpg
 subtitle: Legal & Compliance
+path: terms-of-service/index
 ---
 <div class="article-document" style="max-width : 800px; margin : 0 auto; padding : var(--spacing-md) 0;">
 <p class="text-lead" style="margin-bottom: var(--spacing-lg);">En accédant au site Web de SIBAKOM et en utilisant nos services d'intégration de systèmes, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'êtes pas d'accord avec une partie de ces conditions, vous ne pouvez pas accéder au service.</p>

@@ -3,11 +3,16 @@ const { EleventyI18nPlugin } = require("@11ty/eleventy");
 module.exports = function (eleventyConfig) {
   // i18n configuration
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: "id",
+    defaultLanguage: "en",
     errorMode: "allow-fallback"
   });
 
   // Passthrough copy for static assets
+  eleventyConfig.addFilter("date_format", (dateObj) => {
+    if (!dateObj) return "";
+    return new Date(dateObj).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  });
+
   eleventyConfig.addPassthroughCopy("src/assets");
   
   // Passthrough copy for admin CMS

@@ -10,6 +10,33 @@
     <link rel="icon" type="image/svg+xml" href="/assets/images/Sibakom_Favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
     {% if canonicalUrl %}<link rel="canonical" href="{{ canonicalUrl }}">{% endif %}
+
+    {% set current_font = theme.font_family | default('Plus Jakarta Sans') %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family={{ current_font | replace(' ', '+') }}:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <style>
+      :root {
+      --font-heading: '{{ current_font }}', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      --font-body: '{{ current_font }}', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      
+      {% if theme.theme_preset == 'Blue & Orange' %}
+        --color-primary: #004b87;
+        --color-secondary: #0066cc;
+        --color-accent: #ff7f50;
+      {% endif %}
+      {% if theme.primary_color %}--color-primary: {{ theme.primary_color }};{% endif %}
+      {% if theme.secondary_color %}--color-secondary: {{ theme.secondary_color }};{% endif %}
+      {% if theme.accent_color %}--color-accent: {{ theme.accent_color }};{% endif %}
+      {% if theme.bg_color %}--color-bg: {{ theme.bg_color }};{% endif %}
+      {% if theme.text_color %}--color-text: {{ theme.text_color }};{% endif %}
+      {% if theme.header_bg %}--header-bg: {{ theme.header_bg }};{% endif %}
+      {% if theme.header_bg_scrolled %}--header-bg-scrolled: {{ theme.header_bg_scrolled }};{% endif %}
+      {% if theme.header_blur is defined and theme.header_blur !== null and theme.header_blur !== '' %}--header-blur: {{ theme.header_blur }}px;{% endif %}
+      }
+    </style>
 </head>
 <body>
     {% include "partials/header.njk" %}
