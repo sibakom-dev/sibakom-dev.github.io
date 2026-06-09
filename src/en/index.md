@@ -5,7 +5,11 @@ description: SIBAKOM - System Integrator for Environmental Solutions. Experts in
 heroImage: /assets/images/Sibakom_Hero_Banner.png
 hero_title: Providing High Quality Services & Products.
 hero_subtitle: Weather Observations System
-hero_description: Integrating multisectoral meteorological systems. Delivering complete & reliable solutions for mission-critical decision-making across the Indonesian archipelago.
+hero_description: Integrating multisectoral meteorological systems. Delivering complete & reliable solutions for mission-critical decision-making across domestic and ASEAN regions.
+cta_title: ''
+cta_description: ''
+cta_btn_text: ''
+cta_btn_link: ''
 solutions_cards:
   - image: /assets/images/pages/weather-radar-dome.jpg
     title: Weather Radar
