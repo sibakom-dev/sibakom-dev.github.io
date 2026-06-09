@@ -9,11 +9,11 @@
     <meta property="og:title" content="{{ title | default('SIBAKOM | Environmental Solutions & Weather Technology') }}">
     <meta property="og:description" content="{{ description | default('SIBAKOM - System Integrator for Environmental Solutions.') }}">
     {% if image %}
-    <meta property="og:image" content="https://sibakom-dev.github.io{{ image }}">
+    <meta property="og:image" content="https://www.sibakom.com{{ image | replace(' ', '%20') }}">
     {% elif heroImage %}
-    <meta property="og:image" content="https://sibakom-dev.github.io{{ heroImage }}">
+    <meta property="og:image" content="https://www.sibakom.com{{ heroImage | replace(' ', '%20') }}">
     {% else %}
-    <meta property="og:image" content="https://sibakom-dev.github.io/assets/images/sibakom-logo.png">
+    <meta property="og:image" content="https://www.sibakom.com/assets/images/Sibakom_Logo.png">
     {% endif %}
     <meta property="og:type" content="website">
 
