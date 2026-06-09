@@ -155,43 +155,83 @@
         
         <div class="related-posts" style="max-width: 800px; margin-inline: auto; margin-top: var(--spacing-xl); padding-top: var(--spacing-lg); border-top: 1px solid var(--color-border);">
             <h3 style="margin-bottom: var(--spacing-md); font-size: var(--fs-lg);">Lire Aussi :</h3>
-            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--spacing-sm);">
+            <style>
+                .related-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: var(--spacing-md);
+                }
+                @media (max-width: 768px) {
+                    .related-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+                @media (max-width: 480px) {
+                    .related-grid {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+            <div class="related-grid">
+                
                 
                     
-                        <li>
-                            <a href="/fr/newsroom/post-1/" style="color: var(--color-primary); font-weight: 500; text-decoration: none; display: flex; gap: 8px; align-items: center; transition: color 0.3s ease;" onmouseover="this.style.color='var(--color-accent)'" onmouseout="this.style.color='var(--color-primary)'">
-                                <span style="font-size: 1.2em;">&rarr;</span> Sample Newsroom Post 1 (FR)
-                            </a>
-                        </li>
+                        
+                        <a href="/fr/newsroom/post-1/" style="text-decoration: none; color: inherit; transition: transform 0.3s ease; display: block;" onmouseover="this.style.transform='translateY(-5px)'; this.style.color='var(--color-primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.color='inherit'">
+                            <div style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--spacing-xs); background: var(--color-bg-alt); display: flex; align-items: center; justify-content: center;">
+                                
+                                    <img src="/assets/images/pages/weather-broadcast.jpg" alt="Sample Newsroom Post 1 (FR)" style="width: 100%; height: 100%; object-fit: cover;">
+                                
+                            </div>
+                            <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">Sample Newsroom Post 1 (FR)</h4>
+                        </a>
                     
                 
                     
-                        <li>
-                            <a href="/fr/newsroom/post-2/" style="color: var(--color-primary); font-weight: 500; text-decoration: none; display: flex; gap: 8px; align-items: center; transition: color 0.3s ease;" onmouseover="this.style.color='var(--color-accent)'" onmouseout="this.style.color='var(--color-primary)'">
-                                <span style="font-size: 1.2em;">&rarr;</span> Sample Newsroom Post 2 (FR)
-                            </a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/fr/newsroom/post-4/" style="color: var(--color-primary); font-weight: 500; text-decoration: none; display: flex; gap: 8px; align-items: center; transition: color 0.3s ease;" onmouseover="this.style.color='var(--color-accent)'" onmouseout="this.style.color='var(--color-primary)'">
-                                <span style="font-size: 1.2em;">&rarr;</span> Sample Newsroom Post 4 (FR)
-                            </a>
-                        </li>
-                    
-                
+                        
+                        <a href="/fr/newsroom/post-2/" style="text-decoration: none; color: inherit; transition: transform 0.3s ease; display: block;" onmouseover="this.style.transform='translateY(-5px)'; this.style.color='var(--color-primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.color='inherit'">
+                            <div style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--spacing-xs); background: var(--color-bg-alt); display: flex; align-items: center; justify-content: center;">
+                                
+                                    <img src="/assets/images/pages/weather-broadcast.jpg" alt="Sample Newsroom Post 2 (FR)" style="width: 100%; height: 100%; object-fit: cover;">
+                                
+                            </div>
+                            <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">Sample Newsroom Post 2 (FR)</h4>
+                        </a>
                     
                 
                     
                 
                     
+                        
+                        <a href="/fr/newsroom/post-4/" style="text-decoration: none; color: inherit; transition: transform 0.3s ease; display: block;" onmouseover="this.style.transform='translateY(-5px)'; this.style.color='var(--color-primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.color='inherit'">
+                            <div style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--spacing-xs); background: var(--color-bg-alt); display: flex; align-items: center; justify-content: center;">
+                                
+                                    <img src="/assets/images/pages/weather-broadcast.jpg" alt="Sample Newsroom Post 4 (FR)" style="width: 100%; height: 100%; object-fit: cover;">
+                                
+                            </div>
+                            <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">Sample Newsroom Post 4 (FR)</h4>
+                        </a>
+                    
+                
+                    
+                        
+                        <a href="/fr/newsroom/post-5/" style="text-decoration: none; color: inherit; transition: transform 0.3s ease; display: block;" onmouseover="this.style.transform='translateY(-5px)'; this.style.color='var(--color-primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.color='inherit'">
+                            <div style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--spacing-xs); background: var(--color-bg-alt); display: flex; align-items: center; justify-content: center;">
+                                
+                                    <img src="/assets/images/pages/weather-broadcast.jpg" alt="Sample Newsroom Post 5 (FR)" style="width: 100%; height: 100%; object-fit: cover;">
+                                
+                            </div>
+                            <h4 style="font-size: var(--fs-sm); font-weight: 600; margin-bottom: 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">Sample Newsroom Post 5 (FR)</h4>
+                        </a>
+                    
                 
                     
                 
-            </ul>
+                    
+                
+                    
+                
+            </div>
         </div>
         
     </div>
