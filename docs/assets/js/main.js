@@ -60,3 +60,42 @@ function initMobileMenu() {
         });
     });
 }
+
+// Share Modal Logic
+function openShareModal() {
+    const modal = document.getElementById('shareModal');
+    if(modal) {
+        modal.classList.add('active');
+    }
+}
+
+function closeShareModal() {
+    const modal = document.getElementById('shareModal');
+    if(modal) {
+        modal.classList.remove('active');
+    }
+}
+
+function copyShareLink() {
+    const input = document.getElementById('shareInputLink');
+    if(input) {
+        input.select();
+        input.setSelectionRange(0, 99999); // For mobile devices
+        navigator.clipboard.writeText(input.value).then(() => {
+            const btnSpan = document.querySelector('.copylink span');
+            const originalText = btnSpan.innerText;
+            btnSpan.innerText = "Copied!";
+            setTimeout(() => {
+                btnSpan.innerText = originalText;
+            }, 2000);
+        });
+    }
+}
+
+// Close modal when clicking outside
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('shareModal');
+    if (event.target == modal) {
+        closeShareModal();
+    }
+});
