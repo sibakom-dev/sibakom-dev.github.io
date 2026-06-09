@@ -63,6 +63,11 @@ img, picture, video, canvas, svg {
     height: auto;
 }
 
+p {
+    text-align: justify;
+    hyphens: auto;
+}
+
 /* Links */
 a {
     color: var(--color-primary);
