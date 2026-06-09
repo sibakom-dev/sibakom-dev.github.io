@@ -29,8 +29,40 @@ layout: layouts/base.njk
         </div>
         {% endif %}
 
-        <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text); max-width: 800px; margin-inline: auto;">
+        <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text); max-width: 800px; margin-inline: auto; text-align: justify;">
             {{ content | safe }}
         </div>
+
+        {% set related_posts = null %}
+        {% set read_also_text = "Read Also:" %}
+        {% if tags %}
+            {% if "newsroom_id" in tags %}
+                {% set related_posts = collections.newsroom_id %}
+                {% set read_also_text = "Baca Juga:" %}
+            {% elif "newsroom_fr" in tags %}
+                {% set related_posts = collections.newsroom_fr %}
+                {% set read_also_text = "Lire Aussi :" %}
+            {% elif "newsroom_en" in tags %}
+                {% set related_posts = collections.newsroom_en %}
+                {% set read_also_text = "Read Also:" %}
+            {% endif %}
+        {% endif %}
+
+        {% if related_posts %}
+        <div class="related-posts" style="max-width: 800px; margin-inline: auto; margin-top: var(--spacing-xl); padding-top: var(--spacing-lg); border-top: 1px solid var(--color-border);">
+            <h3 style="margin-bottom: var(--spacing-md); font-size: var(--fs-lg);">{{ read_also_text }}</h3>
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: var(--spacing-sm);">
+                {% for post in related_posts | reverse %}
+                    {% if post.url != page.url and loop.index0 < 4 %}
+                        <li>
+                            <a href="{{ post.url }}" style="color: var(--color-primary); font-weight: 500; text-decoration: none; display: flex; gap: 8px; align-items: center; transition: color 0.3s ease;" onmouseover="this.style.color='var(--color-accent)'" onmouseout="this.style.color='var(--color-primary)'">
+                                <span style="font-size: 1.2em;">&rarr;</span> {{ post.data.title }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
     </div>
 </section>
