@@ -537,3 +537,124 @@ textarea.form-control {
  . r i c h - c o n t e n t   p : h a s ( i m g   +   i m g )   i m g : h o v e r ,   . r i c h - c o n t e n t   p : h a s ( i m g   +   b r   +   i m g )   i m g : h o v e r   {   t r a n s f o r m :   s c a l e ( 1 . 0 5 ) ;   } 
   
  
+/* Share Button & Modal */
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    color: var(--color-text);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.share-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-bg);
+}
+
+.share-modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.share-modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.share-modal {
+    background-color: var(--color-surface);
+    width: 90%;
+    max-width: 400px;
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+.share-modal-overlay.active .share-modal {
+    transform: translateY(0);
+}
+
+.share-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.share-modal-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+.share-close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-text-muted);
+    border-radius: 50%;
+    width: 32px; height: 32px;
+    display: flex; justify-content: center; align-items: center;
+    transition: background-color 0.2s ease;
+}
+.share-close-btn:hover {
+    background-color: var(--color-bg);
+}
+
+.share-modal-body {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.share-icon-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+}
+.icon-circle {
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    display: flex; justify-content: center; align-items: center;
+    transition: transform 0.2s ease;
+}
+.share-icon-btn:hover .icon-circle {
+    transform: scale(1.1);
+}
+.whatsapp .icon-circle { background-color: #E8FDEE; color: #25D366; }
+.facebook .icon-circle { background-color: #EBF1FB; color: #1877F2; }
+.twitter .icon-circle { background-color: #E8F5FD; color: #1DA1F2; }
+.copylink .icon-circle { background-color: #F4F4F4; color: #333333; }
+
+.share-modal-footer input {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-muted);
+    font-family: monospace;
+    font-size: 0.9rem;
+    outline: none;
+}
