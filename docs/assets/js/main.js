@@ -62,18 +62,15 @@ function initMobileMenu() {
                     // Prevent default navigation to allow opening the dropdown
                     e.preventDefault();
                     
-                    const isOpen = dropdownMenu.style.visibility === 'visible';
+                    const isExpanded = parent.classList.contains('mobile-expanded');
+                    
                     // Reset all other dropdowns
-                    navMenu.querySelectorAll('.dropdown-menu').forEach(menu => {
-                        menu.style.visibility = '';
-                        menu.style.opacity = '';
-                        menu.style.position = '';
+                    navMenu.querySelectorAll('.nav-item.dropdown').forEach(item => {
+                        item.classList.remove('mobile-expanded');
                     });
                     
-                    if (!isOpen) {
-                        dropdownMenu.style.visibility = 'visible';
-                        dropdownMenu.style.opacity = '1';
-                        dropdownMenu.style.position = 'relative'; // Flow with document on mobile
+                    if (!isExpanded) {
+                        parent.classList.add('mobile-expanded');
                     }
                 }
                 return; // Do not close the main nav menu
