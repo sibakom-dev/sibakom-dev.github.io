@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="{{ description | default('SIBAKOM - System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.') }}">
     {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
     
@@ -20,7 +20,7 @@
     <title>{{ title | default('SIBAKOM | Environmental Solutions & Weather Technology') }}</title>
 
     <link rel="icon" type="image/svg+xml" href="/assets/images/Sibakom_Favicon.ico">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1.1">
     {% if canonicalUrl %}<link rel="canonical" href="{{ canonicalUrl }}">{% endif %}
 
     {% set current_font = theme.font_family | default('Plus Jakarta Sans') %}
