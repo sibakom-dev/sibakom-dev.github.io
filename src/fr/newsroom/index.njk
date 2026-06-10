@@ -13,7 +13,7 @@ permalink: "fr/newsroom/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumb
 
 <div class="grid grid-3 gap-md" style="margin-top: var(--spacing-xl);">
   {% for post in posts %}
-  <div class="project-card">
+  <a href="{{ post.url }}" class="project-card" style="text-decoration: none; color: inherit;">
     <div class="project-img-wrapper" style="height: 200px;">
       {% if post.data.topic %}<span class="project-tag">{{ post.data.topic }}</span>{% endif %}
       <img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="project-img" style="object-fit: cover; height: 100%; width: 100%;">
@@ -24,13 +24,13 @@ permalink: "fr/newsroom/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumb
         {% if post.data.date %}{{ post.data.date | date_format }}{% endif %}
         {% if post.data.read_time %} &bull; {{ post.data.read_time }}{% endif %}
       </div>
-      <p class="project-desc">{{ post.data.description | default("Read our latest news and updates.") }}</p>
-      <a href="{{ post.url }}" class="project-link">
-        Lire la Suite
+      <p class="project-desc">{{ post.data.description | default("Lisez nos dernières nouvelles et mises à jour.") }}</p>
+      <span class="project-link">
+        Lire la suite
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-      </a>
+      </span>
     </div>
-  </div>
+  </a>
   {% endfor %}
 </div>
 
