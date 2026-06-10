@@ -261,6 +261,8 @@
         border-top: 1px solid var(--color-border);
         clip-path: inset(0 0 100% 0);
         visibility: hidden;
+        overflow-y: auto;
+        padding-bottom: var(--spacing-xl);
         transition: clip-path var(--transition-normal) ease-in-out, visibility var(--transition-normal) ease-in-out;
     }
 
