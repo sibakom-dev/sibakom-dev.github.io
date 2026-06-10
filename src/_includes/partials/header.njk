@@ -11,42 +11,47 @@
         </button>
 
         <nav class="nav-menu">
-            <li class="nav-item {% if page.url == '/id/' or page.url == '/en/' or page.url == '/fr/' %}active{% endif %}"><a href="{{ '/' | locale_url }}">Home</a></li>
-            <li class="nav-item dropdown {% if '/about/' in page.url %}active{% endif %}">
-                <a href="{{ '/about/' | locale_url }}" style="display: flex; align-items: center; gap: 4px;">About Us <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="{{ '/about/specializations/' | locale_url }}">Specializations</a></li>
-                    <li class="dropdown-item"><a href="{{ '/about/strategic-partnerships/' | locale_url }}">Strategic Partnerships</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown {% if '/services/' in page.url %}active{% endif %}">
-                <a href="{{ '/services/' | locale_url }}" style="display: flex; align-items: center; gap: 4px;">Services & Products <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="{{ '/services/weather-radar/' | locale_url }}">Weather Radar</a></li>
-                    <li class="dropdown-item"><a href="{{ '/services/custom-nwp-models/' | locale_url }}">Custom NWP Models</a></li>
-                    <li class="dropdown-item"><a href="{{ '/services/maritime-meteorology/' | locale_url }}">Maritime Meteorology</a></li>
-                    <li class="dropdown-item"><a href="{{ '/services/agrometeorology/' | locale_url }}">Agrometeorology</a></li>
-                    <li class="dropdown-item"><a href="{{ '/services/lidar-monitoring/' | locale_url }}">3D LiDAR Monitoring</a></li>
-                    <li class="dropdown-item"><a href="{{ '/services/weather-broadcast-studio/' | locale_url }}">Weather Broadcast Studio</a></li>
-                    <li class="dropdown-item"><a href="{{ '/services/networks-infrastructure/' | locale_url }}">Networks & Infrastructure</a></li>
-                </ul>
-            </li>
-            <li class="nav-item {% if '/projects/' in page.url %}active{% endif %}"><a href="{{ '/projects/' | locale_url }}">Project Profile</a></li>
-            <li class="nav-item {% if '/newsroom/' in page.url %}active{% endif %}"><a href="{{ '/newsroom/' | locale_url }}">Newsroom</a></li>
-            <li class="nav-item"><a href="{{ '/contact/' | locale_url }}">Contact Us</a></li>
-            <li class="nav-item" style="margin-left: var(--spacing-sm);">
-                <a href="{{ '/search/' | locale_url }}" aria-label="Search">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a href="#" style="display: flex; align-items: center; gap: 4px;">🌐 {% if 'en' in page.url %}EN{% elif 'fr' in page.url %}FR{% else %}ID{% endif %} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                <ul class="dropdown-menu" style="min-width: 120px;">
-                    <li class="dropdown-item"><a href="/id{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/id.svg" width="16" alt="Indonesia"> Indonesia</a></li>
-                    <li class="dropdown-item"><a href="/en{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/gb.svg" width="16" alt="English"> English</a></li>
-                    <li class="dropdown-item"><a href="/fr{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/fr.svg" width="16" alt="Français"> Français</a></li>
-                </ul>
-            </li>
+            <ul class="nav-links">
+                <li class="nav-item {% if page.url == '/id/' or page.url == '/en/' or page.url == '/fr/' %}active{% endif %}"><a href="{{ '/' | locale_url }}">Home</a></li>
+                <li class="nav-item dropdown {% if '/about/' in page.url %}active{% endif %}">
+                    <a href="{{ '/about/' | locale_url }}" style="display: flex; align-items: center; gap: 4px;">About Us <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="{{ '/about/specializations/' | locale_url }}">Specializations</a></li>
+                        <li class="dropdown-item"><a href="{{ '/about/strategic-partnerships/' | locale_url }}">Strategic Partnerships</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown {% if '/services/' in page.url %}active{% endif %}">
+                    <a href="{{ '/services/' | locale_url }}" style="display: flex; align-items: center; gap: 4px;">Services & Products <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="{{ '/services/weather-radar/' | locale_url }}">Weather Radar</a></li>
+                        <li class="dropdown-item"><a href="{{ '/services/custom-nwp-models/' | locale_url }}">Custom NWP Models</a></li>
+                        <li class="dropdown-item"><a href="{{ '/services/maritime-meteorology/' | locale_url }}">Maritime Meteorology</a></li>
+                        <li class="dropdown-item"><a href="{{ '/services/agrometeorology/' | locale_url }}">Agrometeorology</a></li>
+                        <li class="dropdown-item"><a href="{{ '/services/lidar-monitoring/' | locale_url }}">3D LiDAR Monitoring</a></li>
+                        <li class="dropdown-item"><a href="{{ '/services/weather-broadcast-studio/' | locale_url }}">Weather Broadcast Studio</a></li>
+                        <li class="dropdown-item"><a href="{{ '/services/networks-infrastructure/' | locale_url }}">Networks & Infrastructure</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item {% if '/projects/' in page.url %}active{% endif %}"><a href="{{ '/projects/' | locale_url }}">Project Profile</a></li>
+                <li class="nav-item {% if '/newsroom/' in page.url %}active{% endif %}"><a href="{{ '/newsroom/' | locale_url }}">Newsroom</a></li>
+            </ul>
+
+            <div class="nav-utilities">
+                <li class="nav-item contact-item"><a href="{{ '/contact/' | locale_url }}" class="btn-contact">Contact Us</a></li>
+                <li class="nav-item search-item">
+                    <a href="{{ '/search/' | locale_url }}" aria-label="Search">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </a>
+                </li>
+                <li class="nav-item dropdown lang-item">
+                    <a href="#" style="display: flex; align-items: center; gap: 4px;">🌐 {% if 'en' in page.url %}EN{% elif 'fr' in page.url %}FR{% else %}ID{% endif %} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <ul class="dropdown-menu lang-dropdown" style="min-width: 120px;">
+                        <li class="dropdown-item"><a href="/id{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/id.svg" width="16" alt="Indonesia"> Indonesia</a></li>
+                        <li class="dropdown-item"><a href="/en{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/gb.svg" width="16" alt="English"> English</a></li>
+                        <li class="dropdown-item"><a href="/fr{{ page.url | replace('/en/', '/') | replace('/fr/', '/') | replace('/id/', '/') }}" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/fr.svg" width="16" alt="Français"> Français</a></li>
+                    </ul>
+                </li>
+            </div>
         </nav>
     </div>
 </header>
