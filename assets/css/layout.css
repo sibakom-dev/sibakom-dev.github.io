@@ -282,6 +282,10 @@
         padding: var(--spacing-sm) 0;
     }
 
+    .nav-item a svg {
+        pointer-events: none;
+    }
+
     .nav-toggle.active span:nth-child(1) {
         transform: translateY(9px) rotate(45deg);
     }
