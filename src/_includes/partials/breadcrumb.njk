@@ -1,0 +1,39 @@
+{% set parts = page.url.split('/') %}
+{% set lang = parts[1] %}
+{% set section = parts[2] %}
+{% set item = parts[3] %}
+
+{% if section and section != '' %}
+<nav aria-label="Breadcrumb" class="breadcrumb-container" style="padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--color-border); background: var(--color-surface); margin-bottom: var(--spacing-lg);">
+    <div class="container">
+        <ul style="display: flex; list-style: none; gap: 8px; font-size: var(--fs-sm); color: var(--color-text-muted); padding: 0; margin: 0; align-items: center; flex-wrap: wrap;">
+            <li>
+                <a href="/{{ lang }}/" style="color: var(--color-primary); text-decoration: none;">
+                    {% if lang == 'id' %}Beranda{% elif lang == 'fr' %}Accueil{% else %}Home{% endif %}
+                </a>
+            </li>
+            
+            {% if section and section != '' and section != 'index.html' %}
+                <li><span style="color: var(--color-border-hover);">/</span></li>
+                {% if (item and item != '' and item != 'index.html') and not pagination %}
+                    {# We are on a detail page #}
+                    <li>
+                        <a href="/{{ lang }}/{{ section }}/" style="color: var(--color-primary); text-decoration: none; text-transform: capitalize;">
+                            {{ section | replace("-", " ") }}
+                        </a>
+                    </li>
+                    <li><span style="color: var(--color-border-hover);">/</span></li>
+                    <li aria-current="page" style="color: var(--color-text); font-weight: var(--fw-medium); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 300px;">
+                        {{ title }}
+                    </li>
+                {% else %}
+                    {# We are on the section page or its pagination #}
+                    <li aria-current="page" style="color: var(--color-text); font-weight: var(--fw-medium); text-transform: capitalize;">
+                        {{ section | replace("-", " ") }}
+                    </li>
+                {% endif %}
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+{% endif %}
