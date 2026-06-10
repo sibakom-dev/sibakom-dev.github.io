@@ -83,3 +83,50 @@ function initMobileMenu() {
         });
     });
 }
+
+/**
+ * Handle Share Modal
+ */
+window.openShareModal = function() {
+    const modal = document.getElementById('shareModal');
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+};
+
+window.closeShareModal = function() {
+    const modal = document.getElementById('shareModal');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+};
+
+window.copyShareLink = function() {
+    const input = document.getElementById('shareInputLink');
+    if (input) {
+        input.select();
+        input.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(input.value).then(() => {
+            const btnText = document.querySelector('.share-icon-btn.copylink span');
+            if (btnText) {
+                const originalText = btnText.innerText;
+                btnText.innerText = 'Copied!';
+                setTimeout(() => {
+                    btnText.innerText = originalText;
+                }, 2000);
+            }
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    }
+};
+
+// Close modal when clicking outside
+document.addEventListener('click', (e) => {
+    const modal = document.getElementById('shareModal');
+    if (modal && e.target === modal) {
+        window.closeShareModal();
+    }
+});
