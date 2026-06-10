@@ -52,7 +52,33 @@ function initMobileMenu() {
     // Close menu when clicking on a link
     const navLinks = navMenu.querySelectorAll('a');
     navLinks.forEach(link => {
-        link.addEventListener('click', () => {
+        link.addEventListener('click', (e) => {
+            const parent = link.parentElement;
+            
+            // If this is a dropdown toggle, don't close the mobile menu
+            if (parent && parent.classList.contains('dropdown')) {
+                const dropdownMenu = parent.querySelector('.dropdown-menu');
+                if (dropdownMenu) {
+                    // Prevent default navigation to allow opening the dropdown
+                    e.preventDefault();
+                    
+                    const isOpen = dropdownMenu.style.visibility === 'visible';
+                    // Reset all other dropdowns
+                    navMenu.querySelectorAll('.dropdown-menu').forEach(menu => {
+                        menu.style.visibility = '';
+                        menu.style.opacity = '';
+                        menu.style.position = '';
+                    });
+                    
+                    if (!isOpen) {
+                        dropdownMenu.style.visibility = 'visible';
+                        dropdownMenu.style.opacity = '1';
+                        dropdownMenu.style.position = 'relative'; // Flow with document on mobile
+                    }
+                }
+                return; // Do not close the main nav menu
+            }
+
             navToggle.classList.remove('active');
             navMenu.classList.remove('active');
             navToggle.setAttribute('aria-expanded', 'false');
@@ -60,42 +86,3 @@ function initMobileMenu() {
         });
     });
 }
-
-// Share Modal Logic
-function openShareModal() {
-    const modal = document.getElementById('shareModal');
-    if(modal) {
-        modal.classList.add('active');
-    }
-}
-
-function closeShareModal() {
-    const modal = document.getElementById('shareModal');
-    if(modal) {
-        modal.classList.remove('active');
-    }
-}
-
-function copyShareLink() {
-    const input = document.getElementById('shareInputLink');
-    if(input) {
-        input.select();
-        input.setSelectionRange(0, 99999); // For mobile devices
-        navigator.clipboard.writeText(input.value).then(() => {
-            const btnSpan = document.querySelector('.copylink span');
-            const originalText = btnSpan.innerText;
-            btnSpan.innerText = "Copied!";
-            setTimeout(() => {
-                btnSpan.innerText = originalText;
-            }, 2000);
-        });
-    }
-}
-
-// Close modal when clicking outside
-window.addEventListener('click', function(event) {
-    const modal = document.getElementById('shareModal');
-    if (event.target == modal) {
-        closeShareModal();
-    }
-});
