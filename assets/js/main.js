@@ -52,7 +52,36 @@ function initMobileMenu() {
     // Close menu when clicking on a link
     const navLinks = navMenu.querySelectorAll('a');
     navLinks.forEach(link => {
-        link.addEventListener('click', () => {
+        link.addEventListener('click', (e) => {
+            const parent = link.parentElement;
+            
+            // If this is a dropdown toggle, don't close the mobile menu
+            if (parent && parent.classList.contains('dropdown')) {
+                // If it's just a toggle (href="#"), prevent jumping to top
+                if (link.getAttribute('href') === '#') {
+                    e.preventDefault();
+                    
+                    // Toggle dropdown visibility on mobile
+                    const dropdownMenu = parent.querySelector('.dropdown-menu');
+                    if (dropdownMenu) {
+                        const isOpen = dropdownMenu.style.visibility === 'visible';
+                        // Reset all other dropdowns
+                        navMenu.querySelectorAll('.dropdown-menu').forEach(menu => {
+                            menu.style.visibility = '';
+                            menu.style.opacity = '';
+                            menu.style.position = '';
+                        });
+                        
+                        if (!isOpen) {
+                            dropdownMenu.style.visibility = 'visible';
+                            dropdownMenu.style.opacity = '1';
+                            dropdownMenu.style.position = 'relative'; // Flow with document on mobile
+                        }
+                    }
+                }
+                return; // Do not close the main nav menu
+            }
+
             navToggle.classList.remove('active');
             navMenu.classList.remove('active');
             navToggle.setAttribute('aria-expanded', 'false');
