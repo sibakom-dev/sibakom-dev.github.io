@@ -8,5 +8,6 @@
   "header_bg": "#c0cbd8ff",
   "header_bg_scrolled": "#f4f4f4ff",
   "header_blur": 1,
-  "font_family": "Montserrat"
+  "font_family": "Montserrat",
+  "maintenance_mode": false
 }
