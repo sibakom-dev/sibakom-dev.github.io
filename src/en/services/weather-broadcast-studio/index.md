@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Weather Broadcast Studio
 description: Weather Broadcast Studio details for SIBAKOM.
 heroImage: /assets/images/pages/broadcast-studio-green-screen.jpg
-path: weather-broadcast-studio\index
+path: weather-broadcast-studio/index
 ---
 
 We empower weather broadcasters and digital media outlets with comprehensive weather dissemination systems, similar to the industry-leading Baron Lynx platform.

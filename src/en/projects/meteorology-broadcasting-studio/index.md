@@ -6,7 +6,7 @@ client: BMKG
 location: Jakarta
 technology: Virtual Studio, Lynx
 heroImage: /assets/images/pages/corporate-building.jpg
-path: meteorology-broadcasting-studio\index
+path: meteorology-broadcasting-studio/index
 ---
 
 Content for Meteorology Broadcasting Studio goes here. This is a placeholder that will be updated later.

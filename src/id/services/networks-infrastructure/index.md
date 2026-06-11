@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Jaringan & Infrastruktur
 description: Detail Jaringan & Infrastruktur untuk SIBAKOM.
 heroImage: /assets/images/pages/data-center-racks.jpg
-path: networks-infrastructure\index
+path: networks-infrastructure/index
 sections:
   - title: Ketahanan Listrik & Tenaga
     image: /assets/images/pages/data-center-racks.jpg

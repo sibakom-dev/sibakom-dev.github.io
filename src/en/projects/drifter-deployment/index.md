@@ -6,7 +6,7 @@ client: Marine Research Institute
 location: Indian Ocean
 technology: Ocean Drifter Buoys
 heroImage: /assets/images/pages/corporate-building.jpg
-path: drifter-deployment\index
+path: drifter-deployment/index
 ---
 
 Content for Drifter Deployment goes here. This is a placeholder that will be updated later.

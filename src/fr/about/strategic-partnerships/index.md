@@ -5,7 +5,7 @@ description: >-
   Il s'agit de la stratégie globale SIBAKOM, du groupe BMKG, de Baron Weather,
   de CLS, de Raymetrics et de Sterela.
 heroImage: /assets/images/pages/corporate-building.jpg
-path: strategic-partnerships\index
+path: strategic-partnerships/index
 ---
 
 <div class="rich-content">

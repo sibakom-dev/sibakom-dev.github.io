@@ -4,7 +4,7 @@ title: Maritime Meteorology
 description: Maritime Meteorology details for SIBAKOM.
 heroImage: /assets/images/pages/ocean-buoy.jpg
 subtitle: Ocean Observing Systems
-path: maritime-meteorology\index
+path: maritime-meteorology/index
 sections:
   - title: "Moored Buoy Networks"
     image: "/assets/images/pages/surabaya-radar-dome.jpg"

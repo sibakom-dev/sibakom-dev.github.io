@@ -4,7 +4,7 @@ title: Advanced Weather Radar Systems
 description: Advanced Weather Radar Systems details for SIBAKOM.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
 subtitle: Precision Volumetric Tracking
-path: weather-radar\index
+path: weather-radar/index
 sections:
   - title: "Dual-Polarization Precision"
     image: "/assets/images/pages/s-band-radar.jpg"

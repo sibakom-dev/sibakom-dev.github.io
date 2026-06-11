@@ -4,7 +4,7 @@ title: Custom NWP Models & Analysis
 description: Custom NWP Models & Analysis details for SIBAKOM.
 heroImage: /assets/images/pages/weather-supercomputer.jpg
 subtitle: High-Resolution Predictive Analytics
-path: custom-nwp-models\index
+path: custom-nwp-models/index
 sections:
   - title: "WRF Downscaling"
     image: "/assets/images/pages/data-center-racks.jpg"

@@ -6,7 +6,7 @@ heroImage: /assets/images/pages/surabaya-radar-dome.jpg
 client: BMKG
 location: 'Surabaya, East Java'
 technology: 'C-Band Weather Radar, Dual-Polarization'
-path: surabaya-radar-installation\index
+path: surabaya-radar-installation/index
 ---
 <h3>Ikhtisar Proyek</h3>
 SIBAKOM dikontrak untuk mengerahkan radar cuaca polarisasi ganda C-Band yang canggih di Surabaya. Titik kritis ini memperluas cakupan BMKG di wilayah padat penduduk di Jawa Timur, sehingga secara signifikan meningkatkan kemampuan peringatan dini terhadap banjir musiman yang parah.

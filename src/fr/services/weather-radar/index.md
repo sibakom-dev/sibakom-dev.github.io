@@ -4,7 +4,7 @@ title: Sistem Radar Cuaca Tingkat Lanjut
 description: Détail du système radar Cuaca Tingkat Lanjut pour SIBAKOM.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
 subtitle: Precision Volumetric Tracking
-path: weather-radar\index
+path: weather-radar/index
 sections:
   - title: Presisi Polarisasi Ganda
     image: /assets/images/pages/s-band-radar.jpg

@@ -4,7 +4,7 @@ title: Model & Analisis NWP Khusus
 description: Detail Model & Analisis NWP Khusus untuk SIBAKOM.
 heroImage: /assets/images/pages/weather-supercomputer.jpg
 subtitle: High-Resolution Predictive Analytics
-path: custom-nwp-models\index
+path: custom-nwp-models/index
 sections:
   - title: Penurunan Skala WRF
     image: /assets/images/pages/data-center-racks.jpg

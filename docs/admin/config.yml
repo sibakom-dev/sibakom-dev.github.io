@@ -29,6 +29,43 @@ collections:
           - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
           - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
           - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
+          - label: "Company Statistics"
+            name: "statistics"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Show Plus Sign", name: "plus", widget: "boolean", default: false, required: false}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+          - {label: "Why SIBAKOM: Subtitle", name: "why_subtitle", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Title", name: "why_title", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Description", name: "why_description", widget: "text", required: false}
+          - {label: "Why SIBAKOM: Image", name: "why_image", widget: "image", required: false}
+          - label: "Why SIBAKOM: Points"
+            name: "why_points"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Point Text", name: "text", widget: "string"}
+          - {label: "Why SIBAKOM: Button Text", name: "why_btn_text", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Button Link", name: "why_btn_link", widget: "string", required: false}
+          - {label: "Zigzag Block Subtitle", name: "zigzag_subtitle", widget: "string", required: false}
+          - {label: "Zigzag Block Title", name: "zigzag_title", widget: "string", required: false}
+          - {label: "Projects: Subtitle", name: "projects_subtitle", widget: "string", required: false}
+          - {label: "Projects: Title", name: "projects_title", widget: "string", required: false}
+          - {label: "Projects: Button Text", name: "projects_btn_text", widget: "string", required: false}
+          - {label: "Projects: Button Link", name: "projects_btn_link", widget: "string", required: false}
+          - label: "Highlighted Projects"
+            name: "highlighted_projects"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Link URL", name: "link", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Zigzag Sections"
             name: "sections"
@@ -77,6 +114,43 @@ collections:
           - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
           - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
           - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
+          - label: "Company Statistics"
+            name: "statistics"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Show Plus Sign", name: "plus", widget: "boolean", default: false, required: false}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+          - {label: "Why SIBAKOM: Subtitle", name: "why_subtitle", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Title", name: "why_title", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Description", name: "why_description", widget: "text", required: false}
+          - {label: "Why SIBAKOM: Image", name: "why_image", widget: "image", required: false}
+          - label: "Why SIBAKOM: Points"
+            name: "why_points"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Point Text", name: "text", widget: "string"}
+          - {label: "Why SIBAKOM: Button Text", name: "why_btn_text", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Button Link", name: "why_btn_link", widget: "string", required: false}
+          - {label: "Zigzag Block Subtitle", name: "zigzag_subtitle", widget: "string", required: false}
+          - {label: "Zigzag Block Title", name: "zigzag_title", widget: "string", required: false}
+          - {label: "Projects: Subtitle", name: "projects_subtitle", widget: "string", required: false}
+          - {label: "Projects: Title", name: "projects_title", widget: "string", required: false}
+          - {label: "Projects: Button Text", name: "projects_btn_text", widget: "string", required: false}
+          - {label: "Projects: Button Link", name: "projects_btn_link", widget: "string", required: false}
+          - label: "Highlighted Projects"
+            name: "highlighted_projects"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Link URL", name: "link", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Zigzag Sections"
             name: "sections"
@@ -125,6 +199,43 @@ collections:
           - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
           - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
           - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
+          - label: "Company Statistics"
+            name: "statistics"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Show Plus Sign", name: "plus", widget: "boolean", default: false, required: false}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+          - {label: "Why SIBAKOM: Subtitle", name: "why_subtitle", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Title", name: "why_title", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Description", name: "why_description", widget: "text", required: false}
+          - {label: "Why SIBAKOM: Image", name: "why_image", widget: "image", required: false}
+          - label: "Why SIBAKOM: Points"
+            name: "why_points"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Point Text", name: "text", widget: "string"}
+          - {label: "Why SIBAKOM: Button Text", name: "why_btn_text", widget: "string", required: false}
+          - {label: "Why SIBAKOM: Button Link", name: "why_btn_link", widget: "string", required: false}
+          - {label: "Zigzag Block Subtitle", name: "zigzag_subtitle", widget: "string", required: false}
+          - {label: "Zigzag Block Title", name: "zigzag_title", widget: "string", required: false}
+          - {label: "Projects: Subtitle", name: "projects_subtitle", widget: "string", required: false}
+          - {label: "Projects: Title", name: "projects_title", widget: "string", required: false}
+          - {label: "Projects: Button Text", name: "projects_btn_text", widget: "string", required: false}
+          - {label: "Projects: Button Link", name: "projects_btn_link", widget: "string", required: false}
+          - label: "Highlighted Projects"
+            name: "highlighted_projects"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Link URL", name: "link", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Zigzag Sections"
             name: "sections"

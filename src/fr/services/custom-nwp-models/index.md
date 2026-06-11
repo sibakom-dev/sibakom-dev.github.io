@@ -4,7 +4,7 @@ title: Modèle et analyse PNT Khusus
 description: Modèle détaillé et analyse NWP Khusus pour SIBAKOM.
 heroImage: /assets/images/pages/weather-supercomputer.jpg
 subtitle: High-Resolution Predictive Analytics
-path: custom-nwp-models\index
+path: custom-nwp-models/index
 sections:
   - title: Penurunan Skala WRF
     image: /assets/images/pages/data-center-racks.jpg

@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Agrometeorologi
 description: Detail Agrometeorologi untuk SIBAKOM.
 heroImage: /assets/images/pages/precision-agriculture.jpg
-path: agrometeorology\index
+path: agrometeorology/index
 sections:
   - title: Pemodelan Tanaman & Analisis Tanah
     image: /assets/images/pages/precision-agriculture.jpg

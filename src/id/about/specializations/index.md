@@ -5,7 +5,7 @@ description: >-
   Spesialisasi teknik inti SIBAKOM di bidang meteorologi, klimatologi, dan
   observasi kelautan.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
-path: specializations\index
+path: specializations/index
 ---
 
 <div class="rich-content">

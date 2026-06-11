@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Studio Siaran Cuaca
 description: Detail Studio Siaran Cuaca untuk SIBAKOM.
 heroImage: /assets/images/pages/broadcast-studio-green-screen.jpg
-path: weather-broadcast-studio\index
+path: weather-broadcast-studio/index
 ---
 Kami memberdayakan lembaga penyiaran cuaca dan media digital dengan sistem penyebaran cuaca yang komprehensif, mirip dengan platform Baron Lynx yang terkemuka di industri.
 

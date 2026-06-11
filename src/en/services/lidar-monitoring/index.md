@@ -4,7 +4,7 @@ title: 3D LiDAR Monitoring
 description: 3D LiDAR Monitoring details for SIBAKOM.
 heroImage: /assets/images/pages/lidar-laser-beam.jpg
 subtitle: Atmospheric Aerosol Tracking
-path: lidar-monitoring\index
+path: lidar-monitoring/index
 sections:
   - title: "Volcanic Ash Detection"
     image: "/assets/images/pages/x-band-radar.jpg"

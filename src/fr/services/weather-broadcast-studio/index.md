@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Studio Siaran Cuaca
 description: Détail Studio Siaran Cuaca pour SIBAKOM.
 heroImage: /assets/images/pages/broadcast-studio-green-screen.jpg
-path: weather-broadcast-studio\index
+path: weather-broadcast-studio/index
 ---
 Nous dotons les diffuseurs météorologiques et les médias numériques de systèmes complets de diffusion météo, similaires à la plateforme Baron Lynx, leader du secteur.
 

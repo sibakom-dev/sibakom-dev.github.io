@@ -5,7 +5,7 @@ description: >-
   Temukan jaringan mitra strategis global SIBAKOM, termasuk BMKG, Baron Weather,
   CLS, Raymetrics, dan Sterela.
 heroImage: /assets/images/pages/corporate-building.jpg
-path: strategic-partnerships\index
+path: strategic-partnerships/index
 ---
 
 <div class="rich-content">

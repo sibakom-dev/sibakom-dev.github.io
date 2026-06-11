@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Engineering Specializations
 description: SIBAKOM's core engineering specializations across meteorology, climatology, and marine observation.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
-path: specializations\index
+path: specializations/index
 ---
 
 <div class="rich-content">

@@ -4,7 +4,7 @@ title: Pemantauan LiDAR 3D
 description: Detail Pemantauan LiDAR 3D untuk SIBAKOM.
 heroImage: /assets/images/pages/lidar-laser-beam.jpg
 subtitle: Atmospheric Aerosol Tracking
-path: lidar-monitoring\index
+path: lidar-monitoring/index
 sections:
   - title: Deteksi Abu Vulkanik
     image: /assets/images/pages/x-band-radar.jpg

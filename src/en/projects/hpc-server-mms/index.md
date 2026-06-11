@@ -6,7 +6,7 @@ client: BMKG
 location: Jakarta
 technology: HPC Cluster
 heroImage: /assets/images/pages/corporate-building.jpg
-path: hpc-server-mms\index
+path: hpc-server-mms/index
 ---
 
 Content for HPC Server MMS Project goes here. This is a placeholder that will be updated later.

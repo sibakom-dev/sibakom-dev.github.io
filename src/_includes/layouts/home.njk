@@ -41,30 +41,18 @@ layout: layouts/base.njk
 <section style="position: relative; z-index: 20; margin-top: -80px; padding-bottom: var(--spacing-xl);">
     <div class="container">
         <div class="grid grid-4 gap-md">
-            <a href="{{ '/about/' | locale_url }}" style="text-decoration: none;">
+            {% for stat in statistics %}
+            <a href="{{ stat.link | locale_url }}" style="text-decoration: none;">
                 <div class="stats-card" style="height: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
-                    <div class="stats-number" data-count="40" data-plus="true">0</div>
-                    <div class="stats-label">Years Experience</div>
+                    {% if stat.number | int > 0 %}
+                    <div class="stats-number" data-count="{{ stat.number }}" {% if stat.plus %}data-plus="true"{% endif %}>0</div>
+                    {% else %}
+                    <div class="stats-number" style="font-size: 2.5rem;">{{ stat.number }}</div>
+                    {% endif %}
+                    <div class="stats-label">{{ stat.label }}</div>
                 </div>
             </a>
-            <a href="{{ '/projects/' | locale_url }}" style="text-decoration: none;">
-                <div class="stats-card" style="height: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
-                    <div class="stats-number" data-count="100" data-plus="true">0</div>
-                    <div class="stats-label">Completed Projects</div>
-                </div>
-            </a>
-            <a href="{{ '/about/strategic-partnerships/' | locale_url }}" style="text-decoration: none;">
-                <div class="stats-card" style="height: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
-                    <div class="stats-number" style="font-size: 2.5rem;">World-Class</div>
-                    <div class="stats-label">Strategic Partners</div>
-                </div>
-            </a>
-            <a href="{{ '/about/specializations/' | locale_url }}" style="text-decoration: none;">
-                <div class="stats-card" style="height: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
-                    <div class="stats-number" style="font-size: 2.5rem;">Extensive</div>
-                    <div class="stats-label">Domestic & ASEAN Project Delivered</div>
-                </div>
-            </a>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -143,52 +131,33 @@ document.addEventListener("DOMContentLoaded", () => {
 <section class="section">
     <div class="container grid grid-2 gap-lg align-center">
         <div>
-            <img src="/assets/images/pages/engineering-team.jpg" alt="Engineering Excellence"
+            <img src="{{ why_image }}" alt="{{ why_title }}"
                 style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); width: 100%; object-fit: cover;">
         </div>
         <div class="d-flex flex-column gap-md">
             <div class="section-header text-left" style="margin-left: 0;">
-                <span class="section-subtitle">Why SIBAKOM</span>
-                <h2 class="section-title">Pioneering Reliable Environmental Monitoring</h2>
-                <p class="section-desc">We bridge the gap between complex meteorological instrumentation and
-                    actionable data, ensuring every sensor, server, and transmission node operates flawlessly in
-                    demanding environments.</p>
+                <span class="section-subtitle">{{ why_subtitle }}</span>
+                <h2 class="section-title">{{ why_title }}</h2>
+                <p class="section-desc">{{ why_description }}</p>
             </div>
 
             <div class="d-flex flex-column gap-sm">
+                {% for point in why_points %}
                 <div class="d-flex align-center gap-sm">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)"
                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
-                    <span class="font-semibold" style="font-size: 1.1rem;">End-to-end System Integration</span>
+                    <span class="font-semibold" style="font-size: 1.1rem;">{{ point.text }}</span>
                 </div>
-                <div class="d-flex align-center gap-sm">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                    <span class="font-semibold" style="font-size: 1.1rem;">World-class Equipment Partnerships</span>
-                </div>
-                <div class="d-flex align-center gap-sm">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                    <span class="font-semibold" style="font-size: 1.1rem;">Dedicated Local Technical Support</span>
-                </div>
-                <div class="d-flex align-center gap-sm">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                    <span class="font-semibold" style="font-size: 1.1rem;">Rigorous Quality Assurance Standards</span>
-                </div>
+                {% endfor %}
             </div>
 
+            {% if why_btn_link and why_btn_text %}
             <div style="margin-top: var(--spacing-sm);">
-                <a href="{{ '/about/' | locale_url }}" class="btn btn-primary">Learn About Our History</a>
+                <a href="{{ why_btn_link | locale_url }}" class="btn btn-primary">{{ why_btn_text }}</a>
             </div>
+            {% endif %}
         </div>
     </div>
 </section>
@@ -197,25 +166,21 @@ document.addEventListener("DOMContentLoaded", () => {
 <section class="section section-bg-alt">
     <div class="container">
         <div class="section-header">
-            <span class="section-subtitle">Integration Excellence</span>
-            <h2 class="section-title">Mastering The Infrastructure</h2>
+            <span class="section-subtitle">{{ zigzag_subtitle }}</span>
+            <h2 class="section-title">{{ zigzag_title }}</h2>
         </div>
         
-        <div class="zigzag-section">
+        {% for section in sections %}
+        <div class="zigzag-section{% if section.reverse %} reverse{% endif %}" style="margin-top: {% if loop.first %}0{% else %}var(--spacing-xl){% endif %};">
             <div class="zigzag-text">
-                <h3>Robust Data Center Architecture</h3>
-                <p>Mission-critical weather operations require zero downtime. SIBAKOM architects robust, highly available data centers precisely tuned for the intense I/O demands of High-Performance Computing (HPC) meteorological models.</p>
-                <ul>
-                    <li>Precision cooling systems for server arrays.</li>
-                    <li>Automated inert-gas fire protection.</li>
-                    <li>N+1 redundant power topologies.</li>
-                </ul>
-                <a href="{{ '/services/networks-infrastructure/' | locale_url }}" class="btn btn-secondary" style="margin-top: 1rem;">View Infrastructure</a>
+                <h3>{{ section.title }}</h3>
+                {{ section.text | safe }}
             </div>
             <div class="zigzag-image">
-                <img src="/assets/images/pages/data-center-racks.jpg" alt="Data Center Architecture">
+                <img src="{{ section.image }}" alt="{{ section.title }}">
             </div>
         </div>
+        {% endfor %}
     </div>
 </section>
 
@@ -224,45 +189,27 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="container">
         <div class="section-header d-flex justify-between align-center" style="max-width: 100%;">
             <div class="text-left" style="max-width: 500px;">
-                <span class="section-subtitle">Proven Track Record</span>
-                <h2 class="section-title">Project Highlights</h2>
+                <span class="section-subtitle">{{ projects_subtitle }}</span>
+                <h2 class="section-title">{{ projects_title }}</h2>
             </div>
-            <a href="{{ '/projects/' | locale_url }}" class="btn btn-secondary">Explore Project Profile</a>
+            {% if projects_btn_link and projects_btn_text %}
+            <a href="{{ projects_btn_link | locale_url }}" class="btn btn-secondary">{{ projects_btn_text }}</a>
+            {% endif %}
         </div>
         <div class="grid grid-3 gap-md">
-            <a href="/{{ locale }}/projects/surabaya-radar-installation/" class="project-card" style="text-decoration: none; color: inherit;">
+            {% for project in highlighted_projects %}
+            <a href="{{ project.link | locale_url }}" class="project-card" style="text-decoration: none; color: inherit;">
                 <div class="project-img-wrapper">
-                    <span class="project-tag">Meteorology</span>
-                    <img src="https://picsum.photos/seed/radarproj/400/250" alt="Radar Installation" class="project-img">
+                    <span class="project-tag">{{ project.tag }}</span>
+                    <img src="{{ project.image }}" alt="{{ project.title }}" class="project-img">
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">{{ translations[locale].project_1_title | default("Surabaya Radar Installation") }}</h3>
-                    <p class="project-desc">{{ translations[locale].project_1_desc | default("A state-of-the-art C-Band radar deployment ensuring precise weather tracking for the region.") }}</p>
+                    <h3 class="project-title">{{ project.title }}</h3>
+                    <p class="project-desc">{{ project.description }}</p>
                     <span class="project-link">{{ translations[locale].view_case_study | default("View Case Study") }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
                 </div>
             </a>
-            <a href="/{{ locale }}/projects/hpc-server-mms/" class="project-card" style="text-decoration: none; color: inherit;">
-                <div class="project-img-wrapper">
-                    <span class="project-tag">Data Center</span>
-                    <img src="https://picsum.photos/seed/datacenterproj/400/250" alt="Data Center Upgrade" class="project-img">
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">{{ translations[locale].project_2_title | default("HPC Server MMS") }}</h3>
-                    <p class="project-desc">{{ translations[locale].project_2_desc | default("High Performance Computing infrastructure to process complex meteorological models.") }}</p>
-                    <span class="project-link">{{ translations[locale].view_case_study | default("View Case Study") }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
-                </div>
-            </a>
-            <a href="/{{ locale }}/projects/meteorology-broadcasting-studio/" class="project-card" style="text-decoration: none; color: inherit;">
-                <div class="project-img-wrapper">
-                    <span class="project-tag">Broadcasting</span>
-                    <img src="https://picsum.photos/seed/studioproj/400/250" alt="Broadcasting Studio" class="project-img">
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">{{ translations[locale].project_3_title | default("Meteorology Broadcasting Studio") }}</h3>
-                    <p class="project-desc">{{ translations[locale].project_3_desc | default("A modern, fully-equipped studio for broadcasting real-time weather reports.") }}</p>
-                    <span class="project-link">{{ translations[locale].view_case_study | default("View Case Study") }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
-                </div>
-            </a>
+            {% endfor %}
         </div>
     </div>
 </section>

@@ -5,7 +5,7 @@ description: >-
   Technique spécialisée chez SIBAKOM pour la météorologie, la climatologie et
   l'observation des choses.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
-path: specializations\index
+path: specializations/index
 ---
 
 <div class="rich-content">

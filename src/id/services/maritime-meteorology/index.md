@@ -4,7 +4,7 @@ title: Meteorologi Maritim
 description: Detail Meteorologi Maritim untuk SIBAKOM.
 heroImage: /assets/images/pages/ocean-buoy.jpg
 subtitle: Ocean Observing Systems
-path: maritime-meteorology\index
+path: maritime-meteorology/index
 sections:
   - title: Jaringan Pelampung Tertambat
     image: /assets/images/pages/surabaya-radar-dome.jpg
