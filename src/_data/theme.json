@@ -9,5 +9,5 @@
   "header_bg_scrolled": "#f4f4f4ff",
   "header_blur": 1,
   "font_family": "Montserrat",
-  "maintenance_mode": true
+  "maintenance_mode": false
 }
