@@ -50,303 +50,58 @@
 </head>
 <body>
     
-        <header class="header">
-    <div class="container navbar">
-        <a href="/en/" class="nav-brand">
-            <img src="/assets/images/Sibakom_Logo.png" alt="SIBAKOM Logo">
-        </a>
-
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-
-        <nav class="nav-menu">
-            <ul class="nav-links">
-                <li class="nav-item "><a href="/en/">Home</a></li>
-                <li class="nav-item dropdown ">
-                    <a href="/en/about/" style="display: flex; align-items: center; gap: 4px;">About Us <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-item"><a href="/en/about/specializations/">Specializations</a></li>
-                        <li class="dropdown-item"><a href="/en/about/strategic-partnerships/">Strategic Partnerships</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown active">
-                    <a href="/en/services/" style="display: flex; align-items: center; gap: 4px;">Services & Products <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-item"><a href="/en/services/weather-radar/">Weather Radar</a></li>
-                        <li class="dropdown-item"><a href="/en/services/custom-nwp-models/">Custom NWP Models</a></li>
-                        <li class="dropdown-item"><a href="/en/services/maritime-meteorology/">Maritime Meteorology</a></li>
-                        <li class="dropdown-item"><a href="/en/services/agrometeorology/">Agrometeorology</a></li>
-                        <li class="dropdown-item"><a href="/en/services/lidar-monitoring/">3D LiDAR Monitoring</a></li>
-                        <li class="dropdown-item"><a href="/en/services/weather-broadcast-studio/">Weather Broadcast Studio</a></li>
-                        <li class="dropdown-item"><a href="/en/services/networks-infrastructure/">Networks & Infrastructure</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item "><a href="/en/projects/">Project Profile</a></li>
-                <li class="nav-item "><a href="/en/newsroom/">Newsroom</a></li>
-            </ul>
-
-            <div class="nav-utilities">
-                <li class="nav-item contact-item"><a href="/en/contact/" class="btn-contact">Contact Us</a></li>
-                <li class="nav-item search-item">
-                    <a href="/en/search/" aria-label="Search">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                    </a>
-                </li>
-                <li class="nav-item dropdown lang-item">
-                    <a href="#" style="display: flex; align-items: center; gap: 4px;">🌐 EN <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                    <ul class="dropdown-menu lang-dropdown" style="min-width: 120px;">
-                        <li class="dropdown-item"><a href="/id/services/agrometeorology/" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/id.svg" width="16" alt="Indonesia"> Indonesia</a></li>
-                        <li class="dropdown-item"><a href="/en/services/agrometeorology/" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/gb.svg" width="16" alt="English"> English</a></li>
-                        <li class="dropdown-item"><a href="/fr/services/agrometeorology/" style="display: flex; align-items: center; gap: 8px;"><img src="https://flagcdn.com/fr.svg" width="16" alt="Français"> Français</a></li>
-                    </ul>
-                </li>
+        <style>
+            .maintenance-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                text-align: center;
+                padding: var(--spacing-lg);
+                background-color: var(--color-bg);
+            }
+            .maintenance-icon {
+                margin-bottom: var(--spacing-md);
+                color: var(--color-primary);
+                animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+                0% { opacity: 1; transform: scale(1); }
+                50% { opacity: 0.7; transform: scale(0.95); }
+                100% { opacity: 1; transform: scale(1); }
+            }
+            .maintenance-title {
+                font-size: var(--fs-3xl);
+                color: var(--color-text);
+                margin-bottom: var(--spacing-sm);
+                font-family: var(--font-heading);
+            }
+            .maintenance-desc {
+                font-size: var(--fs-lg);
+                color: var(--color-text-muted);
+                max-width: 600px;
+                line-height: var(--lh-relaxed);
+                font-family: var(--font-body);
+            }
+            .maintenance-logo {
+                margin-bottom: var(--spacing-xl);
+            }
+            .maintenance-logo img {
+                height: 60px;
+                width: auto;
+            }
+        </style>
+        <div class="maintenance-container">
+            <div class="maintenance-logo">
+                <img src="/assets/images/Sibakom_Logo.png" alt="SIBAKOM Logo">
             </div>
-        </nav>
-    </div>
-</header>
-
-        
-
-
-
-
-
-<nav aria-label="Breadcrumb" class="breadcrumb-container" style="padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--color-border); background: var(--color-surface); margin-bottom: var(--spacing-lg);">
-    <div class="container">
-        <ul style="display: flex; list-style: none; gap: 8px; font-size: var(--fs-sm); color: var(--color-text-muted); padding: 0; margin: 0; align-items: center; flex-wrap: wrap;">
-            <li>
-                <a href="/en/" style="color: var(--color-primary); text-decoration: none;">
-                    Home
-                </a>
-            </li>
-            
-            
-                <li><span style="color: var(--color-border-hover);">/</span></li>
-                
-                    
-                    <li>
-                        <a href="/en/services/" style="color: var(--color-primary); text-decoration: none; text-transform: capitalize;">
-                            services
-                        </a>
-                    </li>
-                    <li><span style="color: var(--color-border-hover);">/</span></li>
-                    <li aria-current="page" style="color: var(--color-text); font-weight: var(--fw-medium); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 300px;">
-                        Agrometeorology
-                    </li>
-                
-            
-        </ul>
-    </div>
-</nav>
-
-
-        
-        <section class="section" style="padding-top: 120px; min-height: 50vh;">
-    <div class="container">
-        
-        <div style="margin-bottom: var(--spacing-lg);">
-            <img src="/assets/images/pages/precision-agriculture.jpg" alt="Agrometeorology" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: var(--radius-lg);">
+            <div class="maintenance-icon">
+                <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <h1 class="maintenance-title">We'll be back soon!</h1>
+            <p class="maintenance-desc">We're currently performing scheduled maintenance to improve our services. Our website will be back online shortly. Thank you for your patience.</p>
         </div>
-        
-        <div class="section-header text-center">
-            
-            <h1 class="section-title" style="margin-bottom: var(--spacing-md);">Agrometeorology</h1>
-        </div>
-        <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text);">
-            <section class="section" style="padding-top: 0;">
-<div class="container text-center" style="max-width: 800px; margin-bottom: var(--spacing-xl);">
-<p class="text-lead" style="font-size: 1.25rem;">Transforming agricultural productivity through precision weather data, micro-climate analytics, and automated monitoring systems tailored for the Indonesian landscape.</p>
-</div>
-</section>
-
-
-            
-              
-                <div class="zigzag-section container " style="margin-top: var(--spacing-xl);">
-                  <div class="zigzag-text">
-                    <h3>Crop Modeling &amp; Soil Analytics</h3>
-                    We provide localized automated weather stations (AWS) equipped with advanced sensors specifically designed for agricultural needs.
-
-
-
-
-- **Soil Moisture Probes:** Multi-depth sensing to optimize irrigation.
-
-- **Solar Radiation Sensors:** Tracking PAR (Photosynthetically Active Radiation) for crop growth modeling.
-
-- **Leaf Wetness Indicators:** Crucial for predicting and preventing fungal disease outbreaks.
-
-
-
-This data feeds into advanced crop models to predict yield, optimize irrigation schedules, and maximize harvest quality.
-
-                  </div>
-                  <div class="zigzag-image">
-                    <img src="/assets/images/pages/precision-agriculture.jpg" alt="Crop Modeling &amp; Soil Analytics">
-                  </div>
-                </div>
-              
-                <div class="zigzag-section container reverse" style="margin-top: var(--spacing-xl);">
-                  <div class="zigzag-text">
-                    <h3>Drought &amp; Flood Early Warning</h3>
-                    Agriculture is highly vulnerable to extreme weather events. Our systems provide the critical lead time needed to protect crops and livelihoods.
-
-
-
-
-- **Precipitation Metrics:** High-resolution rain gauges and radar integration.
-
-- **Climatological Baselines:** Comparing real-time data against historical averages.
-
-- **Actionable Alerts:** Automated SMS and dashboard warnings for regional governments and farming cooperatives regarding impending water stress or inundation risks.
-
-                  </div>
-                  <div class="zigzag-image">
-                    <img src="/assets/images/pages/weather-supercomputer.jpg" alt="Drought &amp; Flood Early Warning">
-                  </div>
-                </div>
-              
-            
-
-            
-        </div>
-    </div>
-</section>
-
-
-        
-
-
-
-
-
-
-
-<footer class="footer">
-    <div class="container">
-        <!-- Updated to a responsive 5-column grid layout -->
-        <div class="footer-top"
-            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--spacing-lg);">
-
-            <!-- Column 1: Logo & Description -->
-            <div>
-                <a href="/en/" class="footer-logo" style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: var(--spacing-sm);">
-                    <img src="/assets/images/Sibakom_Logo.png" alt="SIBAKOM Logo"
-                        style="height: 60px; object-fit: contain; filter: brightness(0) invert(1);">
-                </a>
-                <p class="footer-desc"
-                    style="color: var(--color-border-hover); font-size: var(--fs-sm); line-height: var(--lh-relaxed); margin-bottom: var(--spacing-sm);">
-                    System Integrator for Environmental Solutions.
-                </p>
-                <p class="footer-desc"
-                    style="color: var(--color-border-hover); font-size: var(--fs-sm); line-height: var(--lh-relaxed);">
-                    Providing precision meteorological, maritime, and infrastructural technology across Indonesia.
-                </p>
-            </div>
-
-            <!-- Column 2: Quick Links -->
-            <div>
-                <h4 class="footer-title">Quick Links</h4>
-                <ul class="footer-links" style="gap: var(--spacing-sm);">
-                    <li><a href="/en/">Home</a></li>
-                    <li><a href="/en/about/">About Us</a></li>
-                    <li><a href="/en/projects/">Project Profile</a></li>
-                    <li><a href="/en/contact/">Contact Us</a></li>
-                </ul>
-            </div>
-
-            <!-- Column 3: Key Solutions -->
-            <div>
-                <h4 class="footer-title">Services &amp; Products</h4>
-                <ul class="footer-links" style="gap: var(--spacing-sm);">
-                    <li><a href="/en/services/weather-radar/">Weather Radar</a></li>
-                    <li><a href="/en/services/custom-nwp-models/">Custom NWP<br>Models</a></li>
-                    <li><a href="/en/services/maritime-meteorology/">Maritime Meteorology</a></li>
-                    <li><a href="/en/services/agrometeorology/">Agrometeorology</a></li>
-                    <li><a href="/en/services/lidar-monitoring/">3D LiDAR Systems</a></li>
-                </ul>
-            </div>
-
-            <!-- Column 4: Reach Us -->
-            <div>
-                <h4 class="footer-title">Reach Us</h4>
-
-                <div
-                    style="font-size: var(--fs-xs); font-weight: var(--fw-bold); color: var(--color-secondary); text-transform: uppercase; margin-bottom: 6px; letter-spacing: 0.05em;">
-                    Main Office</div>
-                <p
-                    style="color: var(--color-border-hover); font-size: var(--fs-sm); line-height: var(--lh-relaxed); margin-bottom: var(--spacing-md);">
-                    Grand Puri Niaga Blok K6/3D<br>
-                    Jl. Puri Kencana, Kembangan<br>
-                    Jakarta 11610<br>
-                    Tel: <a href="tel:+622158351660"
-                        style="color: var(--color-border-hover); text-decoration: none;">+6221 58351660</a>
-                </p>
-
-                <div
-                    style="font-size: var(--fs-xs); font-weight: var(--fw-bold); color: var(--color-secondary); text-transform: uppercase; margin-bottom: 6px; letter-spacing: 0.05em;">
-                    Branch Office</div>
-                <p
-                    style="color: var(--color-border-hover); font-size: var(--fs-sm); line-height: var(--lh-relaxed); margin-bottom: var(--spacing-md);">
-                    Jl. Brigjen Katamso Belakang<br>
-                    No. 46 - 48, Medan 20151<br>
-                    Tel: <a href="tel:+62614515386"
-                        style="color: var(--color-border-hover); text-decoration: none;">+6261 4515386</a>
-                </p>
-
-                <div
-                    style="font-size: var(--fs-xs); font-weight: var(--fw-bold); color: var(--color-secondary); text-transform: uppercase; margin-bottom: 6px; letter-spacing: 0.05em;">
-                    Open Hours</div>
-                <p
-                    style="color: var(--color-border-hover); font-size: var(--fs-sm); line-height: var(--lh-relaxed); margin-bottom: 0;">
-                    Mon-Fri 10:00 - 17:00
-                </p>
-            </div>
-
-            <!-- Column 5: Contact -->
-            <div>
-                <h4 class="footer-title">Contact</h4>
-                <ul class="footer-links" style="gap: var(--spacing-md);">
-                    <li><a href="mailto:info@sibakom.com">info@sibakom.com</a></li>
-                    <li><a href="tel:+622158351660">+62 21 5835 1660</a></li>
-                    <li
-                        style="color: var(--color-border-hover); font-size: var(--fs-sm); line-height: var(--lh-relaxed);">
-                        Jakarta, Indonesia<br>
-                        Corporate Headquarters
-                    </li>
-                </ul>
-
-                <h4 class="footer-title" style="margin-top: var(--spacing-md);">Follow Us</h4>
-                <ul class="footer-links" style="gap: var(--spacing-sm); display: flex; flex-direction: row;">
-                    <li><a href="https://instagram.com/sibakom_official" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                    </a></li>
-                    <li><a href="https://linkedin.com/company/pt-sibakom/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                    </a></li>
-                    <li><a href="https://x.com/sibakom" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
-                    </a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <div class="footer-copy">&copy; 2026 SIBAKOM. All rights reserved.</div>
-            <div class="footer-bottom-links">
-                <a href="/en/legal/privacy-policy/">Privacy Policy</a>
-                <a href="/en/legal/terms-of-service/">Terms of Service</a>
-            </div>
-        </div>
-    </div>
-</footer>
-
-        
-        <!-- Scripts -->
-        <script src="/assets/js/main.js?v=1.3"></script>
     
 </body>
 </html>
