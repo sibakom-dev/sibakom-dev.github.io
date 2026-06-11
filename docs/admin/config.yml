@@ -275,6 +275,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -304,6 +308,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -333,6 +341,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -362,6 +374,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -391,6 +407,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -420,6 +440,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -449,6 +473,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -478,6 +506,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -507,6 +539,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -536,6 +572,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -565,6 +605,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
@@ -594,6 +638,10 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", required: false}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Zigzag Sections"
         name: "sections"
