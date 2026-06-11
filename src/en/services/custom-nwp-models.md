@@ -1,4 +1,5 @@
 ---
+permalink: /en/services/custom-nwp-models/
 layout: layouts/page.njk
 title: Custom NWP Models & Analysis
 description: Custom NWP Models & Analysis details for SIBAKOM.

@@ -1,7 +1,8 @@
 ---
+permalink: /fr/services/weather-radar/
 layout: layouts/page.njk
 title: Sistem Radar Cuaca Tingkat Lanjut
-description: Detail Sistem Radar Cuaca Tingkat Lanjut untuk SIBAKOM.
+description: Détail du système radar Cuaca Tingkat Lanjut pour SIBAKOM.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
 subtitle: Precision Volumetric Tracking
 path: weather-radar/index
@@ -10,37 +11,37 @@ sections:
     image: /assets/images/pages/s-band-radar.jpg
     text: >-
       SIBAKOM menerapkan teknologi polarisasi ganda yang canggih. Dengan
-      mentransmisikan gelombang radio horizontal dan vertikal, radar kami
-      menentukan bentuk, ukuran, dan klasifikasi hidrometeor di atmosfer secara
+      mentransmisikan gelombang radio horizontal and vertical, radar kami
+      menentukan bentuk, ukuran, and an classique hidrometeor di atmosfer secara
       tepat.
 
 
 
 
 
-      - Perbedaan akurat antara hujan, salju, dan hujan es.
+      - Perbedaan akurat antara hujan, salju, et hujan es.
 
 
-      - Deteksi tanda puing Tornado untuk peringatan segera.
+      - Deteksi tanda puing Tornado pour peringatan segera.
 
 
-      - Koreksi atenuasi tingkat lanjut untuk musim hujan lebat.
+      - Koreksi attenuasi tingkat lanjut pour musim hujan lebat.
   - title: Mesin Penekan Kekacauan
     image: /assets/images/pages/c-band-radar.jpg
     text: >-
-      Daerah pegunungan dan lanskap perkotaan di Indonesia seringkali
-      menimbulkan kesan yang salah. Unit pemrosesan sinyal kami menggunakan
-      algoritma CLEAN-AP (Clutter Environment Analysis) untuk menyaring secara
-      dinamis kekacauan di darat, kekacauan di laut, dan propagasi anomali.
+      Daerah Pegunungan et Lanskap Perkotaan di Indonesia seringkali menimbulkan
+      kesan yang salah. L'unité utilise simplement l'algorithme CLEAN-AP
+      (Clutter Environment Analysis) pour détecter les secousses dynamiques, les
+      pertes de bruit et la propagation des anomalies.
 
 
 
 
 
-      - Pemfilteran dinamis waktu nyata tanpa kehilangan data.
+      - Pemfilteran dinamis waktu nyata tanpa kehilangan données.
 
 
-      - Mode udara jernih untuk melacak lapisan batas dan serangga.
+      - Mode udara jernih pour melacak lapisan batas and serangga.
 
 
       - Peningkatan waktu pembaruan volumetrik.

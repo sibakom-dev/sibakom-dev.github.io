@@ -1,4 +1,5 @@
 ---
+permalink: /en/services/lidar-monitoring/
 layout: layouts/page.njk
 title: 3D LiDAR Monitoring
 description: 3D LiDAR Monitoring details for SIBAKOM.

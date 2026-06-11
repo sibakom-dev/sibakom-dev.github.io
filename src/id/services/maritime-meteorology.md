@@ -1,4 +1,5 @@
 ---
+permalink: /id/services/maritime-meteorology/
 layout: layouts/page.njk
 title: Meteorologi Maritim
 description: Detail Meteorologi Maritim untuk SIBAKOM.

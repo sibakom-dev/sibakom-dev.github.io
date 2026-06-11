@@ -1,4 +1,5 @@
 ---
+permalink: /id/services/networks-infrastructure/
 layout: layouts/page.njk
 title: Jaringan & Infrastruktur
 description: Detail Jaringan & Infrastruktur untuk SIBAKOM.

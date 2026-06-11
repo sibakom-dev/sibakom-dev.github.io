@@ -1,4 +1,5 @@
 ---
+permalink: /fr/services/networks-infrastructure/
 layout: layouts/page.njk
 title: Jaringan et infrastructures
 description: Détaillez Jaringan & Infrastruktur pour SIBAKOM.

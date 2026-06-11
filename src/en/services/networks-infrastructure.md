@@ -1,4 +1,5 @@
 ---
+permalink: /en/services/networks-infrastructure/
 layout: layouts/page.njk
 title: Networks & Infrastructure
 description: Networks & Infrastructure details for SIBAKOM.

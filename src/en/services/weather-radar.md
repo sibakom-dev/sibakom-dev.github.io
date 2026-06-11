@@ -1,4 +1,5 @@
 ---
+permalink: /en/services/weather-radar/
 layout: layouts/page.njk
 title: Advanced Weather Radar Systems
 description: Advanced Weather Radar Systems details for SIBAKOM.

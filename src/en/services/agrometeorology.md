@@ -1,4 +1,5 @@
 ---
+permalink: /en/services/agrometeorology/
 layout: layouts/page.njk
 title: Agrometeorology
 description: Agrometeorology details for SIBAKOM.

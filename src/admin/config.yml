@@ -272,8 +272,6 @@ collections:
     folder: "src/id/about"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -303,8 +301,6 @@ collections:
     folder: "src/en/about"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -334,8 +330,6 @@ collections:
     folder: "src/fr/about"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -365,8 +359,6 @@ collections:
     folder: "src/id/services"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -396,8 +388,6 @@ collections:
     folder: "src/en/services"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -427,8 +417,6 @@ collections:
     folder: "src/fr/services"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -458,8 +446,6 @@ collections:
     folder: "src/id/projects"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -489,8 +475,6 @@ collections:
     folder: "src/en/projects"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -520,8 +504,6 @@ collections:
     folder: "src/fr/projects"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}

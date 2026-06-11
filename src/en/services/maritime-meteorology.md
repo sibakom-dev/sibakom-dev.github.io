@@ -1,4 +1,5 @@
 ---
+permalink: /en/services/maritime-meteorology/
 layout: layouts/page.njk
 title: Maritime Meteorology
 description: Maritime Meteorology details for SIBAKOM.
