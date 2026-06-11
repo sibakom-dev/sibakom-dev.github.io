@@ -713,3 +713,4 @@ collections:
           - {label: "Header Background Color Scrolled", name: "header_bg_scrolled", widget: "color", enableAlpha: true, required: false}
           - {label: "Header Glass Texture Blur", name: "header_blur", widget: "number", value_type: "int", min: 0, max: 50, required: false, hint: "Value in pixels (0 to disable)."}
           - {label: "Global Font Family", name: "font_family", widget: "select", options: ["Plus Jakarta Sans", "Inter", "Outfit", "Montserrat", "Roboto", "Open Sans", "Lora", "Merriweather"], default: "Plus Jakarta Sans", required: false}
+          - {label: "Maintenance Mode", name: "maintenance_mode", widget: "boolean", default: false, required: false, hint: "Toggle this on to show a maintenance screen across the entire website."}
