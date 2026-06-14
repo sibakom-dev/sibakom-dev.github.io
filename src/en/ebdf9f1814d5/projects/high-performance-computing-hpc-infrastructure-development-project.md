@@ -6,13 +6,14 @@ location: ''
 technology: ''
 title: High-Performance Computing (HPC) Infrastructure Development Project
 description: ''
-tag: ''
+tag: High-Performance Computing (HPC)
+image: ''
 heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
 **Supercharging Indonesia’s Climate Intelligence with Next- Generation Supercomputing Infrastructure**
 
-In an era where data-driven insights save lives, having a robust computing backbone is no longer a luxury—it is a national necessity. As Indonesia's leading system integrator for environmental solutions, SIBAKOM has successfully executed the state-of-the-art Data Center Infrastructure Upgrade Work Package under the landmark Maritime Meteorological System (MMS)-2 Project.
+In an era where data-driven insights save lives, having a robust computing backbone is no longer a luxury, it is a national necessity. As Indonesia's leading system integrator for environmental solutions, SIBAKOM has successfully executed the state-of-the-art Data Center Infrastructure Upgrade Work Package under the landmark Maritime Meteorological System (MMS)-2 Project.
 
 Partnering closely with the Indonesian Agency for Meteorology, Climatology, and Geophysics (BMKG) at their headquarters in Kemayoran, Central Jakarta, SIBAKOM has seamlessly modernized the nation’s core data center infrastructure. This project was designed to handle the intense computational demands of next-generation weather modeling, big data processing, and artificial intelligence, marking a monumental success in Indonesia's tech landscape.
 

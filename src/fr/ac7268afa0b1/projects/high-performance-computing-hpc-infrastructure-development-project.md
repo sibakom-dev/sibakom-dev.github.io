@@ -6,13 +6,13 @@ location: ''
 technology: ''
 title: High-Performance Computing (HPC) Infrastructure Development Project
 description: ''
-tag: ''
+tag: High-Performance Computing (HPC)
 heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
 ### Propulser l'Intelligence Climatique de l'Indonésie Grâce à une Infrastructure de Supercalcul de Nouvelle Génération
 
-À une époque où les informations basées sur les données sauvent des vies, disposer d'un réseau informatique robuste n'est plus un luxe—c'est une nécessité nationale. En tant que premier intégrateur de systèmes indonésien pour les solutions environnementales, SIBAKOM a exécuté avec succès le lot de travaux de modernisation de l'infrastructure du centre de données (_Data Center Infrastructure Upgrade Work Package_) dans le cadre du projet historique _Maritime Meteorological System_ (MMS)-2.
+À une époque où les informations basées sur les données sauvent des vies, disposer d'un réseau informatique robuste n'est plus un luxe, c'est une nécessité nationale. En tant que premier intégrateur de systèmes indonésien pour les solutions environnementales, SIBAKOM a exécuté avec succès le lot de travaux de modernisation de l'infrastructure du centre de données (_Data Center Infrastructure Upgrade Work Package_) dans le cadre du projet historique _Maritime Meteorological System_ (MMS)-2.
 
 En partenariat étroit avec l'Agence indonésienne de météorologie, de climatologie et de géophysique (BMKG) à son siège de Kemayoran, au centre de Jakarta, SIBAKOM a modernisé de manière transparente l'infrastructure centrale du centre de données de la nation. Ce projet a été conçu pour répondre aux exigences computationnelles intenses de la modélisation météorologique de nouvelle génération, du traitement des mégadonnées (_big data_) et de l'intelligence artificielle, marquant un succès monumental dans le paysage technologique indonésien.
 
