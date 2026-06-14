@@ -7,7 +7,8 @@ technology: Doppler Weather Radar
 title: Surabaya C-Band Dual-Polarization Weather Radar
 description: ''
 tag: Weather Radar
-heroImage: /assets/images/pasted-image-1781249444209.png
+image: /assets/images/pasted-image-1781249444209.png
+heroImage: /assets/images/Sibakom (12)_.jpeg
 ---
 
 ### Renforcer la Résilience Météorologique de la Nation Grâce aux Technologies de Précision

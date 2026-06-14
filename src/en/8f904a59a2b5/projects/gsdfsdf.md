@@ -8,7 +8,7 @@ title: Surabaya C-Band Dual-Polarization Weather Radar
 description: ''
 tag: Weather Radar
 image: /assets/images/pasted-image-1781249444209.png
-heroImage: https://picsum.photos/id/185/1920/1280.webp
+heroImage: /assets/images/Sibakom (12)_.jpeg
 ---
 
 **Empowering Nation’s Weather Resilience through Precision Technology**
