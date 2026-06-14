@@ -3,8 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: 3D LiDAR Monitoring & Atmospheric Analytics
 description: ''
-image: ../../../7119603f7ec6/services/H11.png
-heroImage: /assets/images/H9.png
+image: /assets/images/H7.jpg
+heroImage: /assets/images/H9c.png
 ---
 
 **Real-Time Mapping of the Invisible Atmosphere**
