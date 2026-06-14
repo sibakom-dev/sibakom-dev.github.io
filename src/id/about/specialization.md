@@ -1,6 +1,6 @@
 ---
 title: Specialization
-heroImage: /assets/images/WhatsApp Image 2026-06-14 at 20.54.47.jpeg
+heroImage: /assets/images/H8.png
 description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
