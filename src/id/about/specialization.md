@@ -1,11 +1,9 @@
 ---
 title: Specialization
-heroImage: /assets/images/H8.png
+heroImage: /assets/images/H8c.png
 description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
-
-### Spesialisasi Teknik: Menguasai Observasi Lingkungan
 
 Sebagai Integrator Sistem terkemuka untuk Solusi Lingkungan, SIBAKOM tidak hanya menyediakan peralatan—kami merancang ekosistem observasi ujung-ke-ujung (_end-to-end_). Tim teknik spesialis kami memiliki pengetahuan domain yang mendalam di berbagai disiplin ilmu meteorologi, maritim, dan infrastruktur, memastikan bahwa setiap sensor, server, dan simpul transmisi beroperasi tanpa hambatan.
 

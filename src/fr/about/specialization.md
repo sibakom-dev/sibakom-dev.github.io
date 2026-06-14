@@ -1,11 +1,9 @@
 ---
 title: Specialization
-heroImage: /assets/images/H8.png
+heroImage: /assets/images/H8c.png
 description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
-
-### Spécialisations en Ingénierie : Maîtriser l'Observation Environnementale
 
 En tant qu'intégrateur de systèmes de premier plan pour les solutions environnementales, SIBAKOM ne se contente pas de fournir des équipements—nous concevons des écosystèmes d'observation de bout en bout. Nos équipes d'ingénieurs spécialisés possèdent une connaissance approfondie du domaine à travers de multiples disciplines météorologiques, maritimes et infrastructurelles, garantissant que chaque capteur, serveur et nœud de transmission fonctionne parfaitement.
 

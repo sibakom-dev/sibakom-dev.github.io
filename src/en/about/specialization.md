@@ -1,11 +1,9 @@
 ---
 title: Specialization
-heroImage: /assets/images/H8.png
+heroImage: /assets/images/H8c.png
 description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
-
-# Engineering Specializations: Mastering Environmental Observation
 
 As a premier System Integrator for Environmental Solutions, SIBAKOM does not just supply equipment. We engineer end-to-end observational ecosystems. Our specialized engineering teams possess deep domain knowledge across multiple meteorological, maritime, and infrastructural disciplines, ensuring that every sensor, server, and transmission node operates flawlessly.
 
