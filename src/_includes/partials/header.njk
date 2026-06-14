@@ -16,20 +16,18 @@
                 <li class="nav-item dropdown {% if '/about/' in page.url %}active{% endif %}">
                     <a href="{{ '/about/' | locale_url }}" style="display: flex; align-items: center; gap: 4px;">About Us <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                     <ul class="dropdown-menu">
-                        <li class="dropdown-item"><a href="{{ '/about/specializations/' | locale_url }}">Specializations</a></li>
-                        <li class="dropdown-item"><a href="{{ '/about/strategic-partnerships/' | locale_url }}">Strategic Partnerships</a></li>
+                        <li class="dropdown-item"><a href="{{ '/about/specialization/' | locale_url }}">Specialization</a></li>
+                        <li class="dropdown-item"><a href="{{ '/about/strategic-partners/' | locale_url }}">Strategic Partner</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown {% if '/services/' in page.url %}active{% endif %}">
                     <a href="{{ '/services/' | locale_url }}" style="display: flex; align-items: center; gap: 4px;">Services & Products <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                     <ul class="dropdown-menu">
-                        <li class="dropdown-item"><a href="{{ '/services/weather-radar/' | locale_url }}">Weather Radar</a></li>
-                        <li class="dropdown-item"><a href="{{ '/services/custom-nwp-models/' | locale_url }}">Custom NWP Models</a></li>
-                        <li class="dropdown-item"><a href="{{ '/services/maritime-meteorology/' | locale_url }}">Maritime Meteorology</a></li>
-                        <li class="dropdown-item"><a href="{{ '/services/agrometeorology/' | locale_url }}">Agrometeorology</a></li>
-                        <li class="dropdown-item"><a href="{{ '/services/lidar-monitoring/' | locale_url }}">3D LiDAR Monitoring</a></li>
-                        <li class="dropdown-item"><a href="{{ '/services/weather-broadcast-studio/' | locale_url }}">Weather Broadcast Studio</a></li>
-                        <li class="dropdown-item"><a href="{{ '/services/networks-infrastructure/' | locale_url }}">Networks & Infrastructure</a></li>
+                        {% set current_lang = page.lang | default("en") %}
+                        {% set header_services = collections.all | getChildren('/' ~ current_lang ~ '/services/') %}
+                        {% for item in header_services %}
+                        <li class="dropdown-item"><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </li>
                 <li class="nav-item {% if '/projects/' in page.url %}active{% endif %}"><a href="{{ '/projects/' | locale_url }}">Project Profile</a></li>

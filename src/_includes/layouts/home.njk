@@ -102,21 +102,24 @@ document.addEventListener("DOMContentLoaded", () => {
             <p class="section-desc">We deliver complete solutions across the meteorological and maritime observation systems.</p>
         </div>
         <div class="grid grid-3 gap-md">
-            {% for card in solutions_cards %}
+            {% set current_lang = page.lang | default("en") %}
+            {% set auto_services = collections.all | getChildren('/' ~ current_lang ~ '/services/') %}
+            {% for item in auto_services %}
             <div class="solution-card">
                 <div class="solution-img-wrapper">
-                    <img src="{{ card.image }}" alt="{{ card.title }}">
+                    <img src="{{ item.data.image | default(item.data.heroImage) | default('/assets/images/placeholder.jpg') }}" alt="{{ item.data.title }}">
                 </div>
-                <h3 class="solution-title">{{ card.title }}</h3>
-                <p class="solution-desc">{{ card.description }}</p>
-                <a href="{{ card.link | locale_url }}" class="solution-link">{{ card.link_text }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                <h3 class="solution-title">{{ item.data.title }}</h3>
+                <p class="solution-desc">{{ item.data.description }}</p>
+                <a href="{{ item.url }}" class="solution-link">{{ item.data.link_text | default('Explore') }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
             </div>
             {% endfor %}
         </div>
 
         <div class="text-center" style="margin-top: var(--spacing-xl);">
-            <a href="{{ '/services/' | locale_url }}" class="btn btn-secondary">View All Services & Products</a>
+            <a href="/{{ current_lang }}/services/" class="btn btn-secondary">View All Services & Products</a>
         </div>
+
     </div>
 </section>
 
@@ -175,6 +178,11 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="zigzag-text">
                 <h3>{{ section.title }}</h3>
                 {{ section.text | safe }}
+                {% if section.link %}
+                <div style="margin-top: var(--spacing-md);">
+                    <a href="{{ section.link | locale_url }}" class="btn btn-secondary">{{ section.link_text | default('Learn More') }}</a>
+                </div>
+                {% endif %}
             </div>
             <div class="zigzag-image">
                 <img src="{{ section.image }}" alt="{{ section.title }}">
@@ -193,24 +201,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h2 class="section-title">{{ projects_title }}</h2>
             </div>
             {% if projects_btn_link and projects_btn_text %}
+            {% set current_lang = page.lang | default("en") %}
             <a href="{{ projects_btn_link | locale_url }}" class="btn btn-secondary">{{ projects_btn_text }}</a>
             {% endif %}
         </div>
         <div class="grid grid-3 gap-md">
-            {% for project in highlighted_projects %}
-            <a href="{{ project.link | locale_url }}" class="project-card" style="text-decoration: none; color: inherit;">
+            {% set current_lang = page.lang | default("en") %}
+            {% set auto_projects = collections.all | getChildren('/' ~ current_lang ~ '/projects/') %}
+            {% for item in auto_projects.slice(0, 3) %}
+            <a href="{{ item.url }}" class="project-card" style="text-decoration: none; color: inherit;">
                 <div class="project-img-wrapper">
-                    <span class="project-tag">{{ project.tag }}</span>
-                    <img src="{{ project.image }}" alt="{{ project.title }}" class="project-img">
+                    {% if item.data.tag %}<span class="project-tag">{{ item.data.tag }}</span>{% endif %}
+                    <img src="{{ item.data.image | default(item.data.heroImage) | default('/assets/images/placeholder.jpg') }}" alt="{{ item.data.title }}" class="project-img">
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">{{ project.title }}</h3>
-                    <p class="project-desc">{{ project.description }}</p>
-                    <span class="project-link">{{ translations[locale].view_case_study | default("View Case Study") }} <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+                    <h3 class="project-title">{{ item.data.title }}</h3>
+                    <p class="project-desc">{{ item.data.description }}</p>
+                    <span class="project-link">View Case Study <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
                 </div>
             </a>
             {% endfor %}
         </div>
+
     </div>
 </section>
 
@@ -226,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
             {{ cta_description | default('Consult with our engineering team to design a robust, custom-tailored system for your observation network. We bring decades of expertise to every deployment.') }}
         </p>
         <div class="d-flex justify-center gap-sm">
-            <a href="{{ (cta_btn_link | default('/contact/')) | locale_url }}" class="btn btn-accent" style="padding: 16px 36px; font-size: var(--fs-md);">{{ cta_btn_text | default('Request Consultation') }}</a>
+            <a href="{{ cta_btn_link | default('/contact/') | locale_url }}" class="btn btn-accent" style="padding: 16px 36px; font-size: var(--fs-md);">{{ cta_btn_text | default('Request Consultation') }}</a>
         </div>
     </div>
 </section>

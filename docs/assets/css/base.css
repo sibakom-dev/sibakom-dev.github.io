@@ -143,3 +143,95 @@ a:hover {
     background-color: rgba(91, 155, 255, 0.2);
     color: var(--color-primary-dark);
 }
+
+/* Magazine / News Portal Rich Text Content */
+.page-content,
+.rich-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.page-content p,
+.rich-content p {
+    margin-bottom: 1.5rem;
+}
+
+.page-content h1, .rich-content h1, .page-content h2, .rich-content h2, .page-content h3, .rich-content h3, .page-content h4, .rich-content h4, .page-content h5, .rich-content h5, .page-content h6, .rich-content h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.page-content h1, .rich-content h1 { font-size: 2.5rem; margin-top: 3.5rem; }
+.page-content h2, .rich-content h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary-dark);
+    padding-bottom: 0.5rem;
+}
+
+.page-content h3, .rich-content h3 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--color-text); }
+.page-content h4, .rich-content h4 { font-size: 1.25rem; margin-top: 1.5rem; color: var(--color-text); }
+.page-content h5, .rich-content h5 { font-size: 1.125rem; margin-top: 1.5rem; color: var(--color-text); }
+.page-content h6, .rich-content h6 { font-size: 1rem; margin-top: 1.5rem; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+
+
+.page-content ul,
+.page-content ol,
+.rich-content ul,
+.rich-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.page-content li,
+.rich-content li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.page-content li::marker,
+.rich-content li::marker {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.page-content blockquote,
+.rich-content blockquote {
+    border-left: 4px solid var(--color-secondary);
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 1.5rem 2rem;
+    margin: 2.5rem 0;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.page-content img,
+.rich-content img {
+    margin: 2.5rem 0;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    width: 100%;
+    height: auto;
+}
+
+.page-content a,
+.rich-content a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: var(--fw-medium);
+}
+
+.page-content a:hover,
+.rich-content a:hover {
+    color: var(--color-secondary);
+    text-decoration-thickness: 2px;
+}
+

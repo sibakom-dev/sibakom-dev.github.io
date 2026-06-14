@@ -1,10 +1,10 @@
 ---
 layout: layouts/contact.njk
-title: Kami Hubungi
-description: Hubungi Kami détaille pour SIBAKOM.
+title: Contact Us
+description: Contact Us details for SIBAKOM.
 heroImage: /assets/images/pages/contact-center.jpg
 ---
 
-## Entrez en contact
+## Get In Touch
 
-Consultez notre équipe d'ingénieurs pour concevoir un système robuste et personnalisé pour votre réseau d'observation. Nous sommes prêts à vous aider.
+Consult with our engineering team to design a robust, custom-tailored system for your observational network. We are ready to assist you.

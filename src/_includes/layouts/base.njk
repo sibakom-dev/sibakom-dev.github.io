@@ -16,6 +16,19 @@
     <meta property="og:image" content="https://www.sibakom.com/assets/images/Sibakom_Logo.png">
     {% endif %}
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sibakom.com{{ page.url }}">
+    <meta property="og:site_name" content="SIBAKOM">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title | default('SIBAKOM | Environmental Solutions & Weather Technology') }}">
+    <meta name="twitter:description" content="{{ description | default('SIBAKOM - System Integrator for Environmental Solutions.') }}">
+    {% if image %}
+    <meta name="twitter:image" content="https://www.sibakom.com{{ image | replace(' ', '%20') }}">
+    {% elif heroImage %}
+    <meta name="twitter:image" content="https://www.sibakom.com{{ heroImage | replace(' ', '%20') }}">
+    {% else %}
+    <meta name="twitter:image" content="https://www.sibakom.com/assets/images/Sibakom_Logo.png">
+    {% endif %}
 
     <title>{{ title | default('SIBAKOM | Environmental Solutions & Weather Technology') }}</title>
 

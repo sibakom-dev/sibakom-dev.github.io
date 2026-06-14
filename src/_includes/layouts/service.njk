@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+---
+{% if heroImage %}
+<div class="hero-banner" style="width: 100%; height: 40vh; min-height: 300px; max-height: 500px; overflow: hidden; position: relative; margin-top: 80px;">
+    <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+</div>
+{% endif %}
+
+<section class="section" style="{% if not heroImage %}padding-top: 120px;{% else %}padding-top: var(--spacing-xl);{% endif %} min-height: 50vh;">
+    <div class="container">
+        
+        <div class="grid grid-3 gap-lg">
+            <div style="grid-column: span 2;">
+                <h1 style="font-size: var(--fs-3xl); margin-bottom: var(--spacing-sm); color: var(--color-primary-dark);">{{ title }}</h1>
+                <div class="page-content" style="margin-top: var(--spacing-md); font-size: var(--fs-md); line-height: var(--lh-relaxed);">
+                    {{ content | safe }}
+                </div>
+            </div>
+            
+            <div class="project-sidebar" style="background-color: var(--color-surface); padding: var(--spacing-md); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); height: fit-content;">
+                <h3 style="margin-bottom: var(--spacing-sm); color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 8px;">Service Details</h3>
+                
+                {% if client %}
+                <div style="margin-bottom: var(--spacing-sm);">
+                    <strong style="color: var(--color-text-light); font-size: var(--fs-sm); text-transform: uppercase;">Client</strong>
+                    <p style="font-weight: 500;">{{ client }}</p>
+                </div>
+                {% endif %}
+                
+                {% if location %}
+                <div style="margin-bottom: var(--spacing-sm);">
+                    <strong style="color: var(--color-text-light); font-size: var(--fs-sm); text-transform: uppercase;">Location</strong>
+                    <p style="font-weight: 500;">{{ location }}</p>
+                </div>
+                {% endif %}
+
+                {% if technology %}
+                <div style="margin-bottom: var(--spacing-sm);">
+                    <strong style="color: var(--color-text-light); font-size: var(--fs-sm); text-transform: uppercase;">Technology Used</strong>
+                    <p style="font-weight: 500;">{{ technology }}</p>
+                </div>
+                {% endif %}
+
+                <div style="margin-top: var(--spacing-md);">
+                    <a href="{{ '/contact/' | locale_url }}" class="btn btn-primary" style="width: 100%; text-align: center;">Consult With Us</a>
+                </div>
+            </div>
+        </div>
+        
+        {% include "partials/related-items.njk" %}
+    </div>
+</section>

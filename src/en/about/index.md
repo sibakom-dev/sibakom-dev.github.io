@@ -1,47 +1,20 @@
 ---
-layout: layouts/page.njk
+layout: layouts/about.njk
 title: About Us
+subtitle: Pioneering Reliable Environmental Monitoring
 description: Learn more about SIBAKOM, your trusted System Integrator for environmental solutions.
-heroImage: /assets/images/pages/corporate-building.jpg
-subtitle: Pioneering Environmental Intelligence
-path: index
+heroImage: /assets/images/pasted-image-1781163927865.png
 ---
 
-<div class="rich-content">
+SIBAKOM is a leading System Integrator with full capabilities to design, select, and integrate advanced equipment and sensors into unified, high-performance solutions. We empower critical systems to take on advanced tasks, exhibit enhanced operational efficiency, and deliver superior reliability.
 
-## A Complete System Integrator
+We don't just build systems; we sustain them. SIBAKOM provides comprehensive, long-term preventive and corrective maintenance services, technology upgrades, and specialized spare parts supply, with a core focus on marine meteorology observation infrastructure.
 
-We are a System Integrator company, fully capable to design, select, and integrate equipment and sensors to form a more capable system solution to take on additional tasks, exhibit improved performance, and enhance existing systems. We also provide long-term preventive and corrective maintenance services, system upgrades, and spare parts.
+## Integration Excellence
+Our approach combines deep domain expertise with cutting-edge technology to ensure seamless operation of your critical environmental assets.
 
-### Turnkey Equipment Solutions
+## Mastering The Infrastructure
+From deep-sea buoys to terrestrial weather stations, we deploy robust infrastructure designed to withstand the harshest elements while delivering uncompromised data accuracy.
 
-![Marine Meteorology Deployment](/assets/images/pages/ocean-buoy.jpg)
-
-We are specializing in delivering a total equipment solution as a complete system. This encompasses the full lifecycle: from deployment of the system, installation and integration of equipment, down to the final commissioning of a complete system.
-
-Our profound expertise lies primarily within highly complex marine meteorology and climatology observation projects, ensuring reliable data collection even in the most unforgiving environments.
-
-### Adaptive & Highly Motivated
-
-![SIBAKOM Engineering Team](/assets/images/pages/engineering-team.jpg)
-
-We understand our customers have to adapt to technology changes and shifted priorities. We are here to provide dynamic, future-proof solutions on both issues.
-
-SIBAKOM is driven by a group of result-minded and highly motivated individuals. We are always current in our respective fields, continuously upgrading both our technical skills and product know-how to stay ahead of the curve.
-
-> "We define our success as providing our customers with the best solutions available through continuous collaboration with our strategic partners."
-> 
-> We believe that solving novel problems is achieved through the application of proven technology and the continuous monitoring of the relevant environmental systems.
-
-### Field Operations Gallery
-
-A glimpse into our integrations, installations, and system deployments.
-
-![Project Planning](/assets/images/pages/project-management.jpg)
-![Data Centers](/assets/images/pages/weather-supercomputer.jpg)
-![Radar Installation](/assets/images/pages/surabaya-radar-dome.jpg)
-![Remote Sensing](/assets/images/pages/lidar-laser-beam.jpg)
-![AWS Stations](/assets/images/pages/precision-agriculture.jpg)
-![Weather Broadcast](/assets/images/pages/broadcast-studio-green-screen.jpg)
-
-</div>
+> **Our Shared Vision**  
+> "We define our success by providing our customers with the absolute best solutions through deep, continuous collaboration with our world-class strategic partners. We believe that solving modern environmental challenges requires a blend of proven technology and continuous, high-precision monitoring."

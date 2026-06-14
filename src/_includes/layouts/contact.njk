@@ -9,13 +9,14 @@ layout: layouts/base.njk
 {% if lang == 'en' %}{% set t = footer_en %}{% endif %}
 {% if lang == 'fr' %}{% set t = footer_fr %}{% endif %}
 
-<section class="section" style="padding-top: 120px; min-height: 50vh;">
+{% if heroImage %}
+<div class="hero-banner" style="width: 100%; height: 40vh; min-height: 300px; max-height: 500px; overflow: hidden; position: relative; margin-top: 80px;">
+    <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+</div>
+{% endif %}
+
+<section class="section" style="{% if not heroImage %}padding-top: 120px;{% else %}padding-top: var(--spacing-xl);{% endif %} min-height: 50vh;">
     <div class="container">
-        {% if heroImage %}
-        <div style="margin-bottom: var(--spacing-lg);">
-            <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: var(--radius-lg);">
-        </div>
-        {% endif %}
         
         <div class="page-content text-center" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text); max-width: 700px; margin: 0 auto var(--spacing-xl) auto;">
             {{ content | safe }}

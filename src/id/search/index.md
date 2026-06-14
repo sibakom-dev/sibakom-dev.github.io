@@ -1,19 +1,19 @@
 ---
 layout: layouts/page.njk
-title: Mencari
-description: Cari di website SIBAKOM
+title: Search
+description: Search the SIBAKOM website
 heroImage: /assets/images/pages/project-management.jpg
 ---
 
 <div style="max-width: 800px; margin: 0 auto; padding-top: var(--spacing-md);">
 <div style="position: relative; margin-bottom: var(--spacing-lg);">
-<input type="text" id="search-input" placeholder="Apa yang Anda cari?" 
+<input type="text" id="search-input" placeholder="What are you looking for?" 
 style="width: 100%; padding: 20px 24px; padding-left: 60px; font-size: var(--fs-lg); font-family: var(--font-body); border: 2px solid var(--color-border); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); outline: none; transition: border-color 0.3s;">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%);"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 </div>
 
 <div id="search-results" style="display: flex; flex-direction: column; gap: var(--spacing-md);">
-<p style="color: var(--color-text-muted); text-align: center; padding: 40px;">Ketikkan kata kunci di atas untuk menelusuri layanan, proyek, dan kemampuan kami.</p>
+<p style="color: var(--color-text-muted); text-align: center; padding: 40px;">Type a keyword above to search across our services, projects, and capabilities.</p>
 </div>
 </div>
 
@@ -31,15 +31,15 @@ searchIndex = data;
 input.focus();
 })
 .catch(err => {
-console.error("Tidak dapat memuat indeks pencarian", err);
-resultsContainer.innerHTML = '<p style="color: red; text-align: center;">Kesalahan saat memuat fungsi pencarian.</p>';
+console.error("Could not load search index", err);
+resultsContainer.innerHTML = '<p style="color: red; text-align: center;">Error loading search functionality.</p>';
 });
 
 input.addEventListener('input', (e) => {
 const query = e.target.value.toLowerCase().trim();
 
 if (query.length < 2) {
-resultsContainer.innerHTML = '<p style="color: var(--color-text-muted); text-align: center; padding: 40px;">Ketikkan kata kunci di atas untuk menelusuri layanan, proyek, dan kemampuan kami.</p>';
+resultsContainer.innerHTML = '<p style="color: var(--color-text-muted); text-align: center; padding: 40px;">Type a keyword above to search across our services, projects, and capabilities.</p>';
 return;
 }
 
@@ -49,7 +49,7 @@ return page.title.toLowerCase().includes(query) || page.content.toLowerCase().in
 });
 
 if (results.length === 0) {
-resultsContainer.innerHTML = '<p style="text-align: center; padding: 40px;">Tidak ditemukan hasil untuk "**' + query + '**".</p>';
+resultsContainer.innerHTML = '<p style="text-align: center; padding: 40px;">No results found for "**' + query + '**".</p>';
 return;
 }
 

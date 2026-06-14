@@ -55,25 +55,37 @@ function initMobileMenu() {
         link.addEventListener('click', (e) => {
             const parent = link.parentElement;
             
-            // If this is a dropdown toggle, don't close the mobile menu
+            // If this is a dropdown toggle, handle mobile expansion
             if (parent && parent.classList.contains('dropdown')) {
                 const dropdownMenu = parent.querySelector('.dropdown-menu');
                 if (dropdownMenu) {
-                    // Prevent default navigation to allow opening the dropdown
-                    e.preventDefault();
+                    // Check if we are on mobile view
+                    const isMobile = window.innerWidth <= 768;
                     
-                    const isExpanded = parent.classList.contains('mobile-expanded');
-                    
-                    // Reset all other dropdowns
-                    navMenu.querySelectorAll('.nav-item.dropdown').forEach(item => {
-                        item.classList.remove('mobile-expanded');
-                    });
-                    
-                    if (!isExpanded) {
-                        parent.classList.add('mobile-expanded');
+                    if (isMobile) {
+                        const isExpanded = parent.classList.contains('mobile-expanded');
+                        
+                        if (!isExpanded) {
+                            // First click on mobile: prevent navigation and open dropdown
+                            e.preventDefault();
+                            
+                            // Reset all other dropdowns
+                            navMenu.querySelectorAll('.nav-item.dropdown').forEach(item => {
+                                item.classList.remove('mobile-expanded');
+                            });
+                            
+                            parent.classList.add('mobile-expanded');
+                            return; // Stop here, don't close mobile menu
+                        }
+                        // Second click: let it navigate natively!
                     }
                 }
-                return; // Do not close the main nav menu
+                
+                // If desktop, or mobile second click: let navigation happen.
+                // We just need to ensure we don't close the mobile menu immediately if it was just a desktop click
+                if (isMobile) {
+                    return; // Don't close mobile menu if they are navigating
+                }
             }
 
             navToggle.classList.remove('active');

@@ -1,10 +1,10 @@
 ---
 layout: layouts/contact.njk
-title: Hubungi kami
-description: Hubungi Kami detail untuk SIBAKOM.
+title: Contact Us
+description: Contact Us details for SIBAKOM.
 heroImage: /assets/images/pages/contact-center.jpg
 ---
 
-## Hubungi
+## Get In Touch
 
-Konsultasikan dengan tim teknik kami untuk merancang sistem yang kuat dan dirancang khusus untuk jaringan observasi Anda. Kami siap membantu Anda.
+Consult with our engineering team to design a robust, custom-tailored system for your observational network. We are ready to assist you.

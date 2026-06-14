@@ -1,6 +1,12 @@
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
+  // Allow access from other devices on the local network
+  eleventyConfig.setServerOptions({
+    host: "0.0.0.0",
+    port: 8080
+  });
+
   // i18n configuration
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "en",
@@ -12,6 +18,12 @@ module.exports = function (eleventyConfig) {
     if (!dateObj) return "";
     return new Date(dateObj).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   });
+
+  eleventyConfig.addFilter("getChildren", function(collection, url) {
+    if (!url || !collection) return [];
+    return collection.filter(item => item.url && item.url.startsWith(url) && item.url !== url);
+  });
+
 
   eleventyConfig.addPassthroughCopy("src/assets");
   

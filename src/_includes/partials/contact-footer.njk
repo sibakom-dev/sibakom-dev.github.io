@@ -43,11 +43,11 @@
             <div>
                 <h4 class="footer-title">{{ t.services_title }}</h4>
                 <ul class="footer-links" style="gap: var(--spacing-sm);">
-                    <li><a href="{{ '/services/weather-radar/' | locale_url }}">{{ t.service_radar }}</a></li>
-                    <li><a href="{{ '/services/custom-nwp-models/' | locale_url }}">{{ t.service_nwp | safe }}</a></li>
-                    <li><a href="{{ '/services/maritime-meteorology/' | locale_url }}">{{ t.service_maritime }}</a></li>
-                    <li><a href="{{ '/services/agrometeorology/' | locale_url }}">{{ t.service_agro }}</a></li>
-                    <li><a href="{{ '/services/lidar-monitoring/' | locale_url }}">{{ t.service_lidar }}</a></li>
+                    {% set servicesUrl = '/services/' | locale_url %}
+                    {% set servicePages = collections.all | getChildren(servicesUrl) %}
+                    {% for sPage in servicePages %}
+                    <li><a href="{{ sPage.url }}">{{ sPage.data.title }}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
 

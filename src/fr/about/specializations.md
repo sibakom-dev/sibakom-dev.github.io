@@ -1,9 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Spécialisation Teknik
-description: >-
-  Technique spécialisée chez SIBAKOM pour la météorologie, la climatologie et
-  l'observation des choses.
+title: Engineering Specializations
+description: SIBAKOM's core engineering specializations across meteorology, climatology, and marine observation.
 heroImage: /assets/images/pages/weather-radar-dome.jpg
 path: specializations/index
 ---

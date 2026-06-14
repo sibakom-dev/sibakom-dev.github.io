@@ -1,0 +1,168 @@
+/* Clean Editorial Layout for About Us Page */
+
+.about-editorial {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 var(--spacing-sm);
+}
+
+/* 1. The Intro Paragraph (Drop Cap & Lead Text) */
+.about-editorial > p:first-of-type {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    font-weight: 300;
+    margin-bottom: 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .about-editorial > p:first-of-type {
+        font-size: 1.5rem;
+    }
+}
+
+.about-editorial > p:first-of-type::first-letter {
+    float: left;
+    font-size: 4rem;
+    line-height: 0.8;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-right: 0.75rem;
+    margin-top: 0.2rem;
+    font-family: var(--font-heading);
+}
+
+@media (min-width: 768px) {
+    .about-editorial > p:first-of-type::first-letter {
+        font-size: 5rem;
+        margin-top: 0.1rem;
+    }
+}
+
+/* 2. Standard Paragraphs */
+.about-editorial p {
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 3. Section Markers (H2 Headings) */
+.about-editorial h2 {
+    font-size: 2rem;
+    font-family: var(--font-heading);
+    color: var(--color-primary-dark);
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 0.5rem;
+}
+
+.about-editorial h3 {
+    font-size: 1.5rem;
+    font-family: var(--font-heading);
+    color: var(--color-text);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-editorial ul, .about-editorial ol {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.about-editorial li {
+    margin-bottom: 0.5rem;
+}
+
+/* 4. The Vision Blockquote */
+.about-editorial blockquote {
+    position: relative;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: #ffffff;
+    padding: 3rem 2rem;
+    margin: 4rem auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+    max-width: 900px;
+}
+
+.about-editorial blockquote::before {
+    content: '"';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.15);
+    font-family: serif;
+}
+
+@media (min-width: 768px) {
+    .about-editorial blockquote {
+        padding: 4rem 3rem;
+    }
+    .about-editorial blockquote::before {
+        font-size: 8rem;
+    }
+}
+
+.about-editorial blockquote p {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .about-editorial blockquote p {
+        font-size: 1.75rem;
+    }
+}
+
+.about-editorial blockquote strong {
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--color-secondary);
+    font-style: normal;
+}
+
+/* 5. Images */
+.about-editorial img {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    margin: 3rem auto;
+    max-width: 100%;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .about-editorial img {
+        max-width: 900px;
+    }
+}

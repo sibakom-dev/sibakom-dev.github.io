@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+---
+{% if heroImage %}
+<div class="hero-banner" style="width: 100%; height: 40vh; min-height: 300px; max-height: 500px; overflow: hidden; position: relative; margin-top: 80px;">
+    <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+</div>
+{% endif %}
+
+<section class="section" style="{% if not heroImage %}padding-top: 120px;{% else %}padding-top: var(--spacing-xl);{% endif %} min-height: 50vh;">
+    <div class="container">
+        <div class="section-header text-center">
+            {% if subtitle %}<span class="section-subtitle">{{ subtitle }}</span>{% endif %}
+            <h1 class="section-title" style="margin-bottom: var(--spacing-md);">{{ title }}</h1>
+        </div>
+        <div class="page-content" style="font-size: var(--fs-md); line-height: var(--lh-relaxed); color: var(--color-text);">
+            {{ content | safe }}
+        </div>
+
+        {% set current_lang = page.lang | default("en") %}
+        {% set child_pages = collections.all | getChildren(page.url) %}
+        {% if child_pages | length > 0 %}
+        <div class="grid grid-3 gap-md" style="margin-top: var(--spacing-xl);">
+            {% for item in child_pages %}
+            <a href="{{ item.url }}" class="project-card" style="text-decoration: none; color: inherit;">
+                <div class="project-img-wrapper">
+                    {% if item.data.tag %}<span class="project-tag">{{ item.data.tag }}</span>{% endif %}
+                    <img src="{{ item.data.image | default(item.data.heroImage) | default('/assets/images/placeholder.jpg') }}" alt="{{ item.data.title }}" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">{{ item.data.title }}</h3>
+                    <p class="project-desc">{{ item.data.description }}</p>
+                    <span class="project-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+</section>

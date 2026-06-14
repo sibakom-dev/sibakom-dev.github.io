@@ -1,13 +1,14 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="section" style="padding-top: 120px; min-height: 50vh;">
+{% if heroImage %}
+<div class="hero-banner" style="width: 100%; height: 40vh; min-height: 300px; max-height: 500px; overflow: hidden; position: relative; margin-top: 80px;">
+    <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+</div>
+{% endif %}
+
+<section class="section" style="{% if not heroImage %}padding-top: 120px;{% else %}padding-top: var(--spacing-xl);{% endif %} min-height: 50vh;">
     <div class="container">
-        {% if heroImage %}
-        <div style="margin-bottom: var(--spacing-lg);">
-            <img src="{{ heroImage }}" alt="{{ title }}" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-        </div>
-        {% endif %}
         
         <div class="grid grid-3 gap-lg">
             <div style="grid-column: span 2;">
@@ -42,9 +43,11 @@ layout: layouts/base.njk
                 {% endif %}
 
                 <div style="margin-top: var(--spacing-md);">
-                    <a href="/contact/" class="btn btn-primary" style="width: 100%; text-align: center;">Consult With Us</a>
+                    <a href="{{ '/contact/' | locale_url }}" class="btn btn-primary" style="width: 100%; text-align: center;">Consult With Us</a>
                 </div>
             </div>
         </div>
+        
+        {% include "partials/related-items.njk" %}
     </div>
 </section>
