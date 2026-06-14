@@ -1,6 +1,6 @@
 ---
 title: Specialization
-heroImage: /assets/images/H8c.png
+heroImage: /assets/images/download (1).png
 description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
