@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Advanced Weather Radar System
 description: ''
-image: ../../../6f682ae947b9/services/Radar_IMG0223.webp
+image: advanced-weather-radar-system/Radar_IMG0223.webp
 heroImage: /assets/images/pasted-image-1781166678794.png
 ---
 
