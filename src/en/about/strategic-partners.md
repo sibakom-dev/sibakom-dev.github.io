@@ -1,11 +1,9 @@
 ---
 title: Strategic Partner
-heroImage: /assets/images/H6.jpeg
+heroImage: /assets/images/download.png
 description: Learn more about our strategic partner.
 layout: layouts/about.njk
 ---
-
-# Strategic Partnerships: A Elite Global Network for Environmental Intelligence
 
 At SIBAKOM, we believe that delivering world-class environmental intelligence requires world-class technology. We don't just supply standalone products; we forge deep, elite strategic partnerships with leading global manufacturers, space agencies, and government authorities to ensure our integrated ecosystems are the most advanced, sophisticated, and reliable on the market.
 

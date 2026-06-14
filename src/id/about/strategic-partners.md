@@ -1,11 +1,9 @@
 ---
 title: Strategic Partner
-heroImage: /assets/images/H2.jpeg
+heroImage: /assets/images/download.png
 description: Learn more about our strategic partner.
 layout: layouts/about.njk
 ---
-
-### Kemitraan Strategis: Jaringan Global Elite untuk Kecerdasan Lingkungan
 
 Di SIBAKOM, kami percaya bahwa menghadirkan kecerdasan lingkungan kelas dunia membutuhkan teknologi kelas dunia. Kami tidak hanya menyediakan produk mandiri (_standalone_); kami membangun kemitraan strategis yang mendalam dan elite dengan produsen global terkemuka, badan antariksa, dan otoritas pemerintah untuk memastikan ekosistem terintegrasi kami adalah yang paling maju, canggih, dan andal di pasar.
 
@@ -16,9 +14,9 @@ Dengan menyatukan inovasi global dengan keunggulan teknik lokal, SIBAKOM berdiri
 Komitmen SIBAKOM untuk mengamankan aliansi global terkemuka didorong oleh realitas lingkungan yang keras di wilayah kita:
 
 - **Sebab: Geografis dengan Volatilitas Tinggi & Cincin Api**
-Indonesia dan wilayah ASEAN yang lebih luas menempati lanskap kepulauan yang sangat luas dan kompleks, yang dikelilingi oleh wilayah laut yang aktif dan zona vulkanik yang volatil. Posisi geografis yang unik ini membuat wilayah tersebut sangat rentan terhadap krisis yang cepat dan berdampak tinggi—mulai dari siklon tropis yang tiba-tiba dan badai maritim yang ekstrem hingga letusan gunung berapi mendadak yang menyemburkan abu berbahaya ke ruang udara kritis.
+Indonesia dan wilayah ASEAN yang lebih luas menempati lanskap kepulauan yang sangat luas dan kompleks, yang dikelilingi oleh wilayah laut yang aktif dan zona vulkanik yang volatil. Posisi geografis yang unik ini membuat wilayah tersebut sangat rentan terhadap krisis yang cepat dan berdampak tinggi. Mulai dari siklon tropis yang tiba-tiba dan badai maritim yang ekstrem hingga letusan gunung berapi mendadak yang menyemburkan abu berbahaya ke ruang udara kritis.
 - **Akibat: Mengapa Aliansi Global Mutakhir Tidak Dapat Ditawar Lagi**
-Karena fenomena alam yang cepat ini langsung mengancam jalur ekonomi utama—seperti jaringan penerbangan internasional, rute perdagangan maritim, dan komunitas pesisir—sistem pelacakan standar yang ada di pasaran tidak lagi memadai. Untuk mengatasi hal ini, SIBAKOM aktif bermitra dengan para pionir atmosfer dan kedirgantaraan elite dunia. Dengan menerapkan jaringan peringatan dini yang hiper-lokal dan ultra-presisi, kami mengubah risiko regional yang tidak terprediksi menjadi ketangguhan operasional yang kuat, melindungi industri komersial, dan menyelamatkan nyawa warga sipil.
+Karena fenomena alam yang cepat ini langsung mengancam jalur ekonomi utama. Seperti jaringan penerbangan internasional, rute perdagangan maritim, dan komunitas pesisir. Sistem pelacakan standar yang ada di pasaran tidak lagi memadai. Untuk mengatasi hal ini, SIBAKOM aktif bermitra dengan para pionir atmosfer dan kedirgantaraan elite dunia. Dengan menerapkan jaringan peringatan dini yang hiper-lokal dan ultra-presisi, kami mengubah risiko regional yang tidak terprediksi menjadi ketangguhan operasional yang kuat, melindungi industri komersial, dan menyelamatkan nyawa warga sipil.
 
 #### Ekosistem Aliansi Global Kami
 
