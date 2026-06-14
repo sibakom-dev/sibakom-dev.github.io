@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-heroImage: /assets/images/pages/contact-center.jpg
+heroImage: /assets/images/a4-logo.png
 description: Contact Us details for SIBAKOM.
 layout: layouts/contact.njk
 ---
