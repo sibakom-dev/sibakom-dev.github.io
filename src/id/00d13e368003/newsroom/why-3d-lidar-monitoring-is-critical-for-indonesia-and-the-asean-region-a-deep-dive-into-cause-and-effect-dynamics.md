@@ -9,7 +9,7 @@ tags:
   - LiDAR
   - Remote Sensing
   - 3D Lidar
-image: ../../../34dbb763adfc/newsroom/H1.png
+image: /assets/images/H1.png
 heroImage: /assets/images/H11.png
 description: ''
 ---
