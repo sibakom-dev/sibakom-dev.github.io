@@ -1,6 +1,6 @@
 ---
 title: Specialization
-heroImage: /assets/images/2.png
+heroImage: /assets/images/Desain tanpa judul (3).png
 description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
