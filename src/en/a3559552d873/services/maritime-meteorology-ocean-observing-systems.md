@@ -3,7 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Maritime Meteorology & Ocean Observation Systems
 description: ''
-heroImage: /assets/images/pasted-image-1781168054794.png
+image: /assets/images/H13.jpg
+heroImage: /assets/images/pasted-image-1781163758633.png
 ---
 
 **Harnessing MetOcean Intelligence to Safeguard the Archipelagic Frontier**
@@ -12,7 +13,7 @@ heroImage: /assets/images/pasted-image-1781168054794.png
 
 **The Strategic Imperative: Why Advanced Maritime Technology is Vital for Indonesia and ASEAN**
 
-The geographical and meteorological realities of Indonesia and the broader ASEAN region create an environment where advanced maritime tracking is not just an asset—it is a critical necessity.
+The geographical and meteorological realities of Indonesia and the broader ASEAN region create an environment where advanced maritime tracking is not just an asset, it is a critical necessity.
 
 - **The Cause:** Indonesia spans an immense archipelagic territory comprising over 17,000 islands characterized by highly volatile marine micro-climates, shifting surface currents, and intense interaction with tropical weather systems.
 - **The Complication:** Traditional land-based meteorological stations are completely isolated from open-ocean dynamics, leaving huge blind spots regarding offshore wave heights, sudden marine squalls, and deep-sea pressure anomalies. **Consequently**, fleet managers, traditional fishermen, coastal cities, and offshore oil rigs are left highly vulnerable to unpredicted severe sea states, frequently resulting in tragic maritime accidents, disrupted global trade corridors, and severe economic losses.

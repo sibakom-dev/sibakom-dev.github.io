@@ -3,7 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Maritime Meteorology & Ocean Observation Systems
 description: ''
-heroImage: /assets/images/pasted-image-1781168054794.png
+image: /assets/images/H13.jpg
+heroImage: /assets/images/pasted-image-1781163758633.png
 ---
 
 ### Exploiter l'Intelligence MetOcean untuk Protéger la Frontière Archipélagique
@@ -12,7 +13,7 @@ Les vastes territoires maritimes exigent une intelligence océanographique inég
 
 #### L'Impératif Stratégique : Pourquoi une Technologie Maritime Avancée est Vitale pour l'Indonésie et l'ASEAN
 
-Les réalités géographiques et météorologiques de l'Indonésie et de la région de l'ASEAN au sens large créent un environnement où le suivi maritime avancé n'est pas seulement un atout—c'est une nécessité critique.
+Les réalités géographiques et météorologiques de l'Indonésie et de la région de l'ASEAN au sens large créent un environnement où le suivi maritime avancé n'est pas seulement un atout, c'est une nécessité critique.
 
 - **La Cause :** L'Indonésie s'étend sur un immense territoire archipélagique comprenant plus de 17 000 îles, caractérisé par des microclimats marins hautement volatils, des courants de surface changeants et une interaction intense avec les systèmes météorologiques tropicaux.
 - **La Complication :** Les stations météorologiques terrestres traditionnelles sont complètement isolées des dynamiques de la haute mer, ce qui laisse d'immenses angles morts concernant la hauteur des vagues au large, les grains marins soudains (_marine squalls_) et les anomalies de pression en mer profonde. Par conséquent, les gestionnaires de flottes, les pêcheurs traditionnels, les villes côtières et les plateformes pétrolières offshore sont très vulnérables aux états de mer extrêmes non prévus. Cela entraîne fréquemment des accidents maritimes tragiques, perturbe les corridors commerciaux mondiaux et cause de graves pertes économiques.

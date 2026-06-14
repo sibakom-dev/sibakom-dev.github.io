@@ -3,7 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Maritime Meteorology & Ocean Observation Systems
 description: ''
-heroImage: /assets/images/pasted-image-1781168054794.png
+image: /assets/images/H13.jpg
+heroImage: /assets/images/pasted-image-1781163758633.png
 ---
 
 ### Memanfaatkan Kecerdasan MetOcean untuk Melindungi Wilayah Perbatasan Kepulauan
@@ -12,7 +13,7 @@ Wilayah maritim yang luas menuntut kecerdasan oseanografi yang tak tertandingi. 
 
 #### Urgensi Strategis: Mengapa Teknologi Maritim Canggih Sangat Vital bagi Indonesia dan ASEAN
 
-Realitas geografis dan meteorologis Indonesia serta wilayah ASEAN secara lebih luas menciptakan lingkungan di mana pelacakan maritim canggih bukan sekadar aset—melainkan sebuah kebutuhan kritis.
+Realitas geografis dan meteorologis Indonesia serta wilayah ASEAN secara lebih luas menciptakan lingkungan di mana pelacakan maritim canggih bukan sekadar aset, melainkan sebuah kebutuhan kritis.
 
 - **Penyebab:** Indonesia membentang di wilayah kepulauan yang sangat luas, terdiri dari lebih dari 17.000 pulau yang dicirikan oleh mikroklimat laut yang sangat volatil, arus permukaan yang berubah-ubah, dan interaksi yang kuat dengan sistem cuaca tropis.
 - **Komplikasi:** Stasiun meteorologi tradisional yang berbasis di darat sepenuhnya terisolasi dari dinamika samudra lepas, menyisakan area buta (_blind spot_) yang besar terkait tinggi gelombang lepas pantai, badai laut mendadak (_marine squall_), dan anomali tekanan laut dalam. Akibatnya, manajer armada, nelayan tradisional, kota pesisir, dan anjungan minyak lepas pantai menjadi sangat rentan terhadap kondisi laut ekstrem yang tidak terprediksi. Hal ini sering kali mengakibatkan kecelakaan maritim tragis, terganggunya koridor perdagangan global, dan kerugian ekonomi yang parah.
