@@ -3,7 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-heroImage: /assets/images/Screenshot 2026-06-12 142150.png
+image: /assets/images/IMG-20251022-WA0022.jpg
+heroImage: ../../../f283bd30e97f/services/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
 ---
 
 ### Kekuatan Tersembunyi di Balik Komputasi Kritis
