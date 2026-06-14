@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: ''
+image: networks-infrastructure/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
 heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
