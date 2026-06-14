@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: /assets/images/Sibakom (29).png
+image: /assets/images/Sibakom (31).png
 heroImage: /assets/images/Sibakom (30).png
 ---
 
