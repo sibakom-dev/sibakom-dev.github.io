@@ -3,6 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Weather Broadcast Studio
 description: ''
+image: /assets/images/H12.png
 heroImage: /assets/images/pasted-image-1781167797800.png
 ---
 

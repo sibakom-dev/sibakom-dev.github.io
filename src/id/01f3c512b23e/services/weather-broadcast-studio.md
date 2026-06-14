@@ -3,12 +3,13 @@ layout: layouts/service.njk
 path: ''
 title: Weather Broadcast Studio
 description: ''
+image: /assets/images/H12.png
 heroImage: /assets/images/pasted-image-1781167797800.png
 ---
 
 #### Masa Depan Komunikasi Cuaca Dimulai di Sini
 
-Komunikasi cuaca telah berkembang jauh melampaui prakiraan tradisional. Audiens saat ini mengonsumsi informasi melalui televisi, media sosial, platform digital, aplikasi seluler, dan layanan _live streaming_. Mereka mengharapkan informasi yang visual, menarik, dan mudah dipahami—terutama dalam situasi cuaca ekstrem di mana setiap menit sangat berarti.
+Komunikasi cuaca telah berkembang jauh melampaui prakiraan tradisional. Audiens saat ini mengonsumsi informasi melalui televisi, media sosial, platform digital, aplikasi seluler, dan layanan _live streaming_. Mereka mengharapkan informasi yang visual, menarik, dan mudah dipahami. Terutama dalam situasi cuaca ekstrem di mana setiap menit sangat berarti.
 
 Studio Siaran Cuaca dari SIBAKOM dirancang untuk memenuhi ekspektasi ini dengan menyediakan lingkungan siaran yang terintegrasi penuh khusus untuk komunikasi cuaca modern. Mengombinasikan infrastruktur studio profesional, sistem visualisasi cuaca canggih, grafis _real-time_, dan alat presentasi interaktif, platform ini memungkinkan organisasi untuk menyampaikan informasi cuaca dengan kejelasan, kredibilitas, dan dampak yang lebih besar.
 
@@ -51,4 +52,4 @@ Komunikasi cuaca yang efektif mendukung keselamatan publik, perencanaan operasio
 
 Sebagai integrator sistem tepercaya dengan pengalaman luas dalam teknologi meteorologi, sistem pemantauan lingkungan, integrasi radar cuaca, platform prakiraan, jaringan komunikasi, dan infrastruktur operasional, SIBAKOM menghadirkan solusi yang melampaui sekadar pengadaan peralatan. Kami merancang, mengintegrasikan, dan mendukung ekosistem komunikasi cuaca yang lengkap.
 
-Studio Siaran Cuaca mencerminkan komitmen tersebut—menyatukan teknologi, keahlian, dan inovasi untuk membantu organisasi mengomunikasikan informasi cuaca secara lebih efektif daripada sebelumnya.
+Studio Siaran Cuaca mencerminkan komitmen tersebut. Menyatukan teknologi, keahlian, dan inovasi untuk membantu organisasi mengomunikasikan informasi cuaca secara lebih efektif daripada sebelumnya.
