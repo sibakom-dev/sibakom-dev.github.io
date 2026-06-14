@@ -3,6 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: 3D LiDAR Monitoring & Atmospheric Analytics
 description: ''
+image: ../../../7119603f7ec6/services/H11.png
 heroImage: /assets/images/H9.png
 ---
 
