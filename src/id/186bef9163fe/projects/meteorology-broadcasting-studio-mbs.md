@@ -7,7 +7,7 @@ technology: ''
 title: Meteorology Broadcasting Studio (MBS)
 description: ''
 tag: Meteorology Broadcasting Studio (MBS)
-image: ../../../de00aff295b1/projects/20241128_112259.jpg
+image: /assets/images/20241128_112259.jpg
 heroImage: /assets/images/20241212_143217.jpg
 ---
 
