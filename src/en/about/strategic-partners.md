@@ -1,6 +1,6 @@
 ---
 title: Strategic Partner
-heroImage: /assets/images/download.png
+heroImage: /assets/images/3.png
 description: Learn more about our strategic partner.
 layout: layouts/about.njk
 ---
