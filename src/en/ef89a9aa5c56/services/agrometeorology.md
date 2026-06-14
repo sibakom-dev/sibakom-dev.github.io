@@ -3,7 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Agrometeorology
 description: ''
-heroImage: /assets/images/pasted-image-1781167644203.png
+image: /assets/images/Sibakom (26).png
+heroImage: /assets/images/Sibakom (25)-1.png
 ---
 
 Provide the ultimate toolkit for precision weather data, micro-climate analytics, and automated monitoring across the Indonesian landscape. Engineered to transform agricultural productivity, these systems combine SIBAKOM's systems integration expertise with advanced localized sensors. We deliver real-time data and actionable alerts to optimize resource management, predict environmental risks, and safeguard farming livelihoods

@@ -3,7 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Agrometeorology
 description: ''
-heroImage: /assets/images/pasted-image-1781167644203.png
+image: /assets/images/Sibakom (26).png
+heroImage: /assets/images/Sibakom (25)-1.png
 ---
 
 Menyediakan perangkat utama untuk data cuaca presisi, analisis mikroklimat, dan pemantauan otomatis di seluruh lanskap Indonesia. Dirancang untuk mentransformasi produktivitas pertanian, sistem ini menggabungkan keahlian integrasi sistem SIBAKOM dengan sensor lokal yang canggih. Kami menghadirkan data _real-time_ dan peringatan yang dapat ditindaklanjuti untuk mengoptimalkan manajemen sumber daya, memprediksi risiko lingkungan, dan melindungi mata pencaharian petani.
