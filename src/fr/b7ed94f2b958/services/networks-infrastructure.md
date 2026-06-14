@@ -3,8 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: /assets/images/IMG-20251022-WA0022.jpg
-heroImage: ../../../fff6fadde6aa/services/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
+image: ''
+heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
 ### La Puissance Invisible Derrière l'Informatique Critique
