@@ -3,8 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Capacity Building
 description: ''
-image: /assets/images/FAT Radar Surabaya.jpg
-heroImage: /assets/images/FAT Radar Surabaya Software.jpg
+image: /assets/images/WhatsApp Image 2026-06-14 at 20.52.09.jpeg
+heroImage: /assets/images/WhatsApp Image 2026-06-14 at 20.46.16.jpeg
 ---
 
 ### Conjuguer Technologie de Pointe et Maîtrise Humaine : Le Renforcement des Capacités d'Élite par SIBAKOM

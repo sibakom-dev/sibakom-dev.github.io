@@ -3,8 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Capacity Building
 description: ''
-image: /assets/images/FAT Radar Surabaya.jpg
-heroImage: /assets/images/FAT Radar Surabaya Software.jpg
+image: /assets/images/WhatsApp Image 2026-06-14 at 20.52.09.jpeg
+heroImage: /assets/images/WhatsApp Image 2026-06-14 at 20.46.16.jpeg
 ---
 
 Berikut adalah terjemahan teks tersebut ke dalam bahasa Indonesia dan bahasa Prancis yang baik, benar, dan profesional untuk kebutuhan materi pemasaran korporat atau profil layanan.
