@@ -4,7 +4,7 @@ path: ''
 title: Capacity Building
 description: ''
 image: /assets/images/WhatsApp Image 2026-06-14 at 20.52.09.jpeg
-heroImage: /assets/images/WhatsApp Image 2026-06-14 at 20.46.16.jpeg
+heroImage: /assets/images/Desain tanpa judul (4).png
 ---
 
 **Bridging Advanced Technology with Human Mastery: SIBAKOM Premier Capacity Building**
