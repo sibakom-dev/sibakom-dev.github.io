@@ -4,7 +4,7 @@ path: ''
 title: Maritime Meteorology & Ocean Observation Systems
 description: ''
 image: /assets/images/H13.jpg
-heroImage: /assets/images/pasted-image-1781163758633.png
+heroImage: /assets/images/Sibakom (1).png
 ---
 
 ### Memanfaatkan Kecerdasan MetOcean untuk Melindungi Wilayah Perbatasan Kepulauan
