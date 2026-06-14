@@ -3,8 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: /assets/images/pages/s-band-radar.jpg
-heroImage: /assets/images/Screenshot 2026-06-12 142150.png
+image: /assets/images/Sibakom (29).png
+heroImage: /assets/images/Sibakom (30).png
 ---
 
 ### Kekuatan Tersembunyi di Balik Komputasi Kritis
