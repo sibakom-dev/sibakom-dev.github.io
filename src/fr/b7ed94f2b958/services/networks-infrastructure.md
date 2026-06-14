@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: networks-infrastructure/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
+image: /assets/images/pages/s-band-radar.jpg
 heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
@@ -15,7 +15,7 @@ La division Réseaux & Infrastructures de SIBAKOM conçoit et construit "le cœu
 
 #### Pourquoi SIBAKOM se Concentre sur Cette Technologie pour l'Indonésie et l'ASEAN
 
-Déployer des environnements de serveurs avancés dans la région de l'ASEAN—et à travers le vaste archipel indonésien—présente un ensemble unique de défis géographiques et opérationnels. Notre intérêt profond et notre attention spécialisée pour cette infrastructure découlent d'une chaîne directe de causes et d'effets :
+Déployer des environnements de serveurs avancés dans la région de l'ASEAN, et à travers le vaste archipel indonésien, présente un ensemble unique de défis géographiques et opérationnels. Notre intérêt profond et notre attention spécialisée pour cette infrastructure découlent d'une chaîne directe de causes et d'effets :
 
 - **La Cause :** L'Indonésie et la région plus large de l'ASEAN présentent des climats tropicaux hautement volatils avec une humidité extrême, des vagues de chaleur intenses et des fluctuations du réseau électrique local. Parallèlement, la région connaît une transformation numérique sans précédent, nécessitant un traitement massif des données pour le suivi météorologique, la sécurité maritime et les opérations des entreprises.
 - **L'Effet :** Les configurations de serveurs standards du marché (_off-the-shelf_) ne peuvent tout simplement pas survivre ou fonctionner efficacement sous ces contraintes ambiantes. Les coupures de courant ou la surchauffe peuvent entraîner une corruption catastrophique des données et une défaillance opérationnelle systémique. C'est pourquoi SIBAKOM conçoit des infrastructures physiques ultra-résilientes et adaptées au climat. En fortifiant la couche physique, nous garantissons que les entreprises régionales, les agences environnementales et les services publics peuvent faire évoluer leurs opérations numériques en toute sécurité, sans craindre de temps d'arrêt inattendus.

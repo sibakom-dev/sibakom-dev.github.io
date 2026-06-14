@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: networks-infrastructure/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
+image: /assets/images/pages/s-band-radar.jpg
 heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
@@ -15,7 +15,7 @@ Divisi Jaringan & Infrastruktur SIBAKOM merancang dan membangun "jantung dan sis
 
 #### Mengapa SIBAKOM Berfokus pada Teknologi Ini untuk Indonesia dan ASEAN
 
-Menerapkan lingkungan server canggih di wilayah ASEAN—dan di seluruh kepulauan Indonesia yang luas—menghadirkan serangkaian tantangan geografis dan operasional yang unik. Perhatian mendalam dan fokus khusus kami pada infrastruktur ini bermula dari rantai sebab dan akibat yang jelas:
+Menerapkan lingkungan server canggih di wilayah ASEAN, dan di seluruh kepulauan Indonesia yang luas, menghadirkan serangkaian tantangan geografis dan operasional yang unik. Perhatian mendalam dan fokus khusus kami pada infrastruktur ini bermula dari rantai sebab dan akibat yang jelas:
 
 - **Penyebab:** Indonesia dan wilayah ASEAN yang lebih luas memiliki iklim tropis yang sangat volatil dengan kelembapan ekstrem, pola panas yang intens, dan fluktuasi jaringan listrik lokal. Di saat yang sama, wilayah ini sedang mengalami transformasi digital yang belum pernah terjadi sebelumnya, yang membutuhkan pemrosesan data masif untuk pelacakan meteorologi, keselamatan maritim, dan operasi perusahaan.
 - **Akibat:** Konfigurasi server standar yang ada di pasaran (_off-the-shelf_) tidak akan mampu bertahan atau bekerja secara efisien di bawah tekanan lingkungan tersebut. Gangguan daya atau panas berlebih dapat menyebabkan korupsi data yang katastrofik dan kegagalan operasional sistemik. Oleh karena itu, SIBAKOM merancang infrastruktur fisik yang sangat tangguh (_ultra-resilient_) dan adaptif terhadap iklim. Dengan memperkuat lapisan fisik, kami memastikan bahwa perusahaan regional, lembaga lingkungan, dan layanan publik dapat mengembangkan operasi digital mereka secara aman tanpa khawatir akan waktu henti (_downtime_) yang tidak terduga.

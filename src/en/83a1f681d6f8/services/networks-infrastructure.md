@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Networks & Infrastructure
 description: ''
-image: networks-infrastructure/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
+image: /assets/images/pages/s-band-radar.jpg
 heroImage: /assets/images/Screenshot 2026-06-12 142150.png
 ---
 
@@ -15,7 +15,7 @@ SIBAKOM’s **Networks & Infrastructure** division designs and builds the heart 
 
 **Why SIBAKOM Focuses on This Technology for Indonesia and ASEAN**
 
-Deploying advanced server environments in the ASEAN region—and across Indonesia's sprawling archipelago—presents a distinct set of geographical and operational challenges. Our deep concern and specialized focus on this infrastructure stem from a direct chain of cause and effect:
+Deploying advanced server environments in the ASEAN region, and across Indonesia's sprawling archipelago, presents a distinct set of geographical and operational challenges. Our deep concern and specialized focus on this infrastructure stem from a direct chain of cause and effect:
 
 - **The Cause:** Indonesia and the wider ASEAN region feature highly volatile tropical climates with extreme humidity, intense heat patterns, and localized power grid fluctuations. At the same time, the region is experiencing an unprecedented digital transformation, requiring massive data processing for meteorological tracking, maritime safety, and enterprise operations.
 - **The Effect:** Standard, off-the-shelf server configurations simply cannot survive or perform efficiently under these ambient stresses. Power disruptions or overheating can lead to catastrophic data corruption and systemic operational failure. Therefore, SIBAKOM engineers ultra-resilient, climate-adaptive physical infrastructure. By fortifying the physical layer, we ensure that regional enterprises, environmental agencies, and public services can scale their digital operations securely without fear of unexpected downtime.
