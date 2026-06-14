@@ -3,7 +3,7 @@ layout: layouts/service.njk
 path: ''
 title: Custom NWP Models & Analysis
 description: ''
-image: ../../../0494a6478b6e/services/BARON Lynx 101-pages-10-1.png
+image: custom-nwp-models-analysis/BARON Lynx 101-pages-10-1.png
 heroImage: /assets/images/pasted-image-1781166822687.png
 ---
 
