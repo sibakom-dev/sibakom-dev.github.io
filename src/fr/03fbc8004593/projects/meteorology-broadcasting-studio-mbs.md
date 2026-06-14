@@ -6,8 +6,9 @@ location: ''
 technology: ''
 title: Meteorology Broadcasting Studio (MBS)
 description: ''
-tag: ''
-heroImage: /assets/images/pasted-image-1781167797800.png
+tag: Meteorology Broadcasting Studio (MBS)
+image: ../../../7721484281d9/projects/20241128_112259.jpg
+heroImage: /assets/images/20241212_143217.jpg
 ---
 
 SIBAKOM a conçu et livré avec succès le studio de diffusion météorologique de pointe au siège de l'Agence indonésienne de météorologie, de climatologie et de géophysique (BMKG) à Jakarta Centre. Ce projet historique marque un jalon révolutionnaire dans la communication sur la sécurité publique, transformant l'ancienne infrastructure de mini-studio de la BMKG en un pôle de diffusion publique complet et entièrement intégré. En tant qu'intégrateur de systèmes de premier plan pour les solutions environnementales, SIBAKOM a déployé de manière transparente un écosystème opérationnel de bout en bout qui permet aux météorologues de traduire des données scientifiques complexes en alertes météorologiques publiques en temps réel, dynamiques et faciles à comprendre.

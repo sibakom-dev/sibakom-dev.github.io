@@ -6,8 +6,9 @@ location: ''
 technology: ''
 title: Meteorology Broadcasting Studio (MBS)
 description: ''
-tag: ''
-heroImage: /assets/images/pasted-image-1781167797800.png
+tag: Meteorology Broadcasting Studio (MBS)
+image: ../../../de00aff295b1/projects/20241128_112259.jpg
+heroImage: /assets/images/20241212_143217.jpg
 ---
 
 SIBAKOM telah berhasil merancang dan menghadirkan Studio Siaran Meteorologi mutakhir di Kantor Pusat Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) di Jakarta Pusat. Proyek bersejarah ini menandai tonggak sejarah revolusioner dalam komunikasi keselamatan publik, meningkatkan infrastruktur studio mini BMKG sebelumnya menjadi pusat penyiaran publik yang komprehensif dan terintegrasi penuh. Sebagai Integrator Sistem terkemuka untuk Solusi Lingkungan, SIBAKOM telah menerapkan ekosistem operasional ujung-ke-ujung (_end-to-end_) secara mulus yang memberdayakan para meteorolog untuk menerjemahkan data ilmiah yang kompleks menjadi peringatan cuaca publik yang _real-time_, dinamis, dan mudah dipahami.
