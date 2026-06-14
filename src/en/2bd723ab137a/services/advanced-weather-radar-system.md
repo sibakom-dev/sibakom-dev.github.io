@@ -4,7 +4,7 @@ path: ''
 title: Advanced Weather Radar System
 description: ''
 image: /assets/images/Radar_IMG0223.webp
-heroImage: /assets/images/pasted-image-1781166687686.png
+heroImage: /assets/images/Desain tanpa judul (5).png
 ---
 
 Our weather radar solutions provide the ultimate toolkit for early warning detection, quantitative precipitation estimation (QPE), and storm cell tracking across the archipelago. Engineered to withstand complex tropical environments, these systems combine SIBAKOM's local technical expertise with the industry-leading standards of Baron Weather. We deliver uncompromised data quality and real-time atmospheric visibility to safeguard national infrastructure and protect communities.

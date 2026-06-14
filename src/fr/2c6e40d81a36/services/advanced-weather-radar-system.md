@@ -4,7 +4,7 @@ path: ''
 title: Advanced Weather Radar System
 description: ''
 image: /assets/images/Radar_IMG0223.webp
-heroImage: /assets/images/pasted-image-1781166687686.png
+heroImage: /assets/images/Desain tanpa judul (5).png
 ---
 
 ### Solutions de Radars Météorologiques
