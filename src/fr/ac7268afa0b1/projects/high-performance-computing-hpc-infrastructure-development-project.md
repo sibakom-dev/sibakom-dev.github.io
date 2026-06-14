@@ -7,7 +7,8 @@ technology: ''
 title: High-Performance Computing (HPC) Infrastructure Development Project
 description: ''
 tag: High-Performance Computing (HPC)
-heroImage: /assets/images/Screenshot 2026-06-12 142150.png
+image: /assets/images/IMG-20251022-WA0022.jpg
+heroImage: /assets/images/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
 ---
 
 ### Propulser l'Intelligence Climatique de l'Indonésie Grâce à une Infrastructure de Supercalcul de Nouvelle Génération
