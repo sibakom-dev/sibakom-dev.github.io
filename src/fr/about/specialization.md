@@ -5,7 +5,7 @@ description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
 
-En tant qu'intégrateur de systèmes de premier plan pour les solutions environnementales, SIBAKOM ne se contente pas de fournir des équipements—nous concevons des écosystèmes d'observation de bout en bout. Nos équipes d'ingénieurs spécialisés possèdent une connaissance approfondie du domaine à travers de multiples disciplines météorologiques, maritimes et infrastructurelles, garantissant que chaque capteur, serveur et nœud de transmission fonctionne parfaitement.
+En tant qu'intégrateur de systèmes de premier plan pour les solutions environnementales, SIBAKOM ne se contente pas de fournir des équipements. Nous concevons des écosystèmes d'observation de bout en bout. Nos équipes d'ingénieurs spécialisés possèdent une connaissance approfondie du domaine à travers de multiples disciplines météorologiques, maritimes et infrastructurelles, garantissant que chaque capteur, serveur et nœud de transmission fonctionne parfaitement.
 
 Grâce à nos spécialisations de pointe, nous permettons aux agences gouvernementales, aux entreprises et au grand public de comprendre, de surveiller et de prédire clairement les changements environnementaux avec une précision absolue.
 
@@ -14,7 +14,7 @@ Grâce à nos spécialisations de pointe, nous permettons aux agences gouverneme
 L'engagement de SIBAKOM envers les technologies environnementales avancées est dicté par une relation de cause à effet critique, propre ke notre région :
 
 - **La Cause :** L'Indonésie et la région plus large de l'ASEAN se caractérisent par des géographies archipélagiques hautement complexes, volatiles et vastes. Située en première ligne face aux graves anomalies du climat tropical et à l'intensification du changement climatique, la région est constamment exposée à des menaces hydrométéorologiques à fort impact, telles que les cyclones tropicaux, les inversions de mousson, les précipitations extrêmes et les états de mer instables.
-- **L'Effet :** Les équipements standards du marché (_off-the-shelf_) ne peuvent pas résister à ces mutations environnementales rapides ni les suivre avec précision. C'est pourquoi SIBAKOM se concentre fortement sur le déploiement de technologies hyper-locales, durcies (_ruggedized_) et à haute performance. En concevant des réseaux d'observation de précision, nous protégeons activement les principaux piliers économiques—tels que la logistique maritime, les réseaux d'aviation, l'agriculture et le tourisme—tout en préservant fondamentalement des millions de vies grâce à des alertes publiques de danger diffusées à temps.
+- **L'Effet :** Les équipements standards du marché (_off-the-shelf_) ne peuvent pas résister à ces mutations environnementales rapides ni les suivre avec précision. C'est pourquoi SIBAKOM se concentre fortement sur le déploiement de technologies hyper-locales, durcies (_ruggedized_) et à haute performance. En concevant des réseaux d'observation de précision, nous protégeons activement les principaux piliers économiques. Tels que la logistique maritime, les réseaux d'aviation, l'agriculture et le tourisme. Tout en préservant fondamentalement des millions de vies grâce à des alertes publiques de danger diffusées à temps.
 
 #### Nos Piliers Fondamentaux de l'Excellence Technique
 

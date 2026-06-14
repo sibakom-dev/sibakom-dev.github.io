@@ -5,7 +5,7 @@ description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
 
-Sebagai Integrator Sistem terkemuka untuk Solusi Lingkungan, SIBAKOM tidak hanya menyediakan peralatan—kami merancang ekosistem observasi ujung-ke-ujung (_end-to-end_). Tim teknik spesialis kami memiliki pengetahuan domain yang mendalam di berbagai disiplin ilmu meteorologi, maritim, dan infrastruktur, memastikan bahwa setiap sensor, server, dan simpul transmisi beroperasi tanpa hambatan.
+Sebagai Integrator Sistem terkemuka untuk Solusi Lingkungan, SIBAKOM tidak hanya menyediakan peralatan. Kami merancang ekosistem observasi ujung-ke-ujung (_end-to-end_). Tim teknik spesialis kami memiliki pengetahuan domain yang mendalam di berbagai disiplin ilmu meteorologi, maritim, dan infrastruktur, memastikan bahwa setiap sensor, server, dan simpul transmisi beroperasi tanpa hambatan.
 
 Melalui spesialisasi mutakhir ini, kami memberdayakan lembaga pemerintah, korporasi, dan masyarakat untuk memahami, memantau, dan memprediksi perubahan lingkungan secara jelas dengan presisi mutlak.
 
@@ -14,7 +14,7 @@ Melalui spesialisasi mutakhir ini, kami memberdayakan lembaga pemerintah, korpor
 Fokus tanpa henti SIBAKOM pada teknologi lingkungan tingkat lanjut didorong oleh hubungan sebab-akibat kritis yang unik di wilayah kita:
 
 - **Penyebab:** Indonesia dan wilayah ASEAN yang lebih luas dicirikan oleh geografis kepulauan yang sangat kompleks, volatil, dan luas. Berada di garis depan anomali iklim tropis yang parah dan perubahan iklim yang terus meningkat, wilayah ini menghadapi paparan konstan terhadap ancaman hidrometeorologi berdampak tinggi, seperti siklon tropis, pergeseran musim muson, presipitasi ekstrem, dan kondisi laut yang volatil.
-- **Akibat:** Peralatan standar yang ada di pasaran (_off-the-shelf_) tidak dapat bertahan atau melacak perubahan lingkungan yang cepat ini secara akurat. Oleh karena itu, SIBAKOM sangat berfokus pada penerapan teknologi yang hiper-lokal, tangguh (_ruggedized_), dan berkinerja tinggi. Dengan merancang jaringan observasi presisi, kami secara aktif melindungi pilar ekonomi utama—seperti logistik maritim, jaringan penerbangan, pertanian, dan pariwisata—sekaligus secara mendasar melindungi jutaan nyawa melalui peringatan bahaya publik yang tepat waktu.
+- **Akibat:** Peralatan standar yang ada di pasaran (_off-the-shelf_) tidak dapat bertahan atau melacak perubahan lingkungan yang cepat ini secara akurat. Oleh karena itu, SIBAKOM sangat berfokus pada penerapan teknologi yang hiper-lokal, tangguh (_ruggedized_), dan berkinerja tinggi. Dengan merancang jaringan observasi presisi, kami secara aktif melindungi pilar ekonomi utama. Seperti logistik maritim, jaringan penerbangan, pertanian, dan pariwisata. Sekaligus secara mendasar melindungi jutaan nyawa melalui peringatan bahaya publik yang tepat waktu.
 
 #### Pilar Utama Keunggulan Teknis Kami
 
