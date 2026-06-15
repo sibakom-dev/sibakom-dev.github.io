@@ -7,8 +7,8 @@ read_time: '5'
 topic: Weather Radar
 tags:
   - Weather Radar
-image: ../../../b3357f09c3d0/newsroom/pasted-image-1781504345493.png
-heroImage: ../../../af93acaa8ead/newsroom/pasted-image-1781504345493.png
+image: /assets/images/shear-swath.jpg
+heroImage: /assets/images/shear-swath.jpg
 description: ''
 ---
 

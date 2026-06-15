@@ -2,12 +2,12 @@
 layout: layouts/post.njk
 title: Membangun Jaringan Meteorologi Modern di Brunei
 writer: Gregory Tobing
-date: ''
+date: 2026-06-15T13:20
 read_time: '5'
 topic: Weather Radar
 tags: []
-image: ../../../818b62988ac3/newsroom/pasted-image-1781504345493.png
-heroImage: ../../../c042dbab66ea/newsroom/pasted-image-1781504345493.png
+image: /assets/images/shear-swath.jpg
+heroImage: /assets/images/shear-swath.jpg
 description: ''
 ---
 
