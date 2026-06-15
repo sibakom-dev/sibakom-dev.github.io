@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 'Why 3D LiDAR Monitoring is Critical for Indonesia and the ASEAN Region: A Deep Dive into Cause-and-Effect Dynamics'
+title: L’importance des observations LiDAR 3D pour l’Indonésie et l’ASEAN
 writer: Rosi Ajeng
 date: 2026-06-14T14:54
 read_time: '5'
