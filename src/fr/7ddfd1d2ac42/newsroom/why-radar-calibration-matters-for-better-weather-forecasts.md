@@ -6,8 +6,8 @@ date: 2026-06-15T13:24
 read_time: 5 mins read
 topic: Weather Radar
 tags: []
-image: ''
-heroImage: ''
+image: /assets/images/featured-image-e1696323400999-768x429.png
+heroImage: /assets/images/featured-image-e1696323400999-768x429.png
 description: ''
 ---
 
