@@ -11,20 +11,6 @@ As the premier System Integrator for Weather Solutions, SIBAKOM is constantly ch
 
 This cutting-edge service line is built on a strategic vision alongside Collecte Localisation Satellites (CLS). The world-renowned subsidiary of the French Space Agency (CNES). By anchoring our upcoming solutions on CLS’s globally proven success stories, SIBAKOM is preparing to bring world-class satellite telemetry, advanced data processing, and predictive environmental modeling to Indonesia and the wider ASEAN region.
 
-**The Strategic Need: A High-Utility Vision for Indonesia & ASEAN**
-
-Our forward-looking focus on space-backed remote sensing is driven by a critical cause-and-effect reality that shapes the future of our region:
-
-•             **The Cause: Dynamic, High-Risk Tropical Landscapes**
-
-Indonesia and ASEAN countries govern a massive, complex archipelagic footprint characterized by vast maritime borders, critical agricultural lands, and dense tropical climates. This geographic reality makes the region highly susceptible to rapid, volatile environmental shifts. Including sudden tropical cyclones, extreme monsoonal anomalies, unpredictable sea states, and severe coastal erosion. Ground stations alone cannot deliver the full, macro-level coverage required to track these massive systems seamlessly.
-
-**•             The Effect: Space-Based Predictive Security**
-
-To address this, SIBAKOM’s upcoming Remote Sensing ecosystem will act as the ultimate eye in the sky. By translating raw space data into actionable, hyper-localized insights, this technology is designed to anticipate severe weather before it strikes, monitor agricultural vital signs, and safeguard open ocean paths. The direct result will be an advanced technological shield that protects key economic lifelines uch as aviation safety, maritime commerce, and regional food security. While dramatically increasing public disaster resilience.
-
-**Core Pillars of Our Upcoming Remote Sensing Portfolio**
-
 Leveraging CLS’s unmatched global track record, SIBAKOM is shaping a high-performance framework centered across four vital environmental domains:
 
 **1.** **Advanced Weather Intelligence**

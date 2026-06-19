@@ -11,17 +11,6 @@ Sebagai Integrator Sistem utama untuk Solusi Cuaca, SIBAKOM terus memetakan masa
 
 Lini layanan mutakhir ini dibangun di atas visi strategis bersama Collecte Localisation Satellites (CLS), anak perusahaan ternama dari Badan Antariksa Prancis (CNES). Dengan menyandarkan solusi masa depan kami pada kisah sukses CLS yang terbukti secara global, SIBAKOM bersiap menghadirkan telemetri satelit kelas dunia, pemrosesan data tingkat lanjut, dan pemodelan lingkungan prediktif ke Indonesia dan wilayah ASEAN yang lebih luas.
 
-#### Kebutuhan Strategis: Visi Berdaya Guna Tinggi untuk Indonesia & ASEAN
-
-Fokus berorientasi masa depan kami pada penginderaan jauh berbasis antariksa didorong oleh realitas sebab-akibat kritis yang membentuk masa depan wilayah kita:
-
-- **Sebab: Lanskap Tropis yang Dinamis dan Berisiko Tinggi**
-Indonesia dan negara-negara ASEAN mengelola wilayah kepulauan yang sangat luas dan kompleks, yang dicirikan oleh perbatasan maritim yang luas, lahan pertanian kritis, dan iklim tropis yang padat. Realitas geografis ini membuat wilayah tersebut sangat rentan terhadap pergeseran lingkungan yang cepat dan volatil. Termasuk siklon tropis yang tiba-tiba, anomali muson yang ekstrem, kondisi laut yang tidak terprediksi, dan erosi pantai yang parah. Stasiun darat saja tidak dapat memberikan cakupan tingkat makro penuh yang diperlukan untuk melacak sistem masif ini secara mulus.
-- **Akibat: Keamanan Prediktif Berbasis Antariksa**
-Untuk mengatasi hal ini, ekosistem Penginderaan Jauh SIBAKOM yang akan datang akan bertindak sebagai pengawas utama dari atas (_eye in the sky_). Dengan menerjemahkan data antariksa mentah menjadi wawasan hiper-lokal yang dapat ditindaklanjuti, teknologi ini dirancang untuk mengantisipasi cuaca ekstrem sebelum melanda, memantau tanda-tanda vital pertanian, dan melindungi jalur laut lepas. Hasil langsungnya adalah perisai teknologi canggih yang melindungi jalur ekonomi utama. Seperti keselamatan penerbangan, perdagangan maritim, dan ketahanan pangan regional. Sekaligus meningkatkan ketangguhan masyarakat terhadap bencana secara drastis.
-
-#### Pilar Utama dari Portofolio Penginderaan Jauh Kami yang Akan Datang
-
 Memanfaatkan rekam jejak global CLS yang tak tertandingi, SIBAKOM membentuk kerangka kerja berkinerja tinggi yang berpusat di empat domain lingkungan yang vital:
 
 ##### 1. Intelijen Cuaca Tingkat Lanjut
