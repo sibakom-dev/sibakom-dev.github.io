@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Privacy Policy
 description: Privacy Policy details for SIBAKOM.
-heroImage: /assets/images/pages/corporate-building.jpg
+heroImage: /assets/images/pages/privacy_policy.png
 subtitle: Legal & Compliance
 path: privacy-policy/index
 ---
