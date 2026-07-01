@@ -4,7 +4,7 @@ path: ''
 title: Networks & Infrastructure
 description: ''
 image: /assets/images/Sibakom (31).png
-heroImage: /assets/images/Sibakom (30).png
+heroImage: /assets/images/foto chiller.jpeg
 ---
 
 **The Unseen Power Behind Critical Computing**
