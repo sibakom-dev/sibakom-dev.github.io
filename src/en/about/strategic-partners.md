@@ -42,6 +42,14 @@ We have carefully curated an elite network of partners to deliver unmatched tech
 - **3D LIDAR Systems & Atmospheric Remote Sensing:** Raymetrics specializes in developing cutting-edge atmospheric LIDAR (Light Detection and Ranging) technology.
 - **Securing the Skies:** Our strategic partnership allows SIBAKOM to integrate powerful 3D LIDAR systems for the real-time tracking of atmospheric aerosols, air pollution dispersal, and critical volcanic ash monitoring. This specialized environmental surveillance is absolutely essential for safeguarding the Indonesian and ASEAN aviation sectors from invisible airborne hazards.
 
+### **5. Sterela**
+
+- Leading provider of automatic weather observation systems, marine meteorological solutions, and environmental monitoring technologies.
+- Extensive experience supporting national meteorological services and critical infrastructure projects worldwide.
+
+### 
+
+
 ## Complete Synergy: Technology Powered by Human Mastery
 
 Deploying highly advanced technology from our global partners is only the beginning. To ensure these sophisticated systems operate at peak performance, SIBAKOM pairs every deployment with our premier **Capacity Building** programs. We provide specialized, factory-certified training and operational integration for local teams and duty operators. By ensuring your workforce completely understands and masters these cutting-edge platforms, we transform elite global innovations into seamless, flawlessly executed local solutions.
