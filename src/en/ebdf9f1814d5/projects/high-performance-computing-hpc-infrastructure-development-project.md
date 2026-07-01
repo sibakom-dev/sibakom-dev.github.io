@@ -7,7 +7,7 @@ technology: ''
 title: High-Performance Computing (HPC) Infrastructure Development Project
 description: ''
 tag: High-Performance Computing (HPC)
-image: /assets/images/IMG-20251022-WA0022.jpg
+image: /assets/images/IMG_20251113_165032.jpg
 heroImage: /assets/images/Sibakom (32).jpg
 ---
 
