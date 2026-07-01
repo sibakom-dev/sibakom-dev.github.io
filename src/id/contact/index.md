@@ -1,10 +1,11 @@
 ---
-title: Contact Us
+title: Narahubung
 heroImage: /assets/images/Sibakom (24).png
 description: Contact Us details for SIBAKOM.
 layout: layouts/contact.njk
 ---
 
-## Get In Touch
+### **Hubungi Kami**
+Konsultasikan kebutuhan proyek Anda dengan tim kami untuk mendapatkan solusi sistem yang terintegrasi, dan dirancang sesuai dengan kebutuhan Anda. 
 
-Consult with our engineering team to design a robust, custom-tailored system for your observational network. We are ready to assist you.
+###
