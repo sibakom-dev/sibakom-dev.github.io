@@ -26,22 +26,8 @@
                         {% set current_lang = page.lang | default("en") %}
                         {% set header_services = collections.all | getChildren('/' ~ current_lang ~ '/services/') %}
                         
-                        {# Temporarily restrict and sort Services & Products #}
-                        {% set desired_slugs = [
-                            "advanced-weather-radar-system",
-                            "maritime-meteorology-ocean-observing-systems",
-                            "agrometeorology",
-                            "3d-lidar-monitoring-atmospheric-analytics",
-                            "networks-infrastructure",
-                            "weather-broadcast-studio"
-                        ] %}
-                        
-                        {% for slug in desired_slugs %}
-                            {% for item in header_services %}
-                                {% if ('/services/' ~ slug ~ '/') in item.url %}
-                                <li class="dropdown-item"><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-                                {% endif %}
-                            {% endfor %}
+                        {% for item in header_services %}
+                        <li class="dropdown-item"><a href="{{ item.url }}">{{ item.data.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
