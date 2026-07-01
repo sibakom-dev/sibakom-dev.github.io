@@ -1,6 +1,4 @@
 ---
-layout: layouts/index_page.njk
 title: Project Profile
+layout: layouts/index_page.njk
 ---
-
-
