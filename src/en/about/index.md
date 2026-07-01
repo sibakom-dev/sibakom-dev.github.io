@@ -8,7 +8,6 @@ layout: layouts/about.njk
 
 Sibakom is a system integration company with the expertise to design, select, and integrate technologies into reliable and effective solutions tailored to specific operational requirements. By combining equipment, sensors, and supporting infrastructure, we develop integrated systems that enhance performance, improve functionality, and support evolving operational needs. we provide comprehensive lifecycle support, including preventive and corrective maintenance, system upgrades, technical assistance, and spare parts management to ensure long-term reliability and performance.
 
-
 With extensive experience across national and international projects, Sibakom provides comprehensive services covering, technology selection, equipment procurement, installation, integration, commissioning, as well as long-term operation and maintenance support.
 
 Established through its strong involvement in meteorological and climatological observation projects, Sibakom has continuously expanded its capabilities to address the evolving needs of various industries. Today, the company serves government institutions, private sector organizations, and international agencies by delivering solutions tailored to their operational requirements and strategic objectives.
