@@ -7,7 +7,7 @@ layout: layouts/about.njk
 path: index
 ---
 
-**PT Sibacipta Telekomindo (Sibakom)** merupakan perusahaan system integrator yang menyediakan solusi teknologi terintegrasi untuk mendukung kebutuhan observasi, pengelolaan data, sistem pendukung keputusan, dan infrastruktur teknologi yang terintegrasi. 
+**Sibakom** merupakan perusahaan system integrator yang menyediakan solusi teknologi terintegrasi untuk mendukung kebutuhan observasi, pengelolaan data, sistem pendukung keputusan, dan infrastruktur teknologi yang terintegrasi. 
 
 Berbekal pengalaman berbagai proyek nasional maupun internasional, Sibakom menghadirkan layanan menyeluruh yang mencakup perencanaan sistem, pemilihan teknologi, pengadaan peralatan, instalasi, integrasi, commissioning, hingga layanan operasi dan pemeliharaan jangka panjang.
 
