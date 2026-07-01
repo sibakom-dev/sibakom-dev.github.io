@@ -24,8 +24,8 @@ why_btn_link: /about/
 zigzag_subtitle: Integration Excellence
 zigzag_title: Mastering The Infrastructure
 sections:
-  - title: Robust Data Center Architecture
-    image: /assets/images/Sibakom (29).png
+  - title: infrastructure Data Center
+    image: /assets/images/foto chiller.jpeg
     text: |-
       Mission-critical weather operations require zero downtime. SIBAKOM architects robust, highly available data centers precisely tuned for the intense I/O demands of High-Performance Computing (HPC) meteorological models.
 
