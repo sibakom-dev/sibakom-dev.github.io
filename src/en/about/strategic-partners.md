@@ -5,7 +5,7 @@ description: Learn more about our strategic partner.
 layout: layouts/about.njk
 ---
 
-At **Sibakom**, we believe that successful technology solutions are built through strong collaboration and trusted partnerships. By working closely with leading global technology providers, we are able to deliver integrated systems that combine proven technologies with local expertise and project experience.
+We believe that successful technology solutions are built through strong collaboration and trusted partnerships. By working closely with leading global technology providers, we are able to deliver integrated systems that combine proven technologies with local expertise and project experience.
 
 Our strategic partnerships strengthen our ability to provide reliable solutions across environmental observation, data infrastructure, communication networks, and decision support systems. Through this collaborative approach, Sibakom helps organizations access the technologies and capabilities they need to support their operational goals. 
 
