@@ -1,22 +1,17 @@
 ---
 title: About Us
 heroImage: /assets/images/1780976715150.jpg
-description: Learn more about SIBAKOM, your trusted System Integrator for environmental solutions.
 subtitle: Pioneering Reliable Environmental Monitoring
+description: Learn more about SIBAKOM, your trusted System Integrator for environmental solutions.
 layout: layouts/about.njk
 ---
 
-SIBAKOM is a leading System Integrator with full capabilities to design, select, and integrate advanced equipment and sensors into unified, high-performance solutions. We empower critical systems to take on advanced tasks, exhibit enhanced operational efficiency, and deliver superior reliability.
+Sibakom is a system integration company with the expertise to design, select, and integrate technologies into reliable and effective solutions tailored to specific operational requirements. By combining equipment, sensors, and supporting infrastructure, we develop integrated systems that enhance performance, improve functionality, and support evolving operational needs. we provide comprehensive lifecycle support, including preventive and corrective maintenance, system upgrades, technical assistance, and spare parts management to ensure long-term reliability and performance.
 
-We don't just build systems; we sustain them. SIBAKOM provides comprehensive, long-term preventive and corrective maintenance services, technology upgrades, and specialized spare parts supply, with a core focus on marine meteorology observation infrastructure.
+With extensive experience across national and international projects, Sibakom provides comprehensive services covering, technology selection, equipment procurement, installation, integration, commissioning, as well as long-term operation and maintenance support.
 
-## Integration Excellence
+Established through its strong involvement in meteorological and climatological observation projects, Sibakom has continuously expanded its capabilities to address the evolving needs of various industries. Today, the company serves government institutions, private sector organizations, and international agencies by delivering solutions tailored to their operational requirements and strategic objectives.
 
-Our approach combines deep domain expertise with cutting-edge technology to ensure seamless operation of your critical environmental assets.
+Supported by experienced professionals and a network of global technology partners, Sibakom is committed to delivering reliable, sustainable, and high-value solutions. We believe that integrated technology not only improves operational efficiency but also enables organizations to make faster, more informed, and effective decisions.
 
-## Mastering The Infrastructure
-
-From deep-sea buoys to terrestrial weather stations, we deploy robust infrastructure designed to withstand the harshest elements while delivering uncompromised data accuracy.
-
-> **Our Shared Vision**  
-> "We define our success by providing our customers with the absolute best solutions through deep, continuous collaboration with our world-class strategic partners. We believe that solving modern environmental challenges requires a blend of proven technology and continuous, high-precision monitoring."
+Through a collaborative approach and a strong commitment to customer success, Sibakom continues to build lasting partnerships based on trust, service excellence, and continuous innovation.

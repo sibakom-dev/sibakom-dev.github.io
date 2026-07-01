@@ -5,9 +5,9 @@ description: Learn more about our strategic partner.
 layout: layouts/about.njk
 ---
 
-At SIBAKOM, we believe that delivering world-class environmental intelligence requires world-class technology. We don't just supply standalone products; we forge deep, elite strategic partnerships with leading global manufacturers, space agencies, and government authorities to ensure our integrated ecosystems are the most advanced, sophisticated, and reliable on the market.
+We believe that successful technology solutions are built through strong collaboration and trusted partnerships. By working closely with leading global technology providers, we are able to deliver integrated systems that combine proven technologies with local expertise and project experience.
 
-By uniting global innovation with local engineering brilliance, SIBAKOM stands as the definitive bridge between raw environmental data and absolute public safety.
+Our strategic partnerships strengthen our ability to provide reliable solutions across environmental observation, data infrastructure, communication networks, and decision support systems. Through this collaborative approach, Sibakom helps organizations access the technologies and capabilities they need to support their operational goals. 
 
 ## The Strategic Imperative: Safeguarding Indonesia and the ASEAN Region
 
@@ -41,6 +41,13 @@ We have carefully curated an elite network of partners to deliver unmatched tech
 
 - **3D LIDAR Systems & Atmospheric Remote Sensing:** Raymetrics specializes in developing cutting-edge atmospheric LIDAR (Light Detection and Ranging) technology.
 - **Securing the Skies:** Our strategic partnership allows SIBAKOM to integrate powerful 3D LIDAR systems for the real-time tracking of atmospheric aerosols, air pollution dispersal, and critical volcanic ash monitoring. This specialized environmental surveillance is absolutely essential for safeguarding the Indonesian and ASEAN aviation sectors from invisible airborne hazards.
+
+### **5. Sterela**
+
+- Leading provider of automatic weather observation systems, marine meteorological solutions, and environmental monitoring technologies.
+- Extensive experience supporting national meteorological services and critical infrastructure projects worldwide.
+
+### 
 
 ## Complete Synergy: Technology Powered by Human Mastery
 
