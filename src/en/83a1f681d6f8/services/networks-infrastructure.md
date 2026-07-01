@@ -1,7 +1,7 @@
 ---
 layout: layouts/service.njk
 path: ''
-title: Networks & Infrastructure
+title: Infrastructure Data Center
 description: ''
 image: /assets/images/Sibakom (31).png
 heroImage: /assets/images/foto chiller.jpeg
