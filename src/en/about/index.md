@@ -6,7 +6,8 @@ description: Learn more about SIBAKOM, your trusted System Integrator for enviro
 layout: layouts/about.njk
 ---
 
-**PT Sibacipta Telekomindo (Sibakom)** is a system integration company delivering integrated technology solutions that support environmental observation, data management, decision-support systems, and critical technology infrastructure.
+Sibakom is a system integration company with the expertise to design, select, and integrate technologies into reliable and effective solutions tailored to specific operational requirements. By combining equipment, sensors, and supporting infrastructure, we develop integrated systems that enhance performance, improve functionality, and support evolving operational needs. we provide comprehensive lifecycle support, including preventive and corrective maintenance, system upgrades, technical assistance, and spare parts management to ensure long-term reliability and performance.
+
 
 With extensive experience across national and international projects, Sibakom provides comprehensive services covering, technology selection, equipment procurement, installation, integration, commissioning, as well as long-term operation and maintenance support.
 
