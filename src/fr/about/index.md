@@ -1,8 +1,8 @@
 ---
 title: About Us
 heroImage: /assets/images/1780976715150.jpg
-description: Learn more about SIBAKOM, your trusted System Integrator for environmental solutions.
 subtitle: Pioneering Environmental Intelligence
+description: Learn more about SIBAKOM, your trusted System Integrator for environmental solutions.
 layout: layouts/about.njk
 path: index
 ---
