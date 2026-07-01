@@ -22,11 +22,6 @@
   </url>
   
   <url>
-    <loc>https://www.sibakom.com/en/legal/privacy-policy/</loc>
-    <lastmod>2026-06-11T01:20:58.420Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.sibakom.com/en/legal/terms-of-service/</loc>
     <lastmod>2026-06-11T01:20:58.424Z</lastmod>
   </url>
@@ -72,11 +67,6 @@
   </url>
   
   <url>
-    <loc>https://www.sibakom.com/fr/legal/privacy-policy/</loc>
-    <lastmod>2026-06-14T09:58:19.219Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.sibakom.com/fr/legal/terms-of-service/</loc>
     <lastmod>2026-06-14T09:58:19.220Z</lastmod>
   </url>
@@ -104,11 +94,6 @@
   <url>
     <loc>https://www.sibakom.com/id/about/specializations/</loc>
     <lastmod>2026-06-14T09:58:19.245Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.sibakom.com/id/legal/privacy-policy/</loc>
-    <lastmod>2026-06-14T09:58:19.256Z</lastmod>
   </url>
   
   <url>
@@ -449,5 +434,20 @@
   <url>
     <loc>https://www.sibakom.com/id/services/multi-domain-remote-sensing-ecosystem/</loc>
     <lastmod>2026-06-30T02:58:33.934Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.sibakom.com/en/legal/privacy-policy/</loc>
+    <lastmod>2026-06-30T05:09:41.937Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.sibakom.com/fr/legal/privacy-policy/</loc>
+    <lastmod>2026-06-30T05:09:41.938Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.sibakom.com/id/legal/privacy-policy/</loc>
+    <lastmod>2026-06-30T05:09:41.939Z</lastmod>
   </url>
 </urlset>
