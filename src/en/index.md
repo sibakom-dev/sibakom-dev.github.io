@@ -1,5 +1,5 @@
 ---
-title: SIBAKOM | Weather Observation & Meteorological Services
+title: SIBAKOM | Solution for Weather Observation, Meteorological System & services
 heroImage: ''
 heroVideo: /assets/images/0701(1).webm
 hero_subtitle: Meteorological System & Services
