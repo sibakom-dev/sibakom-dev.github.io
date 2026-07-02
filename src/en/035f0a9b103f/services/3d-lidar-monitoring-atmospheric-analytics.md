@@ -53,6 +53,6 @@ We empower municipalities to safeguard public health by actively tracking PM2.5 
 
 For heavy industrial operations, such as steel factories, refineries, and manufacturing plants, our platform serves as the ultimate environmental compliance asset. Extensively validated alongside in-situ PM counters, the scanning LiDAR delivers highly accurate estimations of PM concentrations across multiple plant locations from distances up to a kilometer away. It provides corporate operators with clear, high-correlation data to verify environmental safety and manage plant emissions dynamically.
 
-As a trusted System Integrator for Environmental Solutions, SIBAKOM delivers precision meteorological, maritime, and infrastructural technology across Indonesia. By bridging Raymetrics' world-class LiDAR innovations with our localized system integration expertise, we offer an elite, hyper-accurate layer of atmospheric protection for our industries and broader society.
+As a trusted System Integrator for Meteorological Solutions, SIBAKOM delivers precision meteorological, maritime, and infrastructural technology across Indonesia. By bridging Raymetrics' world-class LiDAR innovations with our localized system integration expertise, we offer an elite, hyper-accurate layer of atmospheric protection for our industries and broader society.
 
 Track the Invisible. Protect Your Operations. Secure the Future with SIBAKOM. Contact our corporate headquarters in Jakarta today to explore our automated 3D LiDAR monitoring solutions.

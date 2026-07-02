@@ -5,7 +5,7 @@ description: Learn more about our specialization.
 layout: layouts/about.njk
 ---
 
-As a premier System Integrator for Environmental Solutions, SIBAKOM does not just supply equipment. We engineer end-to-end observational ecosystems. Our specialized engineering teams possess deep domain knowledge across multiple meteorological, maritime, and infrastructural disciplines, ensuring that every sensor, server, and transmission node operates flawlessly.
+As a premier System Integrator for Meteorological Solutions, SIBAKOM does not just supply equipment. We engineer end-to-end observational ecosystems. Our specialized engineering teams possess deep domain knowledge across multiple meteorological, maritime, and infrastructural disciplines, ensuring that every sensor, server, and transmission node operates flawlessly.
 
 Through our cutting-edge specializations, we empower government agencies, corporations, and the public to clearly understand, monitor, and predict environmental changes with absolute precision.
 

@@ -13,7 +13,7 @@ heroImage: /assets/images/Sibakom (12)_.jpeg
 
 **Empowering Nation’s Weather Resilience through Precision Technology**
 
-As a leading System Integrator for Environmental Solutions in Indonesia, SIBAKOM continuously delivers high-precision meteorological, maritime, and infrastructural technology across the archipelago. In a monumental step toward strengthening Indonesia’s climate resilience, SIBAKOM has successfully completed the deployment and integration of the state-of-the-art Surabaya C-Band Dual-Polarization Weather Radar System.
+As a leading System Integrator for Meteorological Solutions in Indonesia, SIBAKOM continuously delivers high-precision meteorological, maritime, and infrastructural technology across the archipelago. In a monumental step toward strengthening Indonesia’s climate resilience, SIBAKOM has successfully completed the deployment and integration of the state-of-the-art Surabaya C-Band Dual-Polarization Weather Radar System.
 
 Working in close collaboration with the Indonesian Agency for Meteorology, Climatology, and Geophysics (BMKG), this project stands as a testament to SIBAKOM’s technical excellence and unwavering commitment to safeguarding communities through advanced environmental engineering.
 

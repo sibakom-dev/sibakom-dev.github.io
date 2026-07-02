@@ -11,7 +11,7 @@ image: /assets/images/20241128_112259.jpg
 heroImage: /assets/images/20241212_143217.jpg
 ---
 
-SIBAKOM has successfully engineered and delivered the state-of-the-art Meteorology Broadcast Studio at the Indonesian Agency for Meteorology, Climatology, and Geophysics (BMKG) Headquarters in Central Jakarta. This landmark project marks a revolutionary milestone in public safety communication, upgrading BMKG's previous mini studio infrastructure into a fully integrated, comprehensive public broadcasting hub. As a premier System Integrator for Environmental Solutions, SIBAKOM has seamlessly deployed an end-to-end operational ecosystem that empowers meteorologists to translate complex scientific data into real-time, dynamic, and easily understandable public weather alerts.
+SIBAKOM has successfully engineered and delivered the state-of-the-art Meteorology Broadcast Studio at the Indonesian Agency for Meteorology, Climatology, and Geophysics (BMKG) Headquarters in Central Jakarta. This landmark project marks a revolutionary milestone in public safety communication, upgrading BMKG's previous mini studio infrastructure into a fully integrated, comprehensive public broadcasting hub. As a premier System Integrator for Meteorological Solutions, SIBAKOM has seamlessly deployed an end-to-end operational ecosystem that empowers meteorologists to translate complex scientific data into real-time, dynamic, and easily understandable public weather alerts.
 
 **Strategic Technology Benefits for Indonesia**
 

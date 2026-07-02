@@ -32,7 +32,7 @@ sections:
       - N+1 redundant power topologies.
     link: ''
     link_text: ''
-description: SIBAKOM | System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
+description: SIBAKOM | System Integrator for Meteorological Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
 cta_title: ''
 cta_description: ''
 cta_btn_text: ''

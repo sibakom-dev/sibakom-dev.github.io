@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="{{ description | default('SIBAKOM - System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.') }}">
+    <meta name="description" content="{{ description | default('SIBAKOM - System Integrator for Meteorological Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.') }}">
     {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
     
     <meta property="og:title" content="{{ title | default('SIBAKOM | Environmental Solutions & Weather Technology') }}">
-    <meta property="og:description" content="{{ description | default('SIBAKOM - System Integrator for Environmental Solutions.') }}">
+    <meta property="og:description" content="{{ description | default('SIBAKOM - System Integrator for Meteorological Solutions.') }}">
     {% if image %}
     <meta property="og:image" content="https://www.sibakom.com{{ image | replace(' ', '%20') }}">
     {% elif heroImage %}
@@ -21,7 +21,7 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ title | default('SIBAKOM | Environmental Solutions & Weather Technology') }}">
-    <meta name="twitter:description" content="{{ description | default('SIBAKOM - System Integrator for Environmental Solutions.') }}">
+    <meta name="twitter:description" content="{{ description | default('SIBAKOM - System Integrator for Meteorological Solutions.') }}">
     {% if image %}
     <meta name="twitter:image" content="https://www.sibakom.com{{ image | replace(' ', '%20') }}">
     {% elif heroImage %}

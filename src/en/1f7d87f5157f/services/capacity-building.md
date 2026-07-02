@@ -9,7 +9,7 @@ heroImage: /assets/images/Desain tanpa judul (4).png
 
 **Bridging Advanced Technology with Human Mastery: SIBAKOM Premier Capacity Building**
 
-At SIBAKOM, we believe that the world’s most sophisticated technology is only as powerful as the minds operating it. As a premier System Integrator for Environmental Solutions, we don’t just deploy cutting-edge infrastructure. We ensure complete operational mastery.
+At SIBAKOM, we believe that the world’s most sophisticated technology is only as powerful as the minds operating it. As a premier System Integrator for Meteorological Solutions, we don’t just deploy cutting-edge infrastructure. We ensure complete operational mastery.
 
 Our **Capacity Building Service** is a flagship, state-of-the-art program engineered to transform technical teams into elite operators. We bridge the gap between complex environmental data and real-world execution, ensuring your workforce fully understands, commands, and maximizes every ecosystem we build.
 

@@ -62,6 +62,6 @@ SIBAKOM’s Custom NWP Models function as a premier decision support platform ac
 - **Maritime & Offshore Operations:** Utilizing buoy data and advanced marine datasets to model wave heights and offshore winds, ensuring safe navigation.
 - **Agrometeorology & Corporate Enterprise:** Providing long-range high-resolution modeling for precipitation, wind, and temperatures to mitigate environmental risks and optimize operational planning.
 
-As a trusted System Integrator for Environmental Solutions, SIBAKOM delivers precision meteorological, maritime, and infrastructural technology across Indonesia. By bridging world-class hardware with highly customized analytical software, we ensure that your organization can make data-driven decisions with absolute confidence.
+As a trusted System Integrator for Meteorological Solutions, SIBAKOM delivers precision meteorological, maritime, and infrastructural technology across Indonesia. By bridging world-class hardware with highly customized analytical software, we ensure that your organization can make data-driven decisions with absolute confidence.
 
 Weatherproof Your World with SIBAKOM. Contact our team of experts today to deploy the next generation of custom weather intelligence.
