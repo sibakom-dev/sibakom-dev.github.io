@@ -3,7 +3,7 @@ title: SIBAKOM | Weather Observation & Meteorological Services
 heroImage: ''
 heroVideo: /assets/images/0701(1).webm
 hero_subtitle: Meteorological System & Services
-hero_title: Providing integrated system solution
+hero_title: Solution for Weather Observation
 hero_description: Leveraging extensive experience in Weather observation, data infrastructure, and system integration. Sibakom delivers reliable solutions that support monitoring, operations, and informed decision making.
 why_subtitle: Why SIBAKOM
 why_title: We understand our customers have to adapt to technology changes and shifted priorities, we are here to provide solutions on both issues.
@@ -32,7 +32,7 @@ sections:
       - N+1 redundant power topologies.
     link: ''
     link_text: ''
-description: SIBAKOM | System Integrator for Meteorological Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
+description: SIBAKOM | System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
 cta_title: ''
 cta_description: ''
 cta_btn_text: ''
