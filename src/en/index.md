@@ -1,7 +1,7 @@
 ---
 title: SIBAKOM | Weather Observation & Meteorological Services
 heroImage: ''
-heroVideo: /assets/images/0701(1).mp4
+heroVideo: /assets/images/0701(1).webm
 hero_subtitle: Meteorological System & Services
 hero_title: Providing integrated system solution
 hero_description: Leveraging extensive experience in Weather observation, data infrastructure, and system integration. Sibakom delivers reliable solutions that support monitoring, operations, and informed decision making.
