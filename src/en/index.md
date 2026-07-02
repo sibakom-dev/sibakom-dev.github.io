@@ -10,13 +10,11 @@ why_title: We understand our customers have to adapt to technology changes and s
 why_description: |-
   We are driven by the desire to provide valuable service
   and solution to our customers; to become their strategic
-  partner in achieving their objectives. We are committed
-  to build a long term and mutually beneficial working
-  relationships.
+  partner in achieving their objectives.
 why_image: /assets/images/pasted-image-1781248775160.png
 why_points:
-  - text: End-to-end System Integration
-  - text: World-class Equipment Partnerships
+  - text: Integrated System Solutions
+  - text: Global Technology Partners
   - text: Dedicated Local Technical Support
   - text: High-Quality Assurance Standards
 why_btn_text: Learn About Our History
