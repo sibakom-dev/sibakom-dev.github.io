@@ -1,7 +1,7 @@
 ---
 layout: layouts/service.njk
 path: ''
-title: Maritime Meteorology & Ocean Observation Systems
+title: Solutions for operational oceanography and marine meteorology
 description: ''
 image: /assets/images/H13.jpg
 heroImage: /assets/images/Sibakom (1).png
@@ -54,7 +54,7 @@ Our maritime installations serve as an essential shield against large-scale envi
 - **Tsunami Interception:** By seamlessly integrating deep-ocean bottom pressure sensors into our offshore networks, we facilitate rapid data feeding for national tsunami early-warning systems.
 - **Oil Spill Trajectory Modeling:** In the event of an offshore industrial leak, our software utilizes real-time surface current data to instantly model the trajectory of oil spills, allowing containment teams to act before ecological barriers are breached.
 
-SIBAKOM stands uniquely positioned as the premier **System Integrator for Meteorological Solutions** across Indonesia. Our track record includes over two decades of robust partnership with Indonesia's national meteorological agency (BMKG), successfully building out extensive networks of advanced weather radars and marine modeling systems.
+SIBAKOM stands uniquely positioned as the premier **System Integrator for Environmental Solutions** across Indonesia. Our track record includes over two decades of robust partnership with Indonesia's national meteorological agency (BMKG), successfully building out extensive networks of advanced weather radars and marine modeling systems.
 
 By merging world-class hardware with intuitive, interactive visualization software, we deliver lifesaving clarity to the maritime industries, national agencies, and coastal communities that depend on the safety of our waterways.
 
