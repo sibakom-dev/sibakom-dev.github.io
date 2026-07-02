@@ -1,6 +1,6 @@
 ---
 title: SIBAKOM | Environmental Solutions & Weather Technology
-heroImage: /assets/images/pasted-image-1781165265567.svg
+heroImage: ''
 hero_subtitle: Weather Observations System
 hero_title: Providing High Quality Services & Products
 hero_description: Transforming environmental unpredictability into actionable insights. Through precision engineering and seamless data integration, we deliver Integrated Weather Observation & Forecasting Solutions engineered for ultimate operational resilience across national and ASEAN countries.
