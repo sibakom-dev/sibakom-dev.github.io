@@ -1,7 +1,7 @@
 ---
 title: SIBAKOM | Solution for Weather Observation, Meteorological System & services
 heroImage: /assets/images/BG SIBAKOM.png
-heroVideo: /assets/images/0701(1).webm
+heroVideo: ''
 hero_subtitle: Meteorological System & Services
 hero_title: Solution for Weather Observation
 hero_description: Leveraging extensive experience in Weather observation, data infrastructure, and system integration. Sibakom delivers reliable solutions that support monitoring, operations, and informed decision making.
@@ -22,7 +22,7 @@ why_btn_link: /about/
 zigzag_subtitle: Integration Excellence
 zigzag_title: Mastering The Infrastructure
 sections:
-  - title: infrastructure Data Center
+  - title: infrastructure Data Centeraduh ya allah ini mag
     image: /assets/images/foto chiller.jpeg
     text: |-
       Mission-critical weather operations require zero downtime. SIBAKOM architects robust, highly available data centers precisely tuned for the intense I/O demands of High-Performance Computing (HPC) meteorological models.
