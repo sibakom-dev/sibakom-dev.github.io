@@ -2,8 +2,8 @@
 title: SIBAKOM | Solution for Weather Observation, Meteorological System & services
 heroImage: /assets/images/BG SIBAKOM.png
 heroVideo: ''
-hero_subtitle: Meteorological System & Services
-hero_title: Solution for Weather Observation
+hero_subtitle: Est. 1982
+hero_title: Solution for Weather Observation Meteorological System | Services | Dissemination
 hero_description: Leveraging extensive experience in Weather observation, data infrastructure, and system integration. Sibakom delivers reliable solutions that support monitoring, operations, and informed decision making.
 why_subtitle: Why SIBAKOM
 why_title: We understand our customers have to adapt to technology changes and shifted priorities, we are here to provide solutions on both issues.
