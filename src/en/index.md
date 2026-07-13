@@ -2,7 +2,7 @@
 title: SIBAKOM
 heroImage: /assets/images/BG SIBAKOM.png
 heroVideo: ''
-hero_subtitle: Est. 1982
+hero_subtitle: Established 1982
 hero_title: Solution for Weather Observation, Meteorological System & Services
 hero_description: Leveraging extensive experience in Weather observation, data infrastructure, and system integration. Sibakom delivers reliable solutions that support monitoring, operations, and informed decision making.
 why_subtitle: Why SIBAKOM
