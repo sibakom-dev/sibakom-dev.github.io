@@ -7,7 +7,7 @@ read_time: ''
 topic: ''
 tags: []
 image: ''
-heroImage: ''
+heroImage: ../../../87002bc089d9/newsroom/BG SIBAKOM.png
 description: ''
 ---
 
