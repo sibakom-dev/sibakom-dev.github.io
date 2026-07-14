@@ -22,10 +22,10 @@ why_btn_link: /about/
 zigzag_subtitle: Integration Excellence
 zigzag_title: Mastering The Infrastructure
 sections:
-  - title: infrastructure Data Centeraduh ya allah ini mag
+  - title: infrastructure Data Center
     image: /assets/images/foto chiller.jpeg
     text: |-
-      Mission-critical weather operations require zero downtime. SIBAKOM architects robust, highly available data centers precisely tuned for the intense I/O demands of High-Performance Computing (HPC) meteorological models.
+      Provides engineering and infrastructure services to support High Performance Computing (HPC) facilities, including cooling systems, mechanical and electrical infrastructure, equipment installation, and supporting utilities to ensure reliable and efficient operation.
 
       - Precision cooling systems for server arrays.
       - Automated inert-gas fire protection.
