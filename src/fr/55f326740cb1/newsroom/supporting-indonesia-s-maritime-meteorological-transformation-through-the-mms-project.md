@@ -6,8 +6,8 @@ date: ''
 read_time: ''
 topic: ''
 tags: []
-image: ''
-heroImage: ../../../87002bc089d9/newsroom/BG SIBAKOM.png
+image: /assets/images/MAWS.jpeg
+heroImage: supporting-indonesia-s-maritime-meteorological-transformation-through-the-mms-project/BG SIBAKOM.png
 description: ''
 ---
 
