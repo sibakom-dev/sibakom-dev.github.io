@@ -6,7 +6,7 @@ date: 2026-07-13T15:44
 read_time: ''
 topic: ''
 tags: []
-image: ../../../61020cc9a450/newsroom/MAWS.jpeg
+image: /assets/images/MAWS.jpeg
 heroImage: /assets/images/BG SIBAKOM.png
 description: ''
 ---
