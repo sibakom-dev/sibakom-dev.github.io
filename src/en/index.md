@@ -23,7 +23,7 @@ zigzag_subtitle: Integration Excellence
 zigzag_title: Mastering The Infrastructure
 sections:
   - title: infrastructure Data Center
-    image: /assets/images/chiller terbaru.png
+    image: /assets/images/foto paling terbaru dari chiller.jpeg
     text: |-
       Provides engineering and infrastructure services to support High Performance Computing (HPC) facilities, including cooling systems, mechanical and electrical infrastructure, equipment installation, and supporting utilities to ensure reliable and efficient operation.
 
