@@ -3,8 +3,8 @@ layout: layouts/service.njk
 path: ''
 title: Infrastructure Data Center
 description: ''
-image: networks-infrastructure/Gambar WhatsApp 2025-11-03 pukul 20.06.53_32369f33.jpg
-heroImage: /assets/images/foto chiller.jpeg
+image: /assets/images/infrastruktur.jpeg
+heroImage: /assets/images/chiller terbaru.png
 ---
 
 **The Unseen Power Behind Critical Computing**
