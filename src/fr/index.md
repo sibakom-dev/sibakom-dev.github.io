@@ -26,48 +26,48 @@ sections:
       - Precision cooling systems for server arrays.
       - Automated inert-gas fire protection.
       - N+1 redundant power topologies.
-description: SIBAKOM | System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
-cta_title: ''
-cta_description: ''
-cta_btn_text: ''
-cta_btn_link: ''
-statistics:
-  - number: '40'
-    plus: true
-    label: Years Experience
-    link: /about/
-  - number: '100'
-    plus: true
-    label: Completed Projects
-    link: /projects/
-  - number: World-Class
-    plus: false
-    label: Strategic Partners
-    link: /about/strategic-partners/
-  - number: Extensive
-    plus: false
-    label: Domestic & ASEAN Project Delivered
-    link: /about/specialization/
-projects_subtitle: Proven Track Record
-projects_title: Project Highlights
-projects_btn_text: Explore Project Profile
-projects_btn_link: /projects/
 highlighted_projects:
-  - tag: Meteorology
-    image: /assets/images/pasted-image-1781166678794.png
-    title: Surabaya Radar Installation
+  - link: /projects/surabaya-radar-installation/
     description: A state-of-the-art C-Band radar deployment ensuring precise weather tracking for the region.
-    link: /projects/surabaya-radar-installation/
-  - tag: Data Center
-    image: /assets/images/Screenshot 2026-06-12 142150.png
-    title: HPC Server MMS
+    title: Surabaya Radar Installation
+    image: /assets/images/pasted-image-1781166678794.png
+    tag: Meteorology
+  - link: /projects/hpc-server-mms/
     description: High Performance Computing infrastructure to process complex meteorological models.
-    link: /projects/hpc-server-mms/
-  - tag: Broadcasting
-    image: /assets/images/pasted-image-1781167797800.png
-    title: Meteorology Broadcasting Studio
+    title: HPC Server MMS
+    image: /assets/images/Screenshot 2026-06-12 142150.png
+    tag: Data Center
+  - link: /projects/meteorology-broadcasting-studio/
     description: A modern, fully-equipped studio for broadcasting real-time weather reports.
-    link: /projects/meteorology-broadcasting-studio/
+    title: Meteorology Broadcasting Studio
+    image: /assets/images/pasted-image-1781167797800.png
+    tag: Broadcasting
+projects_btn_link: /projects/
+projects_btn_text: Explore Project Profile
+projects_title: Project Highlights
+projects_subtitle: Proven Track Record
+statistics:
+  - link: /about/
+    label: Years Experience
+    plus: true
+    number: '40'
+  - link: /projects/
+    label: Completed Projects
+    plus: true
+    number: '100'
+  - link: /about/strategic-partners/
+    label: Strategic Partners
+    plus: false
+    number: World-Class
+  - link: /about/specialization/
+    label: Domestic & ASEAN Project Delivered
+    plus: false
+    number: Extensive
+cta_btn_link: ''
+cta_btn_text: ''
+cta_description: ''
+cta_title: ''
+description: SIBAKOM | System Integrator for Environmental Solutions. Experts in weather technology, maritime meteorology, and environmental monitoring.
 layout: layouts/home.njk
 show_cta: false
 solutions_cards:
