@@ -10,7 +10,7 @@ media_folder: "src/assets/images"
 public_folder: "/assets/images"
 
 # ==============================================================================
-# Global Internationalization (i18n)
+# Sveltia CMS Native Internationalization (i18n)
 # ==============================================================================
 i18n:
   structure: multiple_folders
@@ -18,15 +18,13 @@ i18n:
     - id
     - en
     - fr
-  default_locale: id
+  default_locale: en
 
 # ==============================================================================
 # Collections
 # ==============================================================================
 collections:
-  # ----------------------------------------------------------------------------
-  # Home Pages (File Collection with i18n per file)
-  # ----------------------------------------------------------------------------
+  # --- Home Page ---
   - name: "home"
     label: "Home Page"
     files:
@@ -71,7 +69,7 @@ collections:
               - {label: "Description", name: "description", widget: "text", i18n: true}
               - {label: "Link Text", name: "link_text", widget: "string", i18n: true}
               - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
-          - label: "Grid Cards (Services/Projects)"
+          - label: "Grid Cards"
             name: "grid_cards"
             widget: "list"
             required: false
@@ -83,9 +81,7 @@ collections:
               - {label: "Description", name: "description", widget: "text", i18n: true}
               - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ----------------------------------------------------------------------------
-  # About Us (Nested Pages)
-  # ----------------------------------------------------------------------------
+  # --- About Us ---
   - name: "about"
     label: "About Us"
     folder: "src/{{locale}}/about"
@@ -120,9 +116,7 @@ collections:
           - {label: "Description", name: "description", widget: "text", i18n: true}
           - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ----------------------------------------------------------------------------
-  # Services & Products
-  # ----------------------------------------------------------------------------
+  # --- Services & Products ---
   - name: "services"
     label: "Services & Products"
     folder: "src/{{locale}}/services"
@@ -134,8 +128,8 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk", i18n: duplicate}
       - {label: "Title", name: "title", widget: "string", i18n: true}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
       - {label: "Description", name: "description", widget: "text", required: false, i18n: true}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
       - {label: "Body", name: "body", widget: "markdown", required: false, i18n: true}
       - label: "Zigzag Sections"
         name: "sections"
@@ -159,9 +153,7 @@ collections:
           - {label: "Description", name: "description", widget: "text", i18n: true}
           - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ----------------------------------------------------------------------------
-  # Projects & Case Studies
-  # ----------------------------------------------------------------------------
+  # --- Projects & Case Studies ---
   - name: "projects"
     label: "Projects & Case Studies"
     folder: "src/{{locale}}/projects"
@@ -201,9 +193,7 @@ collections:
           - {label: "Description", name: "description", widget: "text", i18n: true}
           - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ----------------------------------------------------------------------------
-  # Contact Pages
-  # ----------------------------------------------------------------------------
+  # --- Contact Pages ---
   - name: "contact"
     label: "Contact Us"
     folder: "src/{{locale}}/contact"
@@ -228,9 +218,7 @@ collections:
           - {label: "Description", name: "description", widget: "text", i18n: true}
           - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ----------------------------------------------------------------------------
-  # Legal Pages
-  # ----------------------------------------------------------------------------
+  # --- Legal Pages ---
   - name: "legal"
     label: "Legal Pages"
     folder: "src/{{locale}}/legal"
@@ -246,9 +234,7 @@ collections:
       - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
 
-  # ----------------------------------------------------------------------------
-  # Newsroom & Blog
-  # ----------------------------------------------------------------------------
+  # --- Newsroom & Blog ---
   - name: "newsroom"
     label: "Newsroom & Blog"
     folder: "src/{{locale}}/newsroom"
@@ -266,9 +252,7 @@ collections:
       - {label: "Topic", name: "topic", widget: "string", required: false, i18n: true}
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
 
-  # ----------------------------------------------------------------------------
-  # Site Settings & Global Footers
-  # ----------------------------------------------------------------------------
+  # --- Settings ---
   - name: "settings"
     label: "Settings"
     files:
