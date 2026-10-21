@@ -11,7 +11,7 @@ public_folder: "/assets/images"
 
 collections:
   # ==========================================
-  # HOME
+  # HOME PAGE
   # ==========================================
   - name: "home"
     label: "Home"
@@ -171,7 +171,7 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: &page_fields
+    fields:
       - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -202,7 +202,29 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "about_fr"
     label: "About Us (FR)"
@@ -211,7 +233,29 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   # ==========================================
   # SERVICES & PRODUCTS
@@ -223,7 +267,31 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "services_en"
     label: "Services (EN)"
@@ -232,7 +300,31 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "services_fr"
     label: "Services (FR)"
@@ -241,7 +333,31 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   # ==========================================
   # PROJECTS & CASE STUDIES
@@ -253,7 +369,34 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Client", name: "client", widget: "string", required: false}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - {label: "Technology", name: "technology", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "projects_en"
     label: "Projects (EN)"
@@ -262,7 +405,34 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Client", name: "client", widget: "string", required: false}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - {label: "Technology", name: "technology", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "projects_fr"
     label: "Projects (FR)"
@@ -271,7 +441,34 @@ collections:
     create: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Client", name: "client", widget: "string", required: false}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - {label: "Technology", name: "technology", widget: "string", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Zigzag Sections"
+        name: "sections"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Text Content", name: "text", widget: "markdown"}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   # ==========================================
   # CONTACT US
@@ -281,21 +478,60 @@ collections:
     folder: "src/id/contact"
     extension: "md"
     create: true
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "contact_en"
     label: "Contact Us (EN)"
     folder: "src/en/contact"
     extension: "md"
     create: true
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   - name: "contact_fr"
     label: "Contact Us (FR)"
     folder: "src/fr/contact"
     extension: "md"
     create: true
-    fields: *page_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Grid Cards (e.g. Services/Projects)"
+        name: "grid_cards"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Tag", name: "tag", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Link URL", name: "link", widget: "string"}
 
   # ==========================================
   # LEGAL PAGES
@@ -307,7 +543,7 @@ collections:
     create: true
     nested: { depth: 2 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: &legal_fields
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -322,7 +558,13 @@ collections:
     create: true
     nested: { depth: 2 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *legal_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "legal_fr"
     label: "Legal Pages (FR)"
@@ -331,7 +573,13 @@ collections:
     create: true
     nested: { depth: 2 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields: *legal_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   # ==========================================
   # NEWSROOM & BLOG
@@ -341,7 +589,7 @@ collections:
     folder: "src/id/newsroom"
     extension: "md"
     create: true
-    fields: &news_fields
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Writer", name: "writer", widget: "string"}
@@ -357,14 +605,32 @@ collections:
     folder: "src/en/newsroom"
     extension: "md"
     create: true
-    fields: *news_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Writer", name: "writer", widget: "string"}
+      - {label: "Post Time", name: "date", widget: "datetime"}
+      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
+      - {label: "Cover Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Topic", name: "topic", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "newsroom_fr"
     label: "Newsroom (FR)"
     folder: "src/fr/newsroom"
     extension: "md"
     create: true
-    fields: *news_fields
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Writer", name: "writer", widget: "string"}
+      - {label: "Post Time", name: "date", widget: "datetime"}
+      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
+      - {label: "Cover Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Topic", name: "topic", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   # ==========================================
   # SETTINGS & DATA
@@ -375,7 +641,7 @@ collections:
       - file: "src/_data/footer_en.json"
         name: "footer_en"
         label: "Footer Translation (EN)"
-        fields: &footer_fields
+        fields:
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Quick Links Title", name: "quick_links_title", widget: "string"}
@@ -402,11 +668,57 @@ collections:
       - file: "src/_data/footer_id.json"
         name: "footer_id"
         label: "Footer Translation (ID)"
-        fields: *footer_fields
+        fields:
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Quick Links Title", name: "quick_links_title", widget: "string"}
+          - {label: "Nav Home", name: "nav_home", widget: "string"}
+          - {label: "Nav About Us", name: "nav_about", widget: "string"}
+          - {label: "Nav Projects", name: "nav_projects", widget: "string"}
+          - {label: "Nav Contact", name: "nav_contact", widget: "string"}
+          - {label: "Services Title", name: "services_title", widget: "string"}
+          - {label: "Service: Radar", name: "service_radar", widget: "string"}
+          - {label: "Service: NWP Models", name: "service_nwp", widget: "string"}
+          - {label: "Service: Maritime", name: "service_maritime", widget: "string"}
+          - {label: "Service: Agro", name: "service_agro", widget: "string"}
+          - {label: "Service: LiDAR", name: "service_lidar", widget: "string"}
+          - {label: "Reach Us Title", name: "reach_us_title", widget: "string"}
+          - {label: "Main Office", name: "main_office", widget: "string"}
+          - {label: "Branch Office", name: "branch_office", widget: "string"}
+          - {label: "Open Hours Title", name: "open_hours_title", widget: "string"}
+          - {label: "Open Hours Value", name: "open_hours_value", widget: "string"}
+          - {label: "Contact Title", name: "contact_title", widget: "string"}
+          - {label: "Corporate HQ", name: "corporate_hq", widget: "string"}
+          - {label: "Rights Reserved", name: "rights_reserved", widget: "string"}
+          - {label: "Privacy Policy", name: "privacy_policy", widget: "string"}
+          - {label: "Terms of Service", name: "terms_of_service", widget: "string"}
       - file: "src/_data/footer_fr.json"
         name: "footer_fr"
         label: "Footer Translation (FR)"
-        fields: *footer_fields
+        fields:
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Quick Links Title", name: "quick_links_title", widget: "string"}
+          - {label: "Nav Home", name: "nav_home", widget: "string"}
+          - {label: "Nav About Us", name: "nav_about", widget: "string"}
+          - {label: "Nav Projects", name: "nav_projects", widget: "string"}
+          - {label: "Nav Contact", name: "nav_contact", widget: "string"}
+          - {label: "Services Title", name: "services_title", widget: "string"}
+          - {label: "Service: Radar", name: "service_radar", widget: "string"}
+          - {label: "Service: NWP Models", name: "service_nwp", widget: "string"}
+          - {label: "Service: Maritime", name: "service_maritime", widget: "string"}
+          - {label: "Service: Agro", name: "service_agro", widget: "string"}
+          - {label: "Service: LiDAR", name: "service_lidar", widget: "string"}
+          - {label: "Reach Us Title", name: "reach_us_title", widget: "string"}
+          - {label: "Main Office", name: "main_office", widget: "string"}
+          - {label: "Branch Office", name: "branch_office", widget: "string"}
+          - {label: "Open Hours Title", name: "open_hours_title", widget: "string"}
+          - {label: "Open Hours Value", name: "open_hours_value", widget: "string"}
+          - {label: "Contact Title", name: "contact_title", widget: "string"}
+          - {label: "Corporate HQ", name: "corporate_hq", widget: "string"}
+          - {label: "Rights Reserved", name: "rights_reserved", widget: "string"}
+          - {label: "Privacy Policy", name: "privacy_policy", widget: "string"}
+          - {label: "Terms of Service", name: "terms_of_service", widget: "string"}
       - file: "src/_data/theme.json"
         name: "theme"
         label: "Theme Settings"
