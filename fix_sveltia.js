@@ -3,118 +3,63 @@ const path = require('path');
 
 const SRC_DIR = './src';
 const LOCALES = ['id', 'en', 'fr'];
-const COLLECTIONS = ['about', 'services', 'projects', 'legal', 'newsroom', 'contact'];
 
-// 1. Fix backslashes and trailing /index in frontmatter
-function fixMarkdownPaths(dir) {
-    if (!fs.existsSync(dir)) return;
-    fs.readdirSync(dir, { withFileTypes: true }).forEach(dirent => {
-        const fullPath = path.join(dir, dirent.name);
-        if (dirent.isDirectory()) {
-            fixMarkdownPaths(fullPath);
-        } else if (fullPath.endsWith('.md')) {
-            let content = fs.readFileSync(fullPath, 'utf8');
-            let modified = false;
-
-            // Fix Windows backslashes
-            if (/^path:\s*.*\\.*/m.test(content)) {
-                content = content.replace(/^path:\s*(.*)\$/gm, (m, p1) => `path: ${p1.replace(/\\/g, '/')}`);
-                modified = true;
-            }
-
-            // Remove trailing /index 
-            if (/^path:\s*(.+)\/index\$/m.test(content)) {
-                content = content.replace(/^path:\s*(.+)\/index\$/gm, 'path: \$1');
-                modified = true;
-            }
-
-            // Remove path: index
-            if (/^path:\s*index\s*\$/m.test(content)) {
-                content = content.replace(/^path:\s*index\s*\$\r?\n/m, '');
-                modified = true;
-            }
-
-            if (modified) {
-                fs.writeFileSync(fullPath, content);
-                console.log(`🔧 Fixed frontmatter path in: ${fullPath}`);
-            }
-        }
-    });
-}
-
-// 2. Ensure parent index files exist for nested collections
-function ensureParentNodes() {
+function fixNewsroom() {
     LOCALES.forEach(lang => {
-        COLLECTIONS.forEach(coll => {
-            const collPath = path.join(SRC_DIR, lang, coll);
-            const indexPath = path.join(collPath, 'index.md');
-            if (fs.existsSync(collPath) && !fs.existsSync(indexPath)) {
-                fs.writeFileSync(indexPath, `---\ntitle: ${coll.toUpperCase()}\n---\n`);
-                console.log(`📁 Created missing parent node: ${indexPath}`);
+        const newsDir = path.join(SRC_DIR, lang, 'newsroom');
+        if (!fs.existsSync(newsDir)) return;
+
+        // 1. Delete the bogus index.md (Eleventy uses index.njk here)
+        const bogusIndex = path.join(newsDir, 'index.md');
+        if (fs.existsSync(bogusIndex)) {
+            fs.unlinkSync(bogusIndex);
+            console.log(`🗑️ Deleted bogus index file: ${bogusIndex}`);
+        }
+
+        // 2. Inject layout field into all newsroom posts
+        const files = fs.readdirSync(newsDir);
+        files.forEach(file => {
+            if (file.endsWith('.md')) {
+                const filePath = path.join(newsDir, file);
+                let content = fs.readFileSync(filePath, 'utf8');
+
+                // Check if layout is missing
+                if (!/^layout:/m.test(content)) {
+                    // Inject layout immediately after the opening ---
+                    content = content.replace(/^---\r?\n/, '---\nlayout: layouts/post.njk\n');
+                    fs.writeFileSync(filePath, content);
+                    console.log(`✅ Injected layout filter into: ${filePath}`);
+                }
             }
         });
     });
 }
 
-// 3. Sync missing files across all locales
-function getAllMarkdownFiles(dir, baseDir = dir) {
-    let results = [];
-    if (!fs.existsSync(dir)) return results;
-    const list = fs.readdirSync(dir, { withFileTypes: true });
-    list.forEach(file => {
-        const fullPath = path.join(dir, file.name);
-        if (file.isDirectory()) {
-            results = results.concat(getAllMarkdownFiles(fullPath, baseDir));
-        } else if (fullPath.endsWith('.md')) {
-            results.push(path.relative(baseDir, fullPath).replace(/\\/g, '/'));
+// 3. Fix the JSON errors in the console
+function fixJsonConfig() {
+    const configPath = path.join(SRC_DIR, 'admin', 'config.yml');
+    if (!fs.existsSync(configPath)) return;
+    
+    let config = fs.readFileSync(configPath, 'utf8');
+    let modified = false;
+
+    // Sveltia assumes everything is Markdown unless told it's JSON
+    const jsonFiles = ['theme.json', 'footer_en.json', 'footer_id.json', 'footer_fr.json'];
+    jsonFiles.forEach(fileName => {
+        const regex = new RegExp(`(file:\\s*"src/_data/${fileName}"[\\s\\S]*?label:\\s*"[^"]+")\\n(?!\\s*extension:\\s*"json")`, 'g');
+        if (regex.test(config)) {
+            config = config.replace(regex, '\$1\n        extension: "json"\n        format: "json"\n');
+            modified = true;
         }
     });
-    return results;
+
+    if (modified) {
+        fs.writeFileSync(configPath, config);
+        console.log('✅ Added JSON format mappings to config.yml');
+    }
 }
 
-function syncLocales() {
-    const allRelativePaths = new Set();
-    const fileRegistry = {}; 
-
-    // Gather all unique file paths across id, en, and fr
-    LOCALES.forEach(locale => {
-        const localeDir = path.join(SRC_DIR, locale);
-        const files = getAllMarkdownFiles(localeDir);
-        files.forEach(file => {
-            allRelativePaths.add(file);
-            if (!fileRegistry[file]) fileRegistry[file] = [];
-            fileRegistry[file].push(locale);
-        });
-    });
-
-    // Check which files are missing in which locales and duplicate them
-    allRelativePaths.forEach(file => {
-        const existingLocales = fileRegistry[file];
-        if (existingLocales.length === LOCALES.length) return; // Exists in all 3, skip!
-
-        // Prefer English as the source content, fallback to whatever exists
-        let sourceLocale = existingLocales.includes('en') ? 'en' : existingLocales[0];
-        const sourceFilePath = path.join(SRC_DIR, sourceLocale, file);
-        const sourceContent = fs.readFileSync(sourceFilePath, 'utf8');
-
-        LOCALES.forEach(targetLocale => {
-            if (!existingLocales.includes(targetLocale)) {
-                const targetFilePath = path.join(SRC_DIR, targetLocale, file);
-                const targetDir = path.dirname(targetFilePath);
-                
-                if (!fs.existsSync(targetDir)) {
-                    fs.mkdirSync(targetDir, { recursive: true });
-                }
-
-                fs.writeFileSync(targetFilePath, sourceContent);
-                console.log(`🌍 Synced missing file to [${targetLocale}]: ${file} (Copied from ${sourceLocale})`);
-            }
-        });
-    });
-}
-
-console.log('Starting Sveltia CMS Repository Sync...');
-fixMarkdownPaths(SRC_DIR);
-ensureParentNodes();
-syncLocales();
-console.log('\n🎉 All files synchronized! Commit these changes, push to GitHub, and clear your IndexedDB.');
+console.log('Starting Newsroom Fix...');
+fixNewsroom();
+fixJsonConfig();
+console.log('\n🎉 Done! Commit these changes, push to GitHub, and the Newsroom will fully populate.');
