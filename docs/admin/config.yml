@@ -590,7 +590,6 @@ collections:
     extension: "md"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Writer", name: "writer", widget: "string"}
       - {label: "Post Time", name: "date", widget: "datetime"}
@@ -606,7 +605,6 @@ collections:
     extension: "md"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Writer", name: "writer", widget: "string"}
       - {label: "Post Time", name: "date", widget: "datetime"}
@@ -622,7 +620,6 @@ collections:
     extension: "md"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Writer", name: "writer", widget: "string"}
       - {label: "Post Time", name: "date", widget: "datetime"}
