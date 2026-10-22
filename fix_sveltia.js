@@ -2,30 +2,25 @@ const fs = require('fs');
 const path = require('path');
 
 const SRC_DIR = './src';
+const LOCALES = ['id', 'en', 'fr'];
 
-function removeEleventyConflicts(dir) {
-    if (!fs.existsSync(dir)) return;
-
-    fs.readdirSync(dir, { withFileTypes: true }).forEach(dirent => {
-        const fullPath = path.join(dir, dirent.name);
-
-        if (dirent.isDirectory()) {
-            const collidingFile = path.join(dir, `${dirent.name}.md`);
-            const indexFile = path.join(fullPath, `index.md`);
-
-            // If both folder.md and folder/index.md exist, Eleventy crashes.
-            // Delete the folder.md stub.
-            if (fs.existsSync(collidingFile) && fs.existsSync(indexFile)) {
-                fs.unlinkSync(collidingFile);
-                console.log(`🗑️ Deleted colliding stub file: ${collidingFile}`);
+function fixNewsroomPagination() {
+    LOCALES.forEach(lang => {
+        const njkPath = path.join(SRC_DIR, lang, 'newsroom', 'index.njk');
+        
+        if (fs.existsSync(njkPath)) {
+            let content = fs.readFileSync(njkPath, 'utf8');
+            
+            // Remove the exclusion flag so Eleventy's locale_url can index the page
+            if (content.includes('eleventyExcludeFromCollections: true')) {
+                content = content.replace(/^eleventyExcludeFromCollections:\s*true\r?\n/m, '');
+                fs.writeFileSync(njkPath, content);
+                console.log(`✅ Fixed collection visibility in: ${njkPath}`);
             }
-
-            // Recurse into subdirectories
-            removeEleventyConflicts(fullPath);
         }
     });
 }
 
-console.log('Scanning for Eleventy permalink conflicts...');
-removeEleventyConflicts(SRC_DIR);
-console.log('\n🎉 Cleanup complete. Commit and push these deletions.');
+console.log('Patching Eleventy configuration...');
+fixNewsroomPagination();
+console.log('\n🎉 Build error resolved. Commit these changes and push to GitHub!');
