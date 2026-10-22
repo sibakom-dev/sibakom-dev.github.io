@@ -3,643 +3,230 @@ backend:
   repo: sibakom-dev/sibakom-dev.github.io
   branch: cms-multilanguage
 
-
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
 
+i18n:
+  structure: multiple_folders
+  locales: [id, en, fr]
+  default_locale: id
+
 collections:
-  # ==========================================
-  # HOME PAGE
-  # ==========================================
   - name: "home"
-    label: "Home"
+    label: "Home Page"
     files:
-      - file: "src/id/index.md"
-        name: "home_page_id"
-        label: "Home Page (ID)"
+      - file: "src/{{locale}}/index.md"
+        name: "home_page"
+        label: "Home Page"
+        i18n: true
         fields:
-          - {label: "Layout", name: "layout", widget: "string", default: "layouts/home.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, hint: "Upload WebM or MP4"}
-          - {label: "Hero Title", name: "hero_title", widget: "string", required: false}
-          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
-          - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
-          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false}
-          - {label: "CTA Title", name: "cta_title", widget: "string", required: false}
-          - {label: "CTA Description", name: "cta_description", widget: "text", required: false}
-          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
-          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
-          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
+          - {label: "Layout", name: "layout", widget: "string", default: "layouts/home.njk", i18n: duplicate}
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Description", name: "description", widget: "string", required: false, i18n: true}
+          - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
+          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, i18n: duplicate}
+          - {label: "Hero Title", name: "hero_title", widget: "string", required: false, i18n: true}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false, i18n: true}
+          - {label: "Hero Description", name: "hero_description", widget: "text", required: false, i18n: true}
+          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false, i18n: duplicate}
+          - {label: "CTA Title", name: "cta_title", widget: "string", required: false, i18n: true}
+          - {label: "CTA Description", name: "cta_description", widget: "text", required: false, i18n: true}
+          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false, i18n: true}
+          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false, i18n: duplicate}
+          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false, i18n: duplicate}
+          - {label: "Body", name: "body", widget: "markdown", required: false, i18n: true}
           - label: "Zigzag Sections"
             name: "sections"
             widget: "list"
             required: false
+            i18n: true
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Text Content", name: "text", widget: "markdown"}
-              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
+              - {label: "Title", name: "title", widget: "string", i18n: true}
+              - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+              - {label: "Text Content", name: "text", widget: "markdown", i18n: true}
+              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false, i18n: duplicate}
           - label: "Solutions Cards"
             name: "solutions_cards"
             widget: "list"
             required: false
+            i18n: true
             fields:
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Link Text", name: "link_text", widget: "string"}
-              - {label: "Link URL", name: "link", widget: "string"}
-          - label: "Grid Cards (e.g. Services/Projects)"
+              - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+              - {label: "Title", name: "title", widget: "string", i18n: true}
+              - {label: "Description", name: "description", widget: "text", i18n: true}
+              - {label: "Link Text", name: "link_text", widget: "string", i18n: true}
+              - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
+          - label: "Grid Cards"
             name: "grid_cards"
             widget: "list"
             required: false
+            i18n: true
             fields:
-              - {label: "Tag", name: "tag", widget: "string", required: false}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Link URL", name: "link", widget: "string"}
-      - file: "src/en/index.md"
-        name: "home_page_en"
-        label: "Home Page (EN)"
-        fields:
-          - {label: "Layout", name: "layout", widget: "string", default: "layouts/home.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, hint: "Upload WebM or MP4"}
-          - {label: "Hero Title", name: "hero_title", widget: "string", required: false}
-          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
-          - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
-          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false}
-          - {label: "CTA Title", name: "cta_title", widget: "string", required: false}
-          - {label: "CTA Description", name: "cta_description", widget: "text", required: false}
-          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
-          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
-          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
-          - label: "Zigzag Sections"
-            name: "sections"
-            widget: "list"
-            required: false
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Text Content", name: "text", widget: "markdown"}
-              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-          - label: "Solutions Cards"
-            name: "solutions_cards"
-            widget: "list"
-            required: false
-            fields:
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Link Text", name: "link_text", widget: "string"}
-              - {label: "Link URL", name: "link", widget: "string"}
-          - label: "Grid Cards (e.g. Services/Projects)"
-            name: "grid_cards"
-            widget: "list"
-            required: false
-            fields:
-              - {label: "Tag", name: "tag", widget: "string", required: false}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Link URL", name: "link", widget: "string"}
-      - file: "src/fr/index.md"
-        name: "home_page_fr"
-        label: "Home Page (FR)"
-        fields:
-          - {label: "Layout", name: "layout", widget: "string", default: "layouts/home.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-          - {label: "Hero Video", name: "heroVideo", widget: "file", required: false, hint: "Upload WebM or MP4"}
-          - {label: "Hero Title", name: "hero_title", widget: "string", required: false}
-          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", required: false}
-          - {label: "Hero Description", name: "hero_description", widget: "text", required: false}
-          - {label: "Show Call to Action", name: "show_cta", widget: "boolean", default: true, required: false}
-          - {label: "CTA Title", name: "cta_title", widget: "string", required: false}
-          - {label: "CTA Description", name: "cta_description", widget: "text", required: false}
-          - {label: "CTA Button Text", name: "cta_btn_text", widget: "string", required: false}
-          - {label: "CTA Button Link", name: "cta_btn_link", widget: "string", required: false}
-          - {label: "CTA Background Image", name: "cta_bg", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
-          - label: "Zigzag Sections"
-            name: "sections"
-            widget: "list"
-            required: false
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Text Content", name: "text", widget: "markdown"}
-              - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-          - label: "Solutions Cards"
-            name: "solutions_cards"
-            widget: "list"
-            required: false
-            fields:
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Link Text", name: "link_text", widget: "string"}
-              - {label: "Link URL", name: "link", widget: "string"}
-          - label: "Grid Cards (e.g. Services/Projects)"
-            name: "grid_cards"
-            widget: "list"
-            required: false
-            fields:
-              - {label: "Tag", name: "tag", widget: "string", required: false}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-              - {label: "Link URL", name: "link", widget: "string"}
+              - {label: "Tag", name: "tag", widget: "string", required: false, i18n: true}
+              - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+              - {label: "Title", name: "title", widget: "string", i18n: true}
+              - {label: "Description", name: "description", widget: "text", i18n: true}
+              - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ==========================================
-  # ABOUT US
-  # ==========================================
-  - name: "about_id"
-    label: "About Us (ID)"
-    folder: "src/id/about"
+  - name: "about"
+    label: "About Us"
+    folder: "src/{{locale}}/about"
     extension: "md"
     create: true
+    i18n: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: &page_fields
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk", i18n: duplicate}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Body", name: "body", widget: "markdown", i18n: true}
       - label: "Zigzag Sections"
         name: "sections"
         widget: "list"
         required: false
+        i18n: true
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+          - {label: "Text Content", name: "text", widget: "markdown", i18n: true}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false, i18n: duplicate}
+      - label: "Grid Cards"
         name: "grid_cards"
         widget: "list"
         required: false
+        i18n: true
         fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
+          - {label: "Tag", name: "tag", widget: "string", required: false, i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Description", name: "description", widget: "text", i18n: true}
+          - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  - name: "about_en"
-    label: "About Us (EN)"
-    folder: "src/en/about"
+  - name: "services"
+    label: "Services & Products"
+    folder: "src/{{locale}}/services"
     extension: "md"
     create: true
+    i18n: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk", i18n: duplicate}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
+      - {label: "Description", name: "description", widget: "text", required: false, i18n: true}
+      - {label: "Body", name: "body", widget: "markdown", required: false, i18n: true}
       - label: "Zigzag Sections"
         name: "sections"
         widget: "list"
         required: false
+        i18n: true
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+          - {label: "Text Content", name: "text", widget: "markdown", i18n: true}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false, i18n: duplicate}
+      - label: "Grid Cards"
         name: "grid_cards"
         widget: "list"
         required: false
+        i18n: true
         fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
+          - {label: "Tag", name: "tag", widget: "string", required: false, i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Description", name: "description", widget: "text", i18n: true}
+          - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  - name: "about_fr"
-    label: "About Us (FR)"
-    folder: "src/fr/about"
+  - name: "projects"
+    label: "Projects & Case Studies"
+    folder: "src/{{locale}}/projects"
     extension: "md"
     create: true
+    i18n: true
     nested: { depth: 4 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk", i18n: duplicate}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Client", name: "client", widget: "string", required: false, i18n: duplicate}
+      - {label: "Location", name: "location", widget: "string", required: false, i18n: true}
+      - {label: "Technology", name: "technology", widget: "string", required: false, i18n: duplicate}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
+      - {label: "Description", name: "description", widget: "text", required: false, i18n: true}
+      - {label: "Body", name: "body", widget: "markdown", required: false, i18n: true}
       - label: "Zigzag Sections"
         name: "sections"
         widget: "list"
         required: false
+        i18n: true
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+          - {label: "Text Content", name: "text", widget: "markdown", i18n: true}
+          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false, i18n: duplicate}
+      - label: "Grid Cards"
         name: "grid_cards"
         widget: "list"
         required: false
+        i18n: true
         fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
+          - {label: "Tag", name: "tag", widget: "string", required: false, i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Description", name: "description", widget: "text", i18n: true}
+          - {label: "Link URL", name: "link", widget: "string", i18n: duplicate}
 
-  # ==========================================
-  # SERVICES & PRODUCTS
-  # ==========================================
-  - name: "services_id"
-    label: "Services (ID)"
-    folder: "src/id/services"
+  - name: "contact"
+    label: "Contact Us"
+    folder: "src/{{locale}}/contact"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Zigzag Sections"
-        name: "sections"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
+    i18n: true
+    fields: *page_fields
 
-  - name: "services_en"
-    label: "Services (EN)"
-    folder: "src/en/services"
+  - name: "legal"
+    label: "Legal Pages"
+    folder: "src/{{locale}}/legal"
     extension: "md"
     create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Zigzag Sections"
-        name: "sections"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  - name: "services_fr"
-    label: "Services (FR)"
-    folder: "src/fr/services"
-    extension: "md"
-    create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Zigzag Sections"
-        name: "sections"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  # ==========================================
-  # PROJECTS & CASE STUDIES
-  # ==========================================
-  - name: "projects_id"
-    label: "Projects (ID)"
-    folder: "src/id/projects"
-    extension: "md"
-    create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Client", name: "client", widget: "string", required: false}
-      - {label: "Location", name: "location", widget: "string", required: false}
-      - {label: "Technology", name: "technology", widget: "string", required: false}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Zigzag Sections"
-        name: "sections"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  - name: "projects_en"
-    label: "Projects (EN)"
-    folder: "src/en/projects"
-    extension: "md"
-    create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Client", name: "client", widget: "string", required: false}
-      - {label: "Location", name: "location", widget: "string", required: false}
-      - {label: "Technology", name: "technology", widget: "string", required: false}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Zigzag Sections"
-        name: "sections"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  - name: "projects_fr"
-    label: "Projects (FR)"
-    folder: "src/fr/projects"
-    extension: "md"
-    create: true
-    nested: { depth: 4 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/project.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Client", name: "client", widget: "string", required: false}
-      - {label: "Location", name: "location", widget: "string", required: false}
-      - {label: "Technology", name: "technology", widget: "string", required: false}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Zigzag Sections"
-        name: "sections"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Text Content", name: "text", widget: "markdown"}
-          - {label: "Image on Left (Reverse)", name: "reverse", widget: "boolean", default: false, required: false}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  # ==========================================
-  # CONTACT US
-  # ==========================================
-  - name: "contact_id"
-    label: "Contact Us (ID)"
-    folder: "src/id/contact"
-    extension: "md"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  - name: "contact_en"
-    label: "Contact Us (EN)"
-    folder: "src/en/contact"
-    extension: "md"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  - name: "contact_fr"
-    label: "Contact Us (FR)"
-    folder: "src/fr/contact"
-    extension: "md"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Grid Cards (e.g. Services/Projects)"
-        name: "grid_cards"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Tag", name: "tag", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Link URL", name: "link", widget: "string"}
-
-  # ==========================================
-  # LEGAL PAGES
-  # ==========================================
-  - name: "legal_id"
-    label: "Legal Pages (ID)"
-    folder: "src/id/legal"
-    extension: "md"
-    create: true
+    i18n: true
     nested: { depth: 2 }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk", i18n: duplicate}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false, i18n: true}
+      - {label: "Description", name: "description", widget: "text", required: false, i18n: true}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false, i18n: duplicate}
+      - {label: "Body", name: "body", widget: "markdown", i18n: true}
 
-  - name: "legal_en"
-    label: "Legal Pages (EN)"
-    folder: "src/en/legal"
+  - name: "newsroom"
+    label: "Newsroom & Blog"
+    folder: "src/{{locale}}/newsroom"
     extension: "md"
     create: true
-    nested: { depth: 2 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    i18n: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk", i18n: duplicate}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Writer", name: "writer", widget: "string", i18n: duplicate}
+      - {label: "Post Time", name: "date", widget: "datetime", i18n: duplicate}
+      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read", i18n: true}
+      - {label: "Cover Image", name: "image", widget: "image", i18n: duplicate}
+      - {label: "Tags", name: "tags", widget: "list", required: false, i18n: duplicate}
+      - {label: "Topic", name: "topic", widget: "string", required: false, i18n: true}
+      - {label: "Body", name: "body", widget: "markdown", i18n: true}
 
-  - name: "legal_fr"
-    label: "Legal Pages (FR)"
-    folder: "src/fr/legal"
-    extension: "md"
-    create: true
-    nested: { depth: 2 }
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  # ==========================================
-  # NEWSROOM & BLOG
-  # ==========================================
-  - name: "newsroom_id"
-    label: "Newsroom (ID)"
-    folder: "src/id/newsroom"
-    extension: "md"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Writer", name: "writer", widget: "string"}
-      - {label: "Post Time", name: "date", widget: "datetime"}
-      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
-      - {label: "Cover Image", name: "image", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Topic", name: "topic", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "newsroom_en"
-    label: "Newsroom (EN)"
-    folder: "src/en/newsroom"
-    extension: "md"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Writer", name: "writer", widget: "string"}
-      - {label: "Post Time", name: "date", widget: "datetime"}
-      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
-      - {label: "Cover Image", name: "image", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Topic", name: "topic", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "newsroom_fr"
-    label: "Newsroom (FR)"
-    folder: "src/fr/newsroom"
-    extension: "md"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Writer", name: "writer", widget: "string"}
-      - {label: "Post Time", name: "date", widget: "datetime"}
-      - {label: "Read Time", name: "read_time", widget: "string", hint: "e.g., 5 min read"}
-      - {label: "Cover Image", name: "image", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Topic", name: "topic", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  # ==========================================
-  # SETTINGS & DATA
-  # ==========================================
   - name: "settings"
     label: "Settings"
     files:
       - file: "src/_data/footer_en.json"
         name: "footer_en"
         label: "Footer Translation (EN)"
-        fields:
+        extension: "json"
+        format: "json"
+        fields: &footer_fields
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Quick Links Title", name: "quick_links_title", widget: "string"}
@@ -666,57 +253,15 @@ collections:
       - file: "src/_data/footer_id.json"
         name: "footer_id"
         label: "Footer Translation (ID)"
-        fields:
-          - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Quick Links Title", name: "quick_links_title", widget: "string"}
-          - {label: "Nav Home", name: "nav_home", widget: "string"}
-          - {label: "Nav About Us", name: "nav_about", widget: "string"}
-          - {label: "Nav Projects", name: "nav_projects", widget: "string"}
-          - {label: "Nav Contact", name: "nav_contact", widget: "string"}
-          - {label: "Services Title", name: "services_title", widget: "string"}
-          - {label: "Service: Radar", name: "service_radar", widget: "string"}
-          - {label: "Service: NWP Models", name: "service_nwp", widget: "string"}
-          - {label: "Service: Maritime", name: "service_maritime", widget: "string"}
-          - {label: "Service: Agro", name: "service_agro", widget: "string"}
-          - {label: "Service: LiDAR", name: "service_lidar", widget: "string"}
-          - {label: "Reach Us Title", name: "reach_us_title", widget: "string"}
-          - {label: "Main Office", name: "main_office", widget: "string"}
-          - {label: "Branch Office", name: "branch_office", widget: "string"}
-          - {label: "Open Hours Title", name: "open_hours_title", widget: "string"}
-          - {label: "Open Hours Value", name: "open_hours_value", widget: "string"}
-          - {label: "Contact Title", name: "contact_title", widget: "string"}
-          - {label: "Corporate HQ", name: "corporate_hq", widget: "string"}
-          - {label: "Rights Reserved", name: "rights_reserved", widget: "string"}
-          - {label: "Privacy Policy", name: "privacy_policy", widget: "string"}
-          - {label: "Terms of Service", name: "terms_of_service", widget: "string"}
+        extension: "json"
+        format: "json"
+        fields: *footer_fields
       - file: "src/_data/footer_fr.json"
         name: "footer_fr"
         label: "Footer Translation (FR)"
-        fields:
-          - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Quick Links Title", name: "quick_links_title", widget: "string"}
-          - {label: "Nav Home", name: "nav_home", widget: "string"}
-          - {label: "Nav About Us", name: "nav_about", widget: "string"}
-          - {label: "Nav Projects", name: "nav_projects", widget: "string"}
-          - {label: "Nav Contact", name: "nav_contact", widget: "string"}
-          - {label: "Services Title", name: "services_title", widget: "string"}
-          - {label: "Service: Radar", name: "service_radar", widget: "string"}
-          - {label: "Service: NWP Models", name: "service_nwp", widget: "string"}
-          - {label: "Service: Maritime", name: "service_maritime", widget: "string"}
-          - {label: "Service: Agro", name: "service_agro", widget: "string"}
-          - {label: "Service: LiDAR", name: "service_lidar", widget: "string"}
-          - {label: "Reach Us Title", name: "reach_us_title", widget: "string"}
-          - {label: "Main Office", name: "main_office", widget: "string"}
-          - {label: "Branch Office", name: "branch_office", widget: "string"}
-          - {label: "Open Hours Title", name: "open_hours_title", widget: "string"}
-          - {label: "Open Hours Value", name: "open_hours_value", widget: "string"}
-          - {label: "Contact Title", name: "contact_title", widget: "string"}
-          - {label: "Corporate HQ", name: "corporate_hq", widget: "string"}
-          - {label: "Rights Reserved", name: "rights_reserved", widget: "string"}
-          - {label: "Privacy Policy", name: "privacy_policy", widget: "string"}
-          - {label: "Terms of Service", name: "terms_of_service", widget: "string"}
+        extension: "json"
+        format: "json"
+        fields: *footer_fields
       - file: "src/_data/theme.json"
         name: "theme"
         label: "Theme Settings"
@@ -731,6 +276,6 @@ collections:
           - {label: "Text Color (Custom)", name: "text_color", widget: "color", required: false}
           - {label: "Header Background Color", name: "header_bg", widget: "color", enableAlpha: true, required: false}
           - {label: "Header Background Color Scrolled", name: "header_bg_scrolled", widget: "color", enableAlpha: true, required: false}
-          - {label: "Header Glass Texture Blur", name: "header_blur", widget: "number", value_type: "int", min: 0, max: 50, required: false, hint: "Value in pixels (0 to disable)."}
+          - {label: "Header Glass Texture Blur", name: "header_blur", widget: "number", value_type: "int", min: 0, max: 50, required: false}
           - {label: "Global Font Family", name: "font_family", widget: "select", options: ["Plus Jakarta Sans", "Inter", "Outfit", "Montserrat", "Roboto", "Open Sans", "Lora", "Merriweather"], default: "Plus Jakarta Sans", required: false}
-          - {label: "Maintenance Mode", name: "maintenance_mode", widget: "boolean", default: false, required: false, hint: "Toggle this on to show a maintenance screen across the entire website."}
+          - {label: "Maintenance Mode", name: "maintenance_mode", widget: "boolean", default: false, required: false}
